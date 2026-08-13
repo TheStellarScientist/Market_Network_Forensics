@@ -483,19 +483,6 @@ Possible relationship categories include:
 * other identifiable relationship
 * no obvious relationship
 
-The important methodological order is:
-
-$$
-\text{discover}
-\rightarrow
-\text{record hypotheses}
-\rightarrow
-\text{freeze results}
-\rightarrow
-\text{research external relationships}
-\rightarrow
-\text{compare}.
-$$
 
 Extra TLC will be paid to Extreme edges with no obvious economic relationship because those are honestly more interesting than the relationships that are easy to explain.
 
