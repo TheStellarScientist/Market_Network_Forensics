@@ -213,7 +213,9 @@ Higher empirical quantiles were:
 * 95th percentile: 0.5428
 * 99th percentile: 0.6751
 
-Interestingly, the arbitrary 0.5 threshold from the pilot happened to fall near the 90th percentile of the full distribution. I still decided having multiple thresholds was more interesting though. 
+Interestingly, the arbitrary 0.5 threshold from the pilot happened to fall near the 90th percentile of the full distribution. I still decided having multiple thresholds was more interesting though. I have histogram showing the data above below. 
+
+<img width="1979" height="1179" alt="full_correlation_distribution" src="https://github.com/user-attachments/assets/9bda303d-fdd2-4668-83bf-ab19302dccf5" />
 
 ---
 
