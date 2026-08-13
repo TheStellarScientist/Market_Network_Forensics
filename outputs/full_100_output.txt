@@ -1,0 +1,151 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Market Network Investigation!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Full Population Inspection
+__________________________
+
+Close Price Shape:
+(250, 101)
+
+Missing Values Per Ticker:
+Ticker
+ANSS    250
+ABNB      0
+ADBE      0
+ADI       0
+AAPL      0
+       ... 
+VRTX      0
+WBD       0
+WDAY      0
+XEL       0
+ZS        0
+Length: 101, dtype: int64
+
+Tickers With Missing Data:
+Ticker
+ANSS    250
+dtype: int64
+
+Usable Tickers:
+100
+
+Full Return Matrix Shape After Drop:
+(249, 99)
+
+Full Correlation Matrix Shape:
+(99, 99)
+
+Now we'll remove redundant entries.
+
+Number of unique pairs:
+4851
+
+Strongest Relationships:
+  Stock_A Stock_B  Correlation
+0    KLAC    LRCX     0.912863
+1    AMAT    KLAC     0.893107
+2    AMAT    LRCX     0.873237
+3     ADI    MCHP     0.859155
+4    MCHP    NXPI     0.858510
+5     ADP    PAYX     0.856231
+6     ADI    NXPI     0.848107
+7     ADI     TXN     0.835914
+8    ASML    KLAC     0.819939
+9    LRCX      MU     0.814713
+
+Weakest Relationships:
+     Stock_A Stock_B  Correlation
+4841     EXC   GOOGL    -0.176283
+4842    AXON    MDLZ    -0.177079
+4843    AMZN     EXC    -0.185434
+4844     CEG     PEP    -0.201844
+4845     CEG     KHC    -0.204015
+4846    CRWD     PEP    -0.208051
+4847     CEG    MDLZ    -0.210250
+4848     EXC    MRVL    -0.210391
+4849    MDLZ    NVDA    -0.230721
+4850     EXC    NVDA    -0.231472
+
+Correlation Distribution:
+count    4851.000000
+mean        0.281687
+std         0.172639
+min        -0.231472
+25%         0.166073
+50%         0.291725
+75%         0.402350
+max         0.912863
+Name: Correlation, dtype: float64
+
+Correlation Quantiles:
+0.50    0.291725
+0.75    0.402350
+0.90    0.488754
+0.95    0.542849
+0.99    0.675100
+Name: Correlation, dtype: float64
+
+The Four Graphs:
+
+Broad Network
+Threshold: 0.4023
+Total Nodes: 99
+Active Nodes: 95
+Isolated Nodes: 4
+Edges: 1213
+Nontrivial Components: 1
+Largest Component: 95 nodes
+Largest Component Members:
+['AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT', 'AMD', 'AMGN', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'AZN', 'BIIB', 'BKNG', 'BKR', 'CCEP', 'CDNS', 'CDW', 'CEG', 'CHTR', 'CMCSA', 'COST', 'CPRT', 'CRWD', 'CSCO', 'CSGP', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG', 'DXCM', 'EXC', 'FANG', 'FAST', 'FTNT', 'GEHC', 'GFS', 'GILD', 'GOOGL', 'HON', 'INTC', 'INTU', 'ISRG', 'KDP', 'KHC', 'KLAC', 'LIN', 'LRCX', 'LULU', 'MAR', 'MCHP', 'MDB', 'MDLZ', 'MELI', 'META', 'MNST', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NFLX', 'NVDA', 'NXPI', 'ODFL', 'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PEP', 'PLTR', 'PYPL', 'QCOM', 'REGN', 'ROP', 'ROST', 'SBUX', 'SNPS', 'TEAM', 'TMUS', 'TSLA', 'TTD', 'TTWO', 'TXN', 'VRSK', 'WBD', 'WDAY', 'XEL', 'ZS']
+
+Strong Network
+Threshold: 0.4888
+Total Nodes: 99
+Active Nodes: 82
+Isolated Nodes: 17
+Edges: 486
+Nontrivial Components: 5
+Largest Component: 69 nodes
+Largest Component Members:
+['AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AMAT', 'AMD', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'BKNG', 'BKR', 'CDNS', 'CDW', 'CEG', 'CPRT', 'CRWD', 'CSCO', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG', 'FANG', 'FAST', 'FTNT', 'GEHC', 'GFS', 'GOOGL', 'HON', 'INTC', 'INTU', 'ISRG', 'KLAC', 'LIN', 'LRCX', 'MAR', 'MCHP', 'MDB', 'META', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NVDA', 'NXPI', 'ODFL', 'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PLTR', 'PYPL', 'QCOM', 'ROP', 'ROST', 'SBUX', 'SNPS', 'TEAM', 'TSLA', 'TXN', 'VRSK', 'WDAY', 'ZS']
+
+Very Strong Network
+Threshold: 0.5428
+Total Nodes: 99
+Active Nodes: 70
+Isolated Nodes: 29
+Edges: 243
+Nontrivial Components: 7
+Largest Component: 50 nodes
+Largest Component Members:
+['AAPL', 'ABNB', 'ADI', 'ADSK', 'AMAT', 'AMD', 'AMZN', 'ARM', 'ASML', 'AVGO', 'AXON', 'BKNG', 'CDNS', 'CDW', 'CEG', 'CRWD', 'CSCO', 'CSX', 'CTSH', 'DASH', 'DDOG', 'FTNT', 'GEHC', 'GFS', 'GOOGL', 'ISRG', 'KLAC', 'LRCX', 'MAR', 'MCHP', 'META', 'MRVL', 'MSFT', 'MU', 'NVDA', 'NXPI', 'ODFL', 'ON', 'PANW', 'PCAR', 'PLTR', 'PYPL', 'QCOM', 'SBUX', 'SNPS', 'TEAM', 'TSLA', 'TXN', 'WDAY', 'ZS']
+
+Extreme Network
+Threshold: 0.6751
+Total Nodes: 99
+Active Nodes: 30
+Isolated Nodes: 69
+Edges: 49
+Nontrivial Components: 7
+Largest Component: 15 nodes
+Largest Component Members:
+['ADI', 'AMAT', 'ARM', 'ASML', 'AVGO', 'GFS', 'KLAC', 'LRCX', 'MCHP', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TXN']
+
+Extreme Network Degree Ranking:
+[('KLAC', 9), ('LRCX', 8), ('NXPI', 8), ('ADI', 7), ('MCHP', 6), ('QCOM', 6), ('ON', 5), ('AMAT', 4), ('ARM', 4), ('ASML', 4), ('MU', 4), ('TXN', 4), ('GFS', 3), ('ADP', 2), ('AVGO', 2), ('CRWD', 2), ('CTAS', 2), ('EXC', 2), ('NVDA', 2), ('PANW', 2), ('PAYX', 2), ('ZS', 2), ('AEP', 1), ('BKR', 1), ('CDNS', 1), ('CHTR', 1), ('CMCSA', 1), ('FANG', 1), ('SNPS', 1), ('XEL', 1)]
+
+Extreme Network Components:
+___________________________
+Size 15: ['ADI', 'AMAT', 'ARM', 'ASML', 'AVGO', 'GFS', 'KLAC', 'LRCX', 'MCHP', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TXN']
+Size 3: ['ADP', 'CTAS', 'PAYX']
+Size 3: ['AEP', 'EXC', 'XEL']
+Size 3: ['CRWD', 'PANW', 'ZS']
+Size 2: ['BKR', 'FANG']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CHTR', 'CMCSA']
+
+~~~~~~~~~
+All Done!
+~~~~~~~~~

@@ -1,0 +1,391 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Market Network Investigation!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Nvidia Inspection
+__________________
+This is the data available for Nvdia from Jan 1st 2025 to Dec 31st 2025:
+Price            Close        High         Low        Open     Volume
+Ticker            NVDA        NVDA        NVDA        NVDA       NVDA
+Date                                                                 
+2025-01-02  138.103714  138.672871  134.429210  135.797162  198247200
+2025-01-03  144.254547  144.683899  139.521611  139.801192  229322500
+2025-01-06  149.207153  151.933093  147.599569  148.368410  265377400
+2025-01-07  139.931000  152.901632  139.801189  152.801775  351782200
+2025-01-08  139.901047  143.735316  137.354847  142.367364  227349900
+...                ...         ...         ...         ...        ...
+2025-12-24  188.380234  188.679871  186.362690  187.711052   65528500
+2025-12-26  190.297897  192.455270  187.770981  189.688640  139740300
+2025-12-29  187.990707  188.530043  185.683524  187.481334  120006100
+2025-12-30  187.311539  188.759785  186.702281  188.010698   97687300
+2025-12-31  186.272812  190.327864  186.262830  189.339079  120100500
+
+[250 rows x 5 columns]
+Sample Investigation
+______________________
+
+We'll now investigate a sample of 10 companies:
+
+Companies in the center of AI:
+1. NVDA - Nvidia (GPUs/compute)
+2. MSFT - Microsoft (OpenAI stake, Azure AI)
+3. GOOGL - Alphabet (DeepMind, Gemini, TPUs)
+4. AVGO - Broadcom (AI networking/custom silicon)
+5. AMD - Advanced Micro Devices (AI Chips, Nvidia's rival)
+
+Companies on the edge of AI:
+6. ORCL - Oracle (Stargate partnership, GPU deals)
+7. META - Meta (Heavy on AI but it's just social media)
+8. PLTR - Palantir (AI/data analytics)
+
+Companies removed from AI:
+9. PEP - PepsiCo (Drinks, should be an outlier)
+10. COST - Costco (Retail, second outlier)
+
+
+
+First five rows:
+Price            Close                          ...   Volume                    
+Ticker             AMD        AVGO        COST  ...     ORCL      PEP       PLTR
+Date                                            ...                             
+2025-01-02  120.629997  229.058731  901.110046  ...  5360800  4970200   72217200
+2025-01-03  125.370003  229.621536  907.815308  ...  5876000  5218100   62415000
+2025-01-06  129.550003  233.432953  913.886597  ...  6845400  9470600  105619500
+2025-01-07  127.330002  225.760773  912.559448  ...  7712200  7473300   91727300
+2025-01-08  121.839996  226.422363  918.502014  ...  7596200  6791800   91349500
+
+[5 rows x 50 columns]
+
+Shape:
+(250, 50)
+
+Columns:
+MultiIndex([( 'Close',   'AMD'),
+            ( 'Close',  'AVGO'),
+            ( 'Close',  'COST'),
+            ( 'Close', 'GOOGL'),
+            ( 'Close',  'META'),
+            ( 'Close',  'MSFT'),
+            ( 'Close',  'NVDA'),
+            ( 'Close',  'ORCL'),
+            ( 'Close',   'PEP'),
+            ( 'Close',  'PLTR'),
+            (  'High',   'AMD'),
+            (  'High',  'AVGO'),
+            (  'High',  'COST'),
+            (  'High', 'GOOGL'),
+            (  'High',  'META'),
+            (  'High',  'MSFT'),
+            (  'High',  'NVDA'),
+            (  'High',  'ORCL'),
+            (  'High',   'PEP'),
+            (  'High',  'PLTR'),
+            (   'Low',   'AMD'),
+            (   'Low',  'AVGO'),
+            (   'Low',  'COST'),
+            (   'Low', 'GOOGL'),
+            (   'Low',  'META'),
+            (   'Low',  'MSFT'),
+            (   'Low',  'NVDA'),
+            (   'Low',  'ORCL'),
+            (   'Low',   'PEP'),
+            (   'Low',  'PLTR'),
+            (  'Open',   'AMD'),
+            (  'Open',  'AVGO'),
+            (  'Open',  'COST'),
+            (  'Open', 'GOOGL'),
+            (  'Open',  'META'),
+            (  'Open',  'MSFT'),
+            (  'Open',  'NVDA'),
+            (  'Open',  'ORCL'),
+            (  'Open',   'PEP'),
+            (  'Open',  'PLTR'),
+            ('Volume',   'AMD'),
+            ('Volume',  'AVGO'),
+            ('Volume',  'COST'),
+            ('Volume', 'GOOGL'),
+            ('Volume',  'META'),
+            ('Volume',  'MSFT'),
+            ('Volume',  'NVDA'),
+            ('Volume',  'ORCL'),
+            ('Volume',   'PEP'),
+            ('Volume',  'PLTR')],
+           names=['Price', 'Ticker'])
+
+To compare the companies and draw relationships, we want returns, not
+raw prices. Two companies can have their stock go down by $20 but if one
+was originally $120 and the other $420, they are not comparable. 
+
+We'll work around this with returns because they show percentages.
+
+
+Closing Prices:
+Ticker             AMD        AVGO  ...         PEP       PLTR
+Date                                ...                       
+2025-01-02  120.629997  229.058731  ...  141.668533  75.190002
+2025-01-03  125.370003  229.621536  ...  141.140396  79.889999
+2025-01-06  129.550003  233.432953  ...  137.952591  75.919998
+2025-01-07  127.330002  225.760773  ...  137.132065  69.989998
+2025-01-08  121.839996  226.422363  ...  138.207230  68.230003
+
+[5 rows x 10 columns]
+
+Closing Price Shape:
+(250, 10)
+
+Closing Price Columns:
+Index(['AMD', 'AVGO', 'COST', 'GOOGL', 'META', 'MSFT', 'NVDA', 'ORCL', 'PEP',
+       'PLTR'],
+      dtype='object', name='Ticker')
+
+Manually calculated AMD return:
+0.039293754464789776
+
+Daily Returns:
+Ticker           AMD      AVGO      COST  ...      ORCL       PEP      PLTR
+Date                                      ...                              
+2025-01-02       NaN       NaN       NaN  ...       NaN       NaN       NaN
+2025-01-03  0.039294  0.002457  0.007441  ...  0.001747 -0.003728  0.062508
+2025-01-06  0.033341  0.016599  0.006688  ... -0.003788 -0.022586 -0.049693
+2025-01-07 -0.017136 -0.032867 -0.001452  ... -0.022090 -0.005948 -0.078109
+2025-01-08 -0.043116  0.002930  0.006512  ...  0.006851  0.007840 -0.025146
+
+[5 rows x 10 columns]
+
+Clean Daily Returns:
+Ticker           AMD      AVGO      COST  ...      ORCL       PEP      PLTR
+Date                                      ...                              
+2025-01-03  0.039294  0.002457  0.007441  ...  0.001747 -0.003728  0.062508
+2025-01-06  0.033341  0.016599  0.006688  ... -0.003788 -0.022586 -0.049693
+2025-01-07 -0.017136 -0.032867 -0.001452  ... -0.022090 -0.005948 -0.078109
+2025-01-08 -0.043116  0.002930  0.006512  ...  0.006851  0.007840 -0.025146
+2025-01-10 -0.047603 -0.021805  0.010320  ... -0.050633 -0.026614 -0.014217
+
+[5 rows x 10 columns]
+
+Return Shape:
+(249, 10)
+
+Correlation Matrix:
+Ticker       AMD      AVGO      COST  ...      ORCL       PEP      PLTR
+Ticker                                ...                              
+AMD     1.000000  0.512177  0.134694  ...  0.353442 -0.060272  0.516912
+AVGO    0.512177  1.000000  0.083726  ...  0.587616 -0.162106  0.494489
+COST    0.134694  0.083726  1.000000  ...  0.014347  0.200403  0.258121
+GOOGL   0.488293  0.505516  0.129052  ...  0.281533 -0.087803  0.417547
+META    0.464800  0.503897  0.350205  ...  0.310694 -0.092029  0.491185
+MSFT    0.517879  0.491149  0.298126  ...  0.371394 -0.089881  0.458820
+NVDA    0.596196  0.728707  0.120565  ...  0.539189 -0.172813  0.575407
+ORCL    0.353442  0.587616  0.014347  ...  1.000000 -0.018301  0.381017
+PEP    -0.060272 -0.162106  0.200403  ... -0.018301  1.000000 -0.157458
+PLTR    0.516912  0.494489  0.258121  ...  0.381017 -0.157458  1.000000
+
+[10 rows x 10 columns]
+
+Correlation Matrix Shape:
+(10, 10)
+Now we'll remove redundant entries.
+
+Upper Triangle Mask:
+[[0. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+ [0. 0. 1. 1. 1. 1. 1. 1. 1. 1.]
+ [0. 0. 0. 1. 1. 1. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 1. 1. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 1. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+
+Upper Correlations:
+Ticker  AMD      AVGO      COST  ...      ORCL       PEP      PLTR
+Ticker                           ...                              
+AMD     NaN  0.512177  0.134694  ...  0.353442 -0.060272  0.516912
+AVGO    NaN       NaN  0.083726  ...  0.587616 -0.162106  0.494489
+COST    NaN       NaN       NaN  ...  0.014347  0.200403  0.258121
+GOOGL   NaN       NaN       NaN  ...  0.281533 -0.087803  0.417547
+META    NaN       NaN       NaN  ...  0.310694 -0.092029  0.491185
+MSFT    NaN       NaN       NaN  ...  0.371394 -0.089881  0.458820
+NVDA    NaN       NaN       NaN  ...  0.539189 -0.172813  0.575407
+ORCL    NaN       NaN       NaN  ...       NaN -0.018301  0.381017
+PEP     NaN       NaN       NaN  ...       NaN       NaN -0.157458
+PLTR    NaN       NaN       NaN  ...       NaN       NaN       NaN
+
+[10 rows x 10 columns]
+
+Correlation Pairs:
+Ticker  Ticker
+AMD     AVGO      0.512177
+        COST      0.134694
+        GOOGL     0.488293
+        META      0.464800
+        MSFT      0.517879
+        NVDA      0.596196
+        ORCL      0.353442
+        PEP      -0.060272
+        PLTR      0.516912
+AVGO    COST      0.083726
+        GOOGL     0.505516
+        META      0.503897
+        MSFT      0.491149
+        NVDA      0.728707
+        ORCL      0.587616
+        PEP      -0.162106
+        PLTR      0.494489
+COST    GOOGL     0.129052
+        META      0.350205
+        MSFT      0.298126
+        NVDA      0.120565
+        ORCL      0.014347
+        PEP       0.200403
+        PLTR      0.258121
+GOOGL   META      0.442756
+        MSFT      0.424471
+        NVDA      0.484302
+        ORCL      0.281533
+        PEP      -0.087803
+        PLTR      0.417547
+META    MSFT      0.655507
+        NVDA      0.537124
+        ORCL      0.310694
+        PEP      -0.092029
+        PLTR      0.491185
+MSFT    NVDA      0.640754
+        ORCL      0.371394
+        PEP      -0.089881
+        PLTR      0.458820
+NVDA    ORCL      0.539189
+        PEP      -0.172813
+        PLTR      0.575407
+ORCL    PEP      -0.018301
+        PLTR      0.381017
+PEP     PLTR     -0.157458
+dtype: float64
+
+Number of unique pairs:
+45
+
+Edge Table:
+  Stock_A Stock_B  Correlation
+0     AMD    AVGO     0.512177
+1     AMD    COST     0.134694
+2     AMD   GOOGL     0.488293
+3     AMD    META     0.464800
+4     AMD    MSFT     0.517879
+
+Strongest Relationships:
+  Stock_A Stock_B  Correlation
+0    AVGO    NVDA     0.728707
+1    META    MSFT     0.655507
+2    MSFT    NVDA     0.640754
+3     AMD    NVDA     0.596196
+4    AVGO    ORCL     0.587616
+5    NVDA    PLTR     0.575407
+6    NVDA    ORCL     0.539189
+7    META    NVDA     0.537124
+8     AMD    MSFT     0.517879
+9     AMD    PLTR     0.516912
+
+Weakest Relationships:
+   Stock_A Stock_B  Correlation
+35    AVGO    COST     0.083726
+36    COST    ORCL     0.014347
+37    ORCL     PEP    -0.018301
+38     AMD     PEP    -0.060272
+39   GOOGL     PEP    -0.087803
+40    MSFT     PEP    -0.089881
+41    META     PEP    -0.092029
+42     PEP    PLTR    -0.157458
+43    AVGO     PEP    -0.162106
+44    NVDA     PEP    -0.172813
+
+Graph Attributes Below:
+['NVDA', 'MSFT', 'GOOGL', 'AVGO', 'AMD', 'ORCL', 'META', 'PLTR', 'PEP', 'COST']
+
+Threshold Sensitivity - All Nodes
+_____________________________________
+    Threshold  Edges  NVDA  MSFT  GOOGL  AVGO  AMD  ORCL  META  PLTR  PEP  COST
+0        0.30     28     7     7      6     7    7     6     8     7    0     1
+1        0.31     28     7     7      6     7    7     6     8     7    0     1
+2        0.32     27     7     7      6     7    7     5     7     7    0     1
+3        0.33     27     7     7      6     7    7     5     7     7    0     1
+4        0.34     27     7     7      6     7    7     5     7     7    0     1
+5        0.35     27     7     7      6     7    7     5     7     7    0     1
+6        0.36     25     7     7      6     7    6     4     6     7    0     0
+7        0.37     25     7     7      6     7    6     4     6     7    0     0
+8        0.38     24     7     6      6     7    6     3     6     7    0     0
+9        0.39     23     7     6      6     7    6     2     6     6    0     0
+10       0.40     23     7     6      6     7    6     2     6     6    0     0
+11       0.41     23     7     6      6     7    6     2     6     6    0     0
+12       0.42     22     7     6      5     7    6     2     6     5    0     0
+13       0.43     21     7     5      4     7    6     2     6     5    0     0
+14       0.44     21     7     5      4     7    6     2     6     5    0     0
+15       0.45     20     7     5      3     7    6     2     5     5    0     0
+16       0.46     19     7     4      3     7    6     2     5     4    0     0
+17       0.47     18     7     4      3     7    5     2     4     4    0     0
+18       0.48     18     7     4      3     7    5     2     4     4    0     0
+19       0.49     16     6     4      1     7    4     2     4     4    0     0
+20       0.50     13     6     3      1     5    4     2     3     2    0     0
+21       0.51     11     6     3      0     3    4     2     2     2    0     0
+22       0.52      8     6     2      0     2    1     2     2     1    0     0
+23       0.53      8     6     2      0     2    1     2     2     1    0     0
+24       0.54      6     4     2      0     2    1     1     1     1    0     0
+25       0.55      6     4     2      0     2    1     1     1     1    0     0
+26       0.56      6     4     2      0     2    1     1     1     1    0     0
+27       0.57      6     4     2      0     2    1     1     1     1    0     0
+28       0.58      5     3     2      0     2    1     1     1     0    0     0
+29       0.59      4     3     2      0     1    1     0     1     0    0     0
+30       0.60      3     2     2      0     1    0     0     1     0    0     0
+31       0.61      3     2     2      0     1    0     0     1     0    0     0
+32       0.62      3     2     2      0     1    0     0     1     0    0     0
+33       0.63      3     2     2      0     1    0     0     1     0    0     0
+34       0.64      3     2     2      0     1    0     0     1     0    0     0
+35       0.65      2     1     1      0     1    0     0     1     0    0     0
+36       0.66      1     1     0      0     1    0     0     0     0    0     0
+37       0.67      1     1     0      0     1    0     0     0     0    0     0
+38       0.68      1     1     0      0     1    0     0     0     0    0     0
+39       0.69      1     1     0      0     1    0     0     0     0    0     0
+40       0.70      1     1     0      0     1    0     0     0     0    0     0
+
+Exact Transition Thresholds:
+0.0143
+0.0837
+0.1206
+0.1291
+0.1347
+0.2004
+0.2581
+0.2815
+0.2981
+0.3107
+0.3502
+0.3534
+0.3714
+0.3810
+0.4175
+0.4245
+0.4428
+0.4588
+0.4648
+0.4843
+0.4883
+0.4911
+0.4912
+0.4945
+0.5039
+0.5055
+0.5122
+0.5169
+0.5179
+0.5371
+0.5392
+0.5754
+0.5876
+0.5962
+0.6408
+0.6555
+0.7287
+
+~~~~~~~~~
+All Done!
+~~~~~~~~~
