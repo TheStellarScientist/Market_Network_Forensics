@@ -1,4 +1,4 @@
-# Hidden Structure in the Nasdaq-100
+# Hidden Structure in the Nasdaq-100 #1
 
 > Note: This is an exploratory project investigating whether meaningful economic structure can be recovered from stock-return relationships without explicitly telling the network what industries, sectors, or themes the companies belong to.
 
