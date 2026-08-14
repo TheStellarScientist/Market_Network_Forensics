@@ -15,7 +15,7 @@ We're essentially doing some Forensic Network Science.
 This was run with: /gpfs/home/guwechue/miniconda3/bin/python src/full_100.py > outputs/full_100_output.txt
 
 Well Wishes,
-My Name
+Demi
 '''
 
 import yfinance as yf
@@ -299,29 +299,279 @@ for regime, threshold in regime_thresholds.items():
             sorted(nontrivial_components[0])
         )
 
-    if regime == "Extreme":
-        degree_ranking = sorted(
-            [
-                (node, degree)
-                for node, degree in G.degree()
-                if degree > 0
-            ],
-            key=lambda item: item[1],
-            reverse=True
-        )
-
-        print("\nExtreme Network Degree Ranking:")
-        print(degree_ranking)
-
-        print("\nExtreme Network Components:")
-        print("___________________________")
-
-        for component in nontrivial_components:
-            print(
-                f"Size {len(component)}: "
-                f"{sorted(component)}"
+        if regime == "Extreme":
+            degree_ranking = sorted(
+                [
+                    (node, degree)
+                    for node, degree in G.degree()
+                    if degree > 0
+                ],
+                key=lambda item: item[1],
+                reverse=True
             )
-            
+
+            print("\nExtreme Network Degree Ranking:")
+            print(degree_ranking)
+
+            print("\nExtreme Network Components:")
+            print("___________________________")
+
+            for component in nontrivial_components:
+                print(
+                    f"Size {len(component)}: "
+                    f"{sorted(component)}"
+                )
+
+            print("\nExtreme Network Edges:")
+            print("______________________")
+
+            extreme_edge_table = full_edge_table[
+                full_edge_table["Correlation"] >= threshold
+            ].copy()
+
+            extreme_edge_table = extreme_edge_table.sort_values(
+                by="Correlation",
+                ascending=False
+            ).reset_index(drop=True)
+
+            extreme_edge_table.insert(
+                0,
+                "Edge_ID",
+                [
+                    f"E{i:02d}"
+                    for i in range(1, len(extreme_edge_table) + 1)
+                ]
+            )
+
+            print(
+                extreme_edge_table.to_string(
+                    index=False
+                )
+            )
+
+            print(
+                f"\nTotal Extreme Edges: "
+                f"{len(extreme_edge_table)}"
+            )
+
+            extreme_edge_table.to_csv(
+                "outputs/extreme_edges.csv",
+                index=False
+            )
+
+# Load the company industry tags
+industry_df = pd.read_csv(
+    "data/company_industries.csv"
+)
+
+# Create a dictionary mapping each ticker to its industry
+industry_map = dict(
+    zip(
+        industry_df["Ticker"],
+        industry_df["Industry"]
+    )
+)
+
+# Add industry labels for both companies in every pair
+full_edge_table["Industry_A"] = (
+    full_edge_table["Stock_A"].map(industry_map)
+)
+
+full_edge_table["Industry_B"] = (
+    full_edge_table["Stock_B"].map(industry_map)
+)
+
+# Mark whether each pair belongs to the same industry
+full_edge_table["Same_Industry"] = (
+    full_edge_table["Industry_A"]
+    ==
+    full_edge_table["Industry_B"]
+)
+
+print("\nSame vs Cross Industry Pair Counts:")
+print(
+    full_edge_table["Same_Industry"].value_counts()
+)
+
+print("\nCorrelation by Industry Relationship:")
+print(
+    full_edge_table
+    .groupby("Same_Industry")["Correlation"]
+    .describe()
+)
+
+# Keep only cross-industry pairs
+cross_industry_edges = full_edge_table[
+    full_edge_table["Same_Industry"] == False
+].copy()
+
+cross_industry_edges.to_csv(
+    "outputs/cross_industry_edges.csv",
+    index=False
+)
+
+print("\nCross-industry edges saved.")
+print(f"Total cross-industry pairs: {len(cross_industry_edges)}")
+
+mid_correlation_edges = cross_industry_edges[
+    (cross_industry_edges["Correlation"] >= 0.4)
+    &
+    (cross_industry_edges["Correlation"] <= 0.5)
+].copy()
+
+print("\nCross-Industry Relationships Between 0.4 and 0.5:")
+print(f"Number of pairs: {len(mid_correlation_edges)}")
+
+mid_correlation_edges.to_csv(
+    "outputs/mid_correlation_cross_industry_edges.csv",
+    index=False
+)
+
+print("\nStrongest Cross-Industry Relationships:")
+print(
+    cross_industry_edges[
+        [
+            "Stock_A",
+            "Stock_B",
+            "Correlation",
+            "Industry_A",
+            "Industry_B"
+        ]
+    ]
+    .head(30)
+    .to_string(index=False)
+)
+
+# Create a standardized industry-pair label
+full_edge_table["Industry_Pair"] = full_edge_table.apply(
+    lambda row: " | ".join(
+        sorted([
+            row["Industry_A"],
+            row["Industry_B"]
+        ])
+    ),
+    axis=1
+)
+
+# Calculate baseline statistics for each industry pair
+industry_pair_stats = (
+    full_edge_table
+    .groupby("Industry_Pair")["Correlation"]
+    .agg(["count", "mean", "std"])
+    .reset_index()
+)
+
+# Add the industry-pair statistics back to each edge
+full_edge_table = full_edge_table.merge(
+    industry_pair_stats,
+    on="Industry_Pair",
+    how="left"
+)
+
+# Calculate industry-adjusted anomaly score
+full_edge_table["Industry_Z"] = (
+    full_edge_table["Correlation"]
+    -
+    full_edge_table["mean"]
+) / full_edge_table["std"]
+
+# Keep cross-industry pairs with at least 5 comparison pairs
+anomaly_candidates = full_edge_table[
+    (full_edge_table["count"] >= 5)
+    &
+    (full_edge_table["Same_Industry"] == False)
+    &
+    (full_edge_table["std"].notna())
+    &
+    (full_edge_table["std"] > 0)
+].copy()
+
+# Focus on our 0.4 to 0.5 correlation range
+mid_anomaly_candidates = anomaly_candidates[
+    (anomaly_candidates["Correlation"] >= 0.4)
+    &
+    (anomaly_candidates["Correlation"] <= 0.5)
+].copy()
+
+# Rank by industry-adjusted anomaly score
+mid_anomaly_candidates = mid_anomaly_candidates.sort_values(
+    by="Industry_Z",
+    ascending=False
+)
+
+mid_anomaly_candidates = mid_anomaly_candidates.reset_index(
+    drop=True
+)
+
+print("\nTop Industry-Adjusted Anomalies Between 0.4 and 0.5:")
+print(
+    mid_anomaly_candidates[
+        [
+            "Stock_A",
+            "Stock_B",
+            "Correlation",
+            "Industry_A",
+            "Industry_B",
+            "count",
+            "mean",
+            "std",
+            "Industry_Z"
+        ]
+    ]
+    .head(30)
+    .to_string(index=False)
+)
+
+print("\nNumber of Mid-Correlation Anomaly Candidates:")
+print(len(mid_anomaly_candidates))
+
+mid_anomaly_candidates.to_csv(
+    "outputs/mid_correlation_industry_anomalies.csv",
+    index=False
+)
+print("\nIndustry Z Distribution:")
+print(
+    mid_anomaly_candidates["Industry_Z"].describe()
+)
+
+print("\nIndustry Z Quantiles:")
+print(
+    mid_anomaly_candidates["Industry_Z"].quantile(
+        [0.50, 0.75, 0.90, 0.95, 0.99]
+    )
+)
+
+anomaly_threshold = mid_anomaly_candidates[
+    "Industry_Z"
+].quantile(0.95)
+
+forensic_candidates = mid_anomaly_candidates[
+    mid_anomaly_candidates["Industry_Z"]
+    >= anomaly_threshold
+].copy()
+
+print("\nForensic Candidates:")
+print(f"Anomaly Threshold: {anomaly_threshold}")
+print(f"Number of Candidates: {len(forensic_candidates)}")
+
+print(
+    forensic_candidates[
+        [
+            "Stock_A",
+            "Stock_B",
+            "Correlation",
+            "Industry_A",
+            "Industry_B",
+            "Industry_Z"
+        ]
+    ].to_string(index=False)
+)
+
+forensic_candidates.to_csv(
+    "outputs/forensic_candidates.csv",
+    index=False
+)
+
 print("\n~~~~~~~~~")
 print("All Done!")
 print("~~~~~~~~~")

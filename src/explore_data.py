@@ -18,7 +18,7 @@ We're essentially doing some Forensic Network Science.
 This was run with: /gpfs/home/guwechue/miniconda3/bin/python src/explore_data.py > outputs/explore_data_output.txt
 
 Well Wishes,
-My Name
+DeDe
 '''
 
 import yfinance as yf

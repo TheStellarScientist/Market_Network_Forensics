@@ -1,0 +1,27 @@
+Stock_A,Stock_B,Correlation,Industry_A,Industry_B,Same_Industry,Industry_Pair,count,mean,std,Industry_Z
+ROST,WDAY,0.4654525254353302,Apparel Retail,Software - Application,False,Apparel Retail | Software - Application,22,0.3214491587278848,0.05647921153977883,2.549670273035283
+AMGN,PEP,0.44364116365943046,Drug Manufacturers - General,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Drug Manufacturers - General,16,0.292759577995245,0.06758532345770132,2.232460805763778
+ADP,XEL,0.4557002532621146,Software - Application,Utilities - Regulated Electric,False,Software - Application | Utilities - Regulated Electric,33,0.07788912367809091,0.18007807831171996,2.0980406561759426
+ADP,CCEP,0.4528337661459136,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.1588855884560979,0.14262836189462236,2.0609377671110916
+ADI,CTAS,0.4501047702161803,Semiconductors,Specialty Business Services,False,Semiconductors | Specialty Business Services,28,0.28538459815293177,0.08154506250034663,2.0199895249641675
+AMZN,GEHC,0.4680748614379003,Internet Retail,Medical Devices,False,Internet Retail | Medical Devices,8,0.29301982756501976,0.08679295812948983,2.0169266913533357
+CCEP,TMUS,0.40130147048193177,Beverages - Non-Alcoholic,Telecom Services,False,Beverages - Non-Alcoholic | Telecom Services,12,0.26298155563905024,0.06934510052953592,1.9946602396800535
+BKR,CDNS,0.4170432882941382,Oil & Gas Equipment & Services,Software - Application,False,Oil & Gas Equipment & Services | Software - Application,11,0.3317989861019702,0.04363095965234082,1.9537572144048558
+PANW,TTWO,0.46216464181272515,Software - Infrastructure,Electronic Gaming & Multimedia,False,Electronic Gaming & Multimedia | Software - Infrastructure,16,0.19334569930717166,0.13893241058231956,1.9348900762523962
+BIIB,PEP,0.42149724066707256,Drug Manufacturers - General,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Drug Manufacturers - General,16,0.292759577995245,0.06758532345770132,1.9048168461071109
+ADP,MNST,0.4290061615054135,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.1588855884560979,0.14262836189462236,1.8938769923536518
+CDNS,CEG,0.47466344982452574,Software - Application,Utilities - Independent Power Producers,False,Software - Application | Utilities - Independent Power Producers,11,0.23942992364947854,0.12517727103477258,1.8792031830579088
+AXON,NVDA,0.413521673653053,Aerospace & Defense,Semiconductors,False,Aerospace & Defense | Semiconductors,14,0.2554094944588827,0.0850864274946285,1.8582538231982049
+PAYX,XEL,0.4121812892025691,Software - Application,Utilities - Regulated Electric,False,Software - Application | Utilities - Regulated Electric,33,0.07788912367809091,0.18007807831171996,1.8563734612150264
+CMCSA,NXPI,0.41792750982701404,Telecom Services,Semiconductors,False,Semiconductors | Telecom Services,42,0.17336917803323545,0.13646273990075833,1.7921253227923761
+PAYX,PEP,0.4113761011375213,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.1588855884560979,0.14262836189462236,1.7702686150736986
+ADP,ORLY,0.495663503112871,Software - Application,Auto Parts,False,Auto Parts | Software - Application,11,0.16899172352477687,0.18508835123098355,1.7649505083138355
+APP,CRWD,0.47934301243493843,Advertising Agencies,Software - Infrastructure,False,Advertising Agencies | Software - Infrastructure,16,0.3300862872540469,0.08562983087833566,1.7430458947531742
+GEHC,PANW,0.4149535208714623,Medical Devices,Software - Infrastructure,False,Medical Devices | Software - Infrastructure,16,0.309249106950234,0.06122619848993166,1.7264572442564905
+ADP,TMUS,0.4514554918315405,Software - Application,Telecom Services,False,Software - Application | Telecom Services,33,0.2288544921372178,0.13247243205220552,1.6803571599455407
+ADP,COST,0.44182448118011647,Software - Application,Discount Stores,False,Discount Stores | Software - Application,11,0.30290786169224543,0.08275545557486377,1.6786400186293666
+CDW,FTNT,0.4361578054061761,Information Technology Services,Software - Infrastructure,False,Information Technology Services | Software - Infrastructure,16,0.3578574216432391,0.04799053786861202,1.6315796246607397
+ADI,CSGP,0.4370810456767607,Semiconductors,Real Estate Services,False,Real Estate Services | Semiconductors,14,0.3202363799993312,0.07214668562701611,1.6195430831222517
+NXPI,WBD,0.48177400771376677,Semiconductors,Entertainment,False,Entertainment | Semiconductors,28,0.35215348388207424,0.08025335105214321,1.6151415751782612
+COST,ROP,0.43648203563569177,Discount Stores,Software - Application,False,Discount Stores | Software - Application,11,0.30290786169224543,0.08275545557486377,1.6140829993088492
+TMUS,XEL,0.40613892150936537,Telecom Services,Utilities - Regulated Electric,False,Telecom Services | Utilities - Regulated Electric,9,0.21751525809807626,0.11691982375321687,1.6132735866025407

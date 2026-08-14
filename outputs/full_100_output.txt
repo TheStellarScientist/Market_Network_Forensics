@@ -44,45 +44,45 @@ Number of unique pairs:
 
 Strongest Relationships:
   Stock_A Stock_B  Correlation
-0    KLAC    LRCX     0.912863
+0    KLAC    LRCX     0.912864
 1    AMAT    KLAC     0.893107
 2    AMAT    LRCX     0.873237
 3     ADI    MCHP     0.859155
 4    MCHP    NXPI     0.858510
-5     ADP    PAYX     0.856231
-6     ADI    NXPI     0.848107
+5     ADP    PAYX     0.856230
+6     ADI    NXPI     0.848108
 7     ADI     TXN     0.835914
-8    ASML    KLAC     0.819939
+8    ASML    KLAC     0.819940
 9    LRCX      MU     0.814713
 
 Weakest Relationships:
      Stock_A Stock_B  Correlation
 4841     EXC   GOOGL    -0.176283
-4842    AXON    MDLZ    -0.177079
-4843    AMZN     EXC    -0.185434
+4842    AXON    MDLZ    -0.177080
+4843    AMZN     EXC    -0.185435
 4844     CEG     PEP    -0.201844
 4845     CEG     KHC    -0.204015
 4846    CRWD     PEP    -0.208051
 4847     CEG    MDLZ    -0.210250
-4848     EXC    MRVL    -0.210391
+4848     EXC    MRVL    -0.210392
 4849    MDLZ    NVDA    -0.230721
-4850     EXC    NVDA    -0.231472
+4850     EXC    NVDA    -0.231473
 
 Correlation Distribution:
 count    4851.000000
 mean        0.281687
 std         0.172639
-min        -0.231472
+min        -0.231473
 25%         0.166073
-50%         0.291725
+50%         0.291726
 75%         0.402350
-max         0.912863
+max         0.912864
 Name: Correlation, dtype: float64
 
 Correlation Quantiles:
-0.50    0.291725
+0.50    0.291726
 0.75    0.402350
-0.90    0.488754
+0.90    0.488753
 0.95    0.542849
 0.99    0.675100
 Name: Correlation, dtype: float64
@@ -145,6 +145,200 @@ Size 3: ['CRWD', 'PANW', 'ZS']
 Size 2: ['BKR', 'FANG']
 Size 2: ['CDNS', 'SNPS']
 Size 2: ['CHTR', 'CMCSA']
+
+Extreme Network Edges:
+______________________
+Edge_ID Stock_A Stock_B  Correlation
+    E01    KLAC    LRCX     0.912864
+    E02    AMAT    KLAC     0.893107
+    E03    AMAT    LRCX     0.873237
+    E04     ADI    MCHP     0.859155
+    E05    MCHP    NXPI     0.858510
+    E06     ADP    PAYX     0.856230
+    E07     ADI    NXPI     0.848108
+    E08     ADI     TXN     0.835914
+    E09    ASML    KLAC     0.819940
+    E10    LRCX      MU     0.814713
+    E11    MCHP     TXN     0.812605
+    E12    NXPI      ON     0.807365
+    E13    ASML    LRCX     0.804389
+    E14    AMAT    ASML     0.800974
+    E15    MCHP      ON     0.800508
+    E16    NXPI     TXN     0.779969
+    E17    NXPI    QCOM     0.765728
+    E18     ADI    QCOM     0.755967
+    E19     ADI      ON     0.755118
+    E20    KLAC      MU     0.739818
+    E21     GFS    NXPI     0.739169
+    E22     ADP    CTAS     0.733686
+    E23     AEP     EXC     0.730414
+    E24    CRWD      ZS     0.729267
+    E25    AVGO    NVDA     0.728707
+    E26    CDNS    SNPS     0.724605
+    E27     ADI    KLAC     0.722870
+    E28    MCHP    QCOM     0.722649
+    E29     ADI    LRCX     0.715383
+    E30    KLAC    QCOM     0.715082
+    E31    CRWD    PANW     0.714818
+    E32      ON     TXN     0.709351
+    E33    AMAT      MU     0.706424
+    E34    LRCX    NXPI     0.703590
+    E35     GFS      ON     0.698783
+    E36    KLAC    NXPI     0.696195
+    E37    LRCX    QCOM     0.693345
+    E38    PANW      ZS     0.692962
+    E39     BKR    FANG     0.692486
+    E40     GFS    MCHP     0.691487
+    E41    ASML      MU     0.690539
+    E42    CTAS    PAYX     0.684047
+    E43     EXC     XEL     0.682564
+    E44    CHTR   CMCSA     0.681115
+    E45    AVGO    KLAC     0.679980
+    E46     ARM    LRCX     0.677290
+    E47     ARM    QCOM     0.676373
+    E48     ARM    NVDA     0.676161
+    E49     ARM    KLAC     0.675200
+
+Total Extreme Edges: 49
+
+Same vs Cross Industry Pair Counts:
+Same_Industry
+False    4637
+True      214
+Name: count, dtype: int64
+
+Correlation by Industry Relationship:
+                count      mean       std  ...       50%       75%       max
+Same_Industry                              ...                              
+False          4637.0  0.271777  0.166431  ...  0.283522  0.390631  0.814713
+True            214.0  0.496419  0.165207  ...  0.480207  0.594389  0.912864
+
+[2 rows x 8 columns]
+
+Cross-industry edges saved.
+Total cross-industry pairs: 4637
+
+Cross-Industry Relationships Between 0.4 and 0.5:
+Number of pairs: 751
+
+Strongest Cross-Industry Relationships:
+Stock_A Stock_B  Correlation                          Industry_A                          Industry_B
+   LRCX      MU     0.814713 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC      MU     0.739818 Semiconductor Equipment & Materials                      Semiconductors
+    ADP    CTAS     0.733686              Software - Application         Specialty Business Services
+   CDNS    SNPS     0.724605              Software - Application           Software - Infrastructure
+    ADI    KLAC     0.722870                      Semiconductors Semiconductor Equipment & Materials
+    ADI    LRCX     0.715383                      Semiconductors Semiconductor Equipment & Materials
+   KLAC    QCOM     0.715082 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT      MU     0.706424 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX    NXPI     0.703590 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC    NXPI     0.696195 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX    QCOM     0.693345 Semiconductor Equipment & Materials                      Semiconductors
+    BKR    FANG     0.692486      Oil & Gas Equipment & Services                       Oil & Gas E&P
+   ASML      MU     0.690539 Semiconductor Equipment & Materials                      Semiconductors
+   CTAS    PAYX     0.684047         Specialty Business Services              Software - Application
+   AVGO    KLAC     0.679980                      Semiconductors Semiconductor Equipment & Materials
+    ARM    LRCX     0.677290                      Semiconductors Semiconductor Equipment & Materials
+    ARM    KLAC     0.675200                      Semiconductors Semiconductor Equipment & Materials
+    ADI    AMAT     0.675001                      Semiconductors Semiconductor Equipment & Materials
+   LRCX    NVDA     0.672903 Semiconductor Equipment & Materials                      Semiconductors
+    ADP    VRSK     0.671189              Software - Application                 Consulting Services
+   KLAC    NVDA     0.669051 Semiconductor Equipment & Materials                      Semiconductors
+   AMZN    META     0.664976                     Internet Retail      Internet Content & Information
+   AVGO    LRCX     0.664314                      Semiconductors Semiconductor Equipment & Materials
+    ADP     LIN     0.657300              Software - Application                 Specialty Chemicals
+   META    MSFT     0.655507      Internet Content & Information           Software - Infrastructure
+   AMAT    NXPI     0.653256 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT    QCOM     0.651764 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX    MCHP     0.648740 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC    MCHP     0.643583 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT     ARM     0.640762 Semiconductor Equipment & Materials                      Semiconductors
+
+Top Industry-Adjusted Anomalies Between 0.4 and 0.5:
+Stock_A Stock_B  Correlation                      Industry_A                              Industry_B  count     mean      std  Industry_Z
+   ROST    WDAY     0.465453                  Apparel Retail                  Software - Application     22 0.321449 0.056479    2.549670
+   AMGN     PEP     0.443641    Drug Manufacturers - General               Beverages - Non-Alcoholic     16 0.292760 0.067585    2.232461
+    ADP     XEL     0.455700          Software - Application          Utilities - Regulated Electric     33 0.077889 0.180078    2.098041
+    ADP    CCEP     0.452834          Software - Application               Beverages - Non-Alcoholic     44 0.158886 0.142628    2.060938
+    ADI    CTAS     0.450105                  Semiconductors             Specialty Business Services     28 0.285385 0.081545    2.019990
+   AMZN    GEHC     0.468075                 Internet Retail                         Medical Devices      8 0.293020 0.086793    2.016927
+   CCEP    TMUS     0.401301       Beverages - Non-Alcoholic                        Telecom Services     12 0.262982 0.069345    1.994660
+    BKR    CDNS     0.417043  Oil & Gas Equipment & Services                  Software - Application     11 0.331799 0.043631    1.953757
+   PANW    TTWO     0.462165       Software - Infrastructure          Electronic Gaming & Multimedia     16 0.193346 0.138932    1.934890
+   BIIB     PEP     0.421497    Drug Manufacturers - General               Beverages - Non-Alcoholic     16 0.292760 0.067585    1.904817
+    ADP    MNST     0.429006          Software - Application               Beverages - Non-Alcoholic     44 0.158886 0.142628    1.893877
+   CDNS     CEG     0.474663          Software - Application Utilities - Independent Power Producers     11 0.239430 0.125177    1.879203
+   AXON    NVDA     0.413522             Aerospace & Defense                          Semiconductors     14 0.255409 0.085086    1.858254
+   PAYX     XEL     0.412181          Software - Application          Utilities - Regulated Electric     33 0.077889 0.180078    1.856373
+  CMCSA    NXPI     0.417928                Telecom Services                          Semiconductors     42 0.173369 0.136463    1.792125
+   PAYX     PEP     0.411376          Software - Application               Beverages - Non-Alcoholic     44 0.158886 0.142628    1.770269
+    ADP    ORLY     0.495664          Software - Application                              Auto Parts     11 0.168992 0.185088    1.764951
+    APP    CRWD     0.479343            Advertising Agencies               Software - Infrastructure     16 0.330086 0.085630    1.743046
+   GEHC    PANW     0.414954                 Medical Devices               Software - Infrastructure     16 0.309249 0.061226    1.726457
+    ADP    TMUS     0.451455          Software - Application                        Telecom Services     33 0.228854 0.132472    1.680357
+    ADP    COST     0.441824          Software - Application                         Discount Stores     11 0.302908 0.082755    1.678640
+    CDW    FTNT     0.436158 Information Technology Services               Software - Infrastructure     16 0.357857 0.047991    1.631580
+    ADI    CSGP     0.437081                  Semiconductors                    Real Estate Services     14 0.320236 0.072147    1.619543
+   NXPI     WBD     0.481774                  Semiconductors                           Entertainment     28 0.352153 0.080253    1.615142
+   COST     ROP     0.436482                 Discount Stores                  Software - Application     11 0.302908 0.082755    1.614083
+   TMUS     XEL     0.406139                Telecom Services          Utilities - Regulated Electric      9 0.217515 0.116920    1.613274
+   MCHP     WBD     0.479533                  Semiconductors                           Entertainment     28 0.352153 0.080253    1.587211
+    APP    MRVL     0.475381            Advertising Agencies                          Semiconductors     28 0.327875 0.093239    1.582018
+   CTAS     TXN     0.414357     Specialty Business Services                          Semiconductors     28 0.285385 0.081545    1.581608
+    ADI     WBD     0.478441                  Semiconductors                           Entertainment     28 0.352153 0.080253    1.573610
+
+Number of Mid-Correlation Anomaly Candidates:
+519
+
+Industry Z Distribution:
+count    519.000000
+mean       0.611547
+std        0.650291
+min       -2.529005
+25%        0.264038
+50%        0.641822
+75%        1.023517
+max        2.549670
+Name: Industry_Z, dtype: float64
+
+Industry Z Quantiles:
+0.50    0.641822
+0.75    1.023517
+0.90    1.307025
+0.95    1.589818
+0.99    2.012919
+Name: Industry_Z, dtype: float64
+
+Forensic Candidates:
+Anomaly Threshold: 1.5898176837313138
+Number of Candidates: 26
+Stock_A Stock_B  Correlation                      Industry_A                              Industry_B  Industry_Z
+   ROST    WDAY     0.465453                  Apparel Retail                  Software - Application    2.549670
+   AMGN     PEP     0.443641    Drug Manufacturers - General               Beverages - Non-Alcoholic    2.232461
+    ADP     XEL     0.455700          Software - Application          Utilities - Regulated Electric    2.098041
+    ADP    CCEP     0.452834          Software - Application               Beverages - Non-Alcoholic    2.060938
+    ADI    CTAS     0.450105                  Semiconductors             Specialty Business Services    2.019990
+   AMZN    GEHC     0.468075                 Internet Retail                         Medical Devices    2.016927
+   CCEP    TMUS     0.401301       Beverages - Non-Alcoholic                        Telecom Services    1.994660
+    BKR    CDNS     0.417043  Oil & Gas Equipment & Services                  Software - Application    1.953757
+   PANW    TTWO     0.462165       Software - Infrastructure          Electronic Gaming & Multimedia    1.934890
+   BIIB     PEP     0.421497    Drug Manufacturers - General               Beverages - Non-Alcoholic    1.904817
+    ADP    MNST     0.429006          Software - Application               Beverages - Non-Alcoholic    1.893877
+   CDNS     CEG     0.474663          Software - Application Utilities - Independent Power Producers    1.879203
+   AXON    NVDA     0.413522             Aerospace & Defense                          Semiconductors    1.858254
+   PAYX     XEL     0.412181          Software - Application          Utilities - Regulated Electric    1.856373
+  CMCSA    NXPI     0.417928                Telecom Services                          Semiconductors    1.792125
+   PAYX     PEP     0.411376          Software - Application               Beverages - Non-Alcoholic    1.770269
+    ADP    ORLY     0.495664          Software - Application                              Auto Parts    1.764951
+    APP    CRWD     0.479343            Advertising Agencies               Software - Infrastructure    1.743046
+   GEHC    PANW     0.414954                 Medical Devices               Software - Infrastructure    1.726457
+    ADP    TMUS     0.451455          Software - Application                        Telecom Services    1.680357
+    ADP    COST     0.441824          Software - Application                         Discount Stores    1.678640
+    CDW    FTNT     0.436158 Information Technology Services               Software - Infrastructure    1.631580
+    ADI    CSGP     0.437081                  Semiconductors                    Real Estate Services    1.619543
+   NXPI     WBD     0.481774                  Semiconductors                           Entertainment    1.615142
+   COST     ROP     0.436482                 Discount Stores                  Software - Application    1.614083
+   TMUS     XEL     0.406139                Telecom Services          Utilities - Regulated Electric    1.613274
 
 ~~~~~~~~~
 All Done!

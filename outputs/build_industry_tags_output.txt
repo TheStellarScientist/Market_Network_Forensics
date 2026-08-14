@@ -1,0 +1,147 @@
+AAPL Technology Consumer Electronics
+ABNB Consumer Cyclical Travel Services
+ADBE Technology Software - Application
+ADI Technology Semiconductors
+ADP Technology Software - Application
+ADSK Technology Software - Application
+AEP Utilities Utilities - Regulated Electric
+AMAT Technology Semiconductor Equipment & Materials
+AMD Technology Semiconductors
+AMGN Healthcare Drug Manufacturers - General
+AMZN Consumer Cyclical Internet Retail
+APP Communication Services Advertising Agencies
+ARM Technology Semiconductors
+ASML Technology Semiconductor Equipment & Materials
+AVGO Technology Semiconductors
+AXON Industrials Aerospace & Defense
+AZN Healthcare Drug Manufacturers - General
+BIIB Healthcare Drug Manufacturers - General
+BKNG Consumer Cyclical Travel Services
+BKR Energy Oil & Gas Equipment & Services
+CCEP Consumer Defensive Beverages - Non-Alcoholic
+CDNS Technology Software - Application
+CDW Technology Information Technology Services
+CEG Utilities Utilities - Independent Power Producers
+CHTR Communication Services Telecom Services
+CMCSA Communication Services Telecom Services
+COST Consumer Defensive Discount Stores
+CPRT Industrials Specialty Business Services
+CRWD Technology Software - Infrastructure
+CSCO Technology Communication Equipment
+CSGP Real Estate Real Estate Services
+CSX Industrials Railroads
+CTAS Industrials Specialty Business Services
+CTSH Technology Information Technology Services
+DASH Consumer Cyclical Internet Retail
+DDOG Technology Software - Application
+DXCM Healthcare Medical Devices
+EA Communication Services Electronic Gaming & Multimedia
+EXC Utilities Utilities - Regulated Electric
+FANG Energy Oil & Gas E&P
+FAST Industrials Industrial Distribution
+FTNT Technology Software - Infrastructure
+GEHC Healthcare Medical Devices
+GFS Technology Semiconductors
+GILD Healthcare Drug Manufacturers - General
+GOOGL Communication Services Internet Content & Information
+HON Industrials Conglomerates
+IDXX Healthcare Diagnostics & Research
+INTC Technology Semiconductors
+INTU Technology Software - Application
+ISRG Healthcare Medical Instruments & Supplies
+KDP Consumer Defensive Beverages - Non-Alcoholic
+KHC Consumer Defensive Packaged Foods
+KLAC Technology Semiconductor Equipment & Materials
+LIN Basic Materials Specialty Chemicals
+LRCX Technology Semiconductor Equipment & Materials
+LULU Consumer Cyclical Apparel Retail
+MAR Consumer Cyclical Lodging
+MCHP Technology Semiconductors
+MDB Technology Software - Infrastructure
+MDLZ Consumer Defensive Confectioners
+MELI Consumer Cyclical Internet Retail
+META Communication Services Internet Content & Information
+MNST Consumer Defensive Beverages - Non-Alcoholic
+MRVL Technology Semiconductors
+MSFT Technology Software - Infrastructure
+MSTR Technology Software - Application
+MU Technology Semiconductors
+NFLX Communication Services Entertainment
+NVDA Technology Semiconductors
+NXPI Technology Semiconductors
+ODFL Industrials Trucking
+ON Technology Semiconductors
+ORLY Consumer Cyclical Auto Parts
+PANW Technology Software - Infrastructure
+PAYX Technology Software - Application
+PCAR Industrials Farm & Heavy Construction Machinery
+PDD Consumer Cyclical Internet Retail
+PEP Consumer Defensive Beverages - Non-Alcoholic
+PLTR Technology Software - Infrastructure
+PYPL Financial Services Credit Services
+QCOM Technology Semiconductors
+REGN Healthcare Biotechnology
+ROP Technology Software - Application
+ROST Consumer Cyclical Apparel Retail
+SBUX Consumer Cyclical Restaurants
+SNPS Technology Software - Infrastructure
+TEAM Technology Software - Application
+TMUS Communication Services Telecom Services
+TSLA Consumer Cyclical Auto Manufacturers
+TTD Communication Services Advertising Agencies
+TTWO Communication Services Electronic Gaming & Multimedia
+TXN Technology Semiconductors
+VRSK Industrials Consulting Services
+VRTX Healthcare Biotechnology
+WBD Communication Services Entertainment
+WDAY Technology Software - Application
+XEL Utilities Utilities - Regulated Electric
+ZS Technology Software - Infrastructure
+
+Unique Industry Labels:
+Industry
+Semiconductors                             14
+Software - Application                     11
+Software - Infrastructure                   8
+Drug Manufacturers - General                4
+Internet Retail                             4
+Beverages - Non-Alcoholic                   4
+Semiconductor Equipment & Materials         4
+Utilities - Regulated Electric              3
+Telecom Services                            3
+Advertising Agencies                        2
+Travel Services                             2
+Apparel Retail                              2
+Biotechnology                               2
+Entertainment                               2
+Information Technology Services             2
+Specialty Business Services                 2
+Internet Content & Information              2
+Medical Devices                             2
+Electronic Gaming & Multimedia              2
+Oil & Gas Equipment & Services              1
+Aerospace & Defense                         1
+Consumer Electronics                        1
+Communication Equipment                     1
+Real Estate Services                        1
+Discount Stores                             1
+Utilities - Independent Power Producers     1
+Railroads                                   1
+Conglomerates                               1
+Industrial Distribution                     1
+Oil & Gas E&P                               1
+Diagnostics & Research                      1
+Specialty Chemicals                         1
+Packaged Foods                              1
+Lodging                                     1
+Medical Instruments & Supplies              1
+Confectioners                               1
+Trucking                                    1
+Farm & Heavy Construction Machinery         1
+Auto Parts                                  1
+Credit Services                             1
+Restaurants                                 1
+Auto Manufacturers                          1
+Consulting Services                         1
+Name: count, dtype: int64
+All Done!
