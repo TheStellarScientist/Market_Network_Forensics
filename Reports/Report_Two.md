@@ -260,7 +260,7 @@ To investigate this, I calculated their 252-trading-day rolling return correlati
 
 The figure below shows that the AMD–NVDA rolling correlation peaked in 2023. Which is particularly interesting because 2023 also marked the beginning of the generative-AI boom and the rapid rise of AI accelerators as a central part of the investment narratives surrounding both companies.
 
-<img src="figures/amd_nvda_rolling_correlation.png" alt="AMD vs NVDA 252-Day Rolling Return Correlation" />
+<img width="2380" height="1180" alt="AMD vs NVDA 252-Day Rolling Return Correlation" src="https://github.com/user-attachments/assets/8e1b9da5-a701-45ed-a7d5-6030b97a6622" />
 
 ---
 
