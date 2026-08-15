@@ -502,24 +502,3 @@ That means:
 * network structure depends on the chosen relationship regime
 * connected components alone do not identify communities inside the large Broad/Strong/Very Strong components
 
----
-
-# The Pile for Later
-
-Things I currently want to investigate:
-
-* validation of all 49 Extreme edges
-* whether Extreme edges correspond disproportionately to known economic relationships
-* unexplained Extreme edges
-* supplier/customer relationships
-* competitor relationships
-* NVDA vs AMD structural differences
-* degree persistence across thresholds
-* edge persistence across thresholds
-* community detection
-* betweenness centrality
-* market-adjusted return network
-* sector-adjusted return network
-* null-model comparison
-* whether the same structures appear in other years
-* whether regime changes in time alter the network topology
