@@ -39,4 +39,4 @@ The investigation is split into two reports:
 * **Hidden Structure in the Nasdaq-100 #1** — building the network, exploring different correlation regimes, and forming the initial hypotheses.
 * **Hidden Structure in the Nasdaq-100 #2** — validating relationships, investigating anomalies, and comparing the network across one-, five-, and ten-year time horizons.
 
-Mostly I wanted to see if it would work and it did. So I'm going to apply it to different projects when I have time. I have so many ideas. 
+Mostly I wanted to see if it would work and it did. So I'm going to apply it to different projects when I have time. I have so many ideas. ✨💃✨
