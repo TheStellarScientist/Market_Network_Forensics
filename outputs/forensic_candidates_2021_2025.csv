@@ -1,0 +1,34 @@
+Stock_A,Stock_B,Correlation,Industry_A,Industry_B,Same_Industry,Industry_Pair,count,mean,std,Industry_Z
+NFLX,NVDA,0.4372206809227409,Entertainment,Semiconductors,False,Entertainment | Semiconductors,28,0.300940702814491,0.059727403559232256,2.2816993538501924
+COST,MSFT,0.47257567440039167,Discount Stores,Software - Infrastructure,False,Discount Stores | Software - Infrastructure,8,0.3424191106896517,0.06243920917249634,2.084532546707402
+ADI,GEHC,0.42182984928848993,Semiconductors,Medical Devices,False,Medical Devices | Semiconductors,28,0.3112066265943527,0.05580132168560996,1.9824480738538621
+LULU,NXPI,0.45173226622196966,Apparel Retail,Semiconductors,False,Apparel Retail | Semiconductors,28,0.347301810930265,0.05286807797338919,1.9753026645732996
+CSCO,MSFT,0.44649388064175866,Communication Equipment,Software - Infrastructure,False,Communication Equipment | Software - Infrastructure,8,0.31464712379911874,0.06849868483307459,1.9248071282527415
+CMCSA,PAYX,0.41806847242718487,Telecom Services,Software - Application,False,Software - Application | Telecom Services,33,0.2735012907273118,0.07615021507469669,1.8984474509765383
+MAR,MSFT,0.40902807878033137,Lodging,Software - Infrastructure,False,Lodging | Software - Infrastructure,8,0.34658955734147256,0.0330839006784565,1.8872781068260607
+LIN,MSFT,0.4307940945034363,Specialty Chemicals,Software - Infrastructure,False,Software - Infrastructure | Specialty Chemicals,8,0.3037013842081183,0.06793721446894768,1.8707377287805749
+GEHC,TXN,0.41439675449072416,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.3112066265943527,0.05580132168560996,1.8492416448082467
+BKNG,CCEP,0.4327845476015473,Travel Services,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Travel Services,8,0.21787241586967837,0.11757514178319398,1.8278704875233087
+FAST,MSFT,0.40259002844044217,Industrial Distribution,Software - Infrastructure,False,Industrial Distribution | Software - Infrastructure,8,0.30040930797442944,0.05701859080662558,1.7920597303527062
+ADP,TMUS,0.40934352909733357,Software - Application,Telecom Services,False,Software - Application | Telecom Services,33,0.2735012907273118,0.07615021507469669,1.783872025007053
+INTU,NFLX,0.4625147470935007,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.29484213420598365,0.09481524763901156,1.768414016339377
+PEP,XEL,0.4682235050669274,Beverages - Non-Alcoholic,Utilities - Regulated Electric,False,Beverages - Non-Alcoholic | Utilities - Regulated Electric,12,0.33559952834012474,0.07585580520974801,1.7483695065932743
+CDW,MSFT,0.44639486490593405,Information Technology Services,Software - Infrastructure,False,Information Technology Services | Software - Infrastructure,16,0.35397225271107935,0.0528739578812735,1.7479798354113425
+ODFL,SNPS,0.4113310828690603,Trucking,Software - Infrastructure,False,Software - Infrastructure | Trucking,8,0.3336755378087583,0.04454649386532441,1.7432470733852772
+AVGO,CEG,0.4218522836044998,Semiconductors,Utilities - Independent Power Producers,False,Semiconductors | Utilities - Independent Power Producers,14,0.307287856914802,0.06761469481376932,1.6943717191246932
+GEHC,MCHP,0.4055235190427978,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.3112066265943527,0.05580132168560996,1.690226854837518
+LULU,MSFT,0.41840125576641307,Apparel Retail,Software - Infrastructure,False,Apparel Retail | Software - Infrastructure,16,0.31825032694011735,0.060049351400919784,1.6678103341639374
+CSGP,MSFT,0.4426288899257959,Real Estate Services,Software - Infrastructure,False,Real Estate Services | Software - Infrastructure,8,0.36440004990174407,0.04723764966727309,1.6560696938791577
+AEP,PEP,0.4598743049855379,Utilities - Regulated Electric,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Utilities - Regulated Electric,12,0.33559952834012474,0.07585580520974801,1.6383027812015494
+ADSK,MAR,0.4682844398881842,Software - Application,Lodging,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,1.6208035728065082
+PLTR,TSLA,0.4685386383735867,Software - Infrastructure,Auto Manufacturers,False,Auto Manufacturers | Software - Infrastructure,8,0.3956258516459177,0.04503852110241606,1.6188983328708297
+MSFT,NFLX,0.44781810577998354,Software - Infrastructure,Entertainment,False,Entertainment | Software - Infrastructure,16,0.30072519831511413,0.09190615070613332,1.6004685903470575
+ADP,ORLY,0.4142343377033373,Software - Application,Auto Parts,False,Auto Parts | Software - Application,11,0.23731608537228466,0.11179515550053251,1.582521635565952
+CTSH,MSFT,0.4375432042972607,Information Technology Services,Software - Infrastructure,False,Information Technology Services | Software - Infrastructure,16,0.35397225271107935,0.0528739578812735,1.580569243063604
+CMCSA,CTSH,0.4203767898143823,Telecom Services,Information Technology Services,False,Information Technology Services | Telecom Services,6,0.31104920515108464,0.07061314175042539,1.5482611586622834
+INTU,LULU,0.43313850174537166,Software - Application,Apparel Retail,False,Apparel Retail | Software - Application,22,0.3581807067056881,0.04866480047615451,1.5402877296581643
+ADP,MNST,0.40514791958814333,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.24366594809262576,0.10591176705107744,1.5246839514785984
+ASML,NFLX,0.41151976714667243,Semiconductor Equipment & Materials,Entertainment,False,Entertainment | Semiconductor Equipment & Materials,8,0.2992147944160726,0.07403531561546368,1.5169108390637127
+LULU,ZS,0.40904601588842643,Apparel Retail,Software - Infrastructure,False,Apparel Retail | Software - Infrastructure,16,0.31825032694011735,0.060049351400919784,1.512017812517428
+CSX,TXN,0.4509879448688823,Railroads,Semiconductors,False,Railroads | Semiconductors,14,0.33851631250218034,0.07522101065049323,1.4952156504422671
+LULU,MCHP,0.425979225439007,Apparel Retail,Semiconductors,False,Apparel Retail | Semiconductors,28,0.347301810930265,0.05286807797338919,1.488183749527338

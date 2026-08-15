@@ -1,0 +1,650 @@
+Stock_A,Stock_B,Correlation,Industry_A,Industry_B,Same_Industry,Industry_Pair,count,mean,std,Industry_Z
+NFLX,NVDA,0.4372206809227409,Entertainment,Semiconductors,False,Entertainment | Semiconductors,28,0.300940702814491,0.059727403559232256,2.2816993538501924
+COST,MSFT,0.47257567440039167,Discount Stores,Software - Infrastructure,False,Discount Stores | Software - Infrastructure,8,0.3424191106896517,0.06243920917249634,2.084532546707402
+ADI,GEHC,0.42182984928848993,Semiconductors,Medical Devices,False,Medical Devices | Semiconductors,28,0.3112066265943527,0.05580132168560996,1.9824480738538621
+LULU,NXPI,0.45173226622196966,Apparel Retail,Semiconductors,False,Apparel Retail | Semiconductors,28,0.347301810930265,0.05286807797338919,1.9753026645732996
+CSCO,MSFT,0.44649388064175866,Communication Equipment,Software - Infrastructure,False,Communication Equipment | Software - Infrastructure,8,0.31464712379911874,0.06849868483307459,1.9248071282527415
+CMCSA,PAYX,0.41806847242718487,Telecom Services,Software - Application,False,Software - Application | Telecom Services,33,0.2735012907273118,0.07615021507469669,1.8984474509765383
+MAR,MSFT,0.40902807878033137,Lodging,Software - Infrastructure,False,Lodging | Software - Infrastructure,8,0.34658955734147256,0.0330839006784565,1.8872781068260607
+LIN,MSFT,0.4307940945034363,Specialty Chemicals,Software - Infrastructure,False,Software - Infrastructure | Specialty Chemicals,8,0.3037013842081183,0.06793721446894768,1.8707377287805749
+GEHC,TXN,0.41439675449072416,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.3112066265943527,0.05580132168560996,1.8492416448082467
+BKNG,CCEP,0.4327845476015473,Travel Services,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Travel Services,8,0.21787241586967837,0.11757514178319398,1.8278704875233087
+FAST,MSFT,0.40259002844044217,Industrial Distribution,Software - Infrastructure,False,Industrial Distribution | Software - Infrastructure,8,0.30040930797442944,0.05701859080662558,1.7920597303527062
+ADP,TMUS,0.40934352909733357,Software - Application,Telecom Services,False,Software - Application | Telecom Services,33,0.2735012907273118,0.07615021507469669,1.783872025007053
+INTU,NFLX,0.4625147470935007,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.29484213420598365,0.09481524763901156,1.768414016339377
+PEP,XEL,0.4682235050669274,Beverages - Non-Alcoholic,Utilities - Regulated Electric,False,Beverages - Non-Alcoholic | Utilities - Regulated Electric,12,0.33559952834012474,0.07585580520974801,1.7483695065932743
+CDW,MSFT,0.44639486490593405,Information Technology Services,Software - Infrastructure,False,Information Technology Services | Software - Infrastructure,16,0.35397225271107935,0.0528739578812735,1.7479798354113425
+ODFL,SNPS,0.4113310828690603,Trucking,Software - Infrastructure,False,Software - Infrastructure | Trucking,8,0.3336755378087583,0.04454649386532441,1.7432470733852772
+AVGO,CEG,0.4218522836044998,Semiconductors,Utilities - Independent Power Producers,False,Semiconductors | Utilities - Independent Power Producers,14,0.307287856914802,0.06761469481376932,1.6943717191246932
+GEHC,MCHP,0.4055235190427978,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.3112066265943527,0.05580132168560996,1.690226854837518
+LULU,MSFT,0.41840125576641307,Apparel Retail,Software - Infrastructure,False,Apparel Retail | Software - Infrastructure,16,0.31825032694011735,0.060049351400919784,1.6678103341639374
+CSGP,MSFT,0.4426288899257959,Real Estate Services,Software - Infrastructure,False,Real Estate Services | Software - Infrastructure,8,0.36440004990174407,0.04723764966727309,1.6560696938791577
+AEP,PEP,0.4598743049855379,Utilities - Regulated Electric,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Utilities - Regulated Electric,12,0.33559952834012474,0.07585580520974801,1.6383027812015494
+ADSK,MAR,0.4682844398881842,Software - Application,Lodging,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,1.6208035728065082
+PLTR,TSLA,0.4685386383735867,Software - Infrastructure,Auto Manufacturers,False,Auto Manufacturers | Software - Infrastructure,8,0.3956258516459177,0.04503852110241606,1.6188983328708297
+MSFT,NFLX,0.44781810577998354,Software - Infrastructure,Entertainment,False,Entertainment | Software - Infrastructure,16,0.30072519831511413,0.09190615070613332,1.6004685903470575
+ADP,ORLY,0.4142343377033373,Software - Application,Auto Parts,False,Auto Parts | Software - Application,11,0.23731608537228466,0.11179515550053251,1.582521635565952
+CTSH,MSFT,0.4375432042972607,Information Technology Services,Software - Infrastructure,False,Information Technology Services | Software - Infrastructure,16,0.35397225271107935,0.0528739578812735,1.580569243063604
+CMCSA,CTSH,0.4203767898143823,Telecom Services,Information Technology Services,False,Information Technology Services | Telecom Services,6,0.31104920515108464,0.07061314175042539,1.5482611586622834
+INTU,LULU,0.43313850174537166,Software - Application,Apparel Retail,False,Apparel Retail | Software - Application,22,0.3581807067056881,0.04866480047615451,1.5402877296581643
+ADP,MNST,0.40514791958814333,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.24366594809262576,0.10591176705107744,1.5246839514785984
+ASML,NFLX,0.41151976714667243,Semiconductor Equipment & Materials,Entertainment,False,Entertainment | Semiconductor Equipment & Materials,8,0.2992147944160726,0.07403531561546368,1.5169108390637127
+LULU,ZS,0.40904601588842643,Apparel Retail,Software - Infrastructure,False,Apparel Retail | Software - Infrastructure,16,0.31825032694011735,0.060049351400919784,1.512017812517428
+CSX,TXN,0.4509879448688823,Railroads,Semiconductors,False,Railroads | Semiconductors,14,0.33851631250218034,0.07522101065049323,1.4952156504422671
+LULU,MCHP,0.425979225439007,Apparel Retail,Semiconductors,False,Apparel Retail | Semiconductors,28,0.347301810930265,0.05286807797338919,1.488183749527338
+ADP,PEP,0.4003014676227985,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.24366594809262576,0.10591176705107744,1.4789246170789792
+ABNB,MDB,0.45227331123774445,Travel Services,Software - Infrastructure,False,Software - Infrastructure | Travel Services,16,0.37427499779575063,0.052752149396704966,1.4785807655993974
+PAYX,PEP,0.40025673576041326,Software - Application,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Software - Application,44,0.24366594809262576,0.10591176705107744,1.4785022668186567
+ABNB,ADSK,0.4707430997012811,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,1.4750601628999849
+ADSK,LULU,0.42979184945058163,Software - Application,Apparel Retail,False,Apparel Retail | Software - Application,22,0.3581807067056881,0.04866480047615451,1.4715182646229614
+ADSK,NFLX,0.434046034747463,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.29484213420598365,0.09481524763901156,1.468159436459713
+ADI,SBUX,0.45404058454314783,Semiconductors,Restaurants,False,Restaurants | Semiconductors,14,0.35785781540115974,0.0655500276735269,1.4673185131366857
+ABNB,ZS,0.4512995114934757,Travel Services,Software - Infrastructure,False,Software - Infrastructure | Travel Services,16,0.37427499779575063,0.052752149396704966,1.460120859123443
+PYPL,ZS,0.44710979301886733,Credit Services,Software - Infrastructure,False,Credit Services | Software - Infrastructure,8,0.4127034367081592,0.023805996395441172,1.4452810854536187
+ADSK,BKNG,0.46895238981968534,Software - Application,Travel Services,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,1.4430321898912823
+ASML,BKNG,0.46265127490881086,Semiconductor Equipment & Materials,Travel Services,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,1.4308348588944486
+ADI,LULU,0.4227653100352735,Semiconductors,Apparel Retail,False,Apparel Retail | Semiconductors,28,0.347301810930265,0.05286807797338919,1.4273925211162881
+ADI,CSCO,0.47520415035020575,Semiconductors,Communication Equipment,False,Communication Equipment | Semiconductors,14,0.40080305618444917,0.05237820206088142,1.4204591077654214
+AMZN,NFLX,0.4799785246632304,Internet Retail,Entertainment,False,Entertainment | Internet Retail,8,0.31353561217824144,0.11723688744645135,1.4197145293627207
+AMD,TTD,0.44596009656241137,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.4122969605067852
+CEG,MRVL,0.4025698570320162,Utilities - Independent Power Producers,Semiconductors,False,Semiconductors | Utilities - Independent Power Producers,14,0.307287856914802,0.06761469481376932,1.409190714823882
+AMZN,LULU,0.4493473598580872,Internet Retail,Apparel Retail,False,Apparel Retail | Internet Retail,8,0.3265219992342614,0.0876273095701298,1.4016790111024273
+ADI,HON,0.46792496489626384,Semiconductors,Conglomerates,False,Conglomerates | Semiconductors,14,0.3656175353252194,0.07306553373044199,1.4002146340090187
+ADI,LIN,0.4622660870871513,Semiconductors,Specialty Chemicals,False,Semiconductors | Specialty Chemicals,14,0.36280774639959956,0.0711886694617254,1.3971091388500456
+NFLX,WDAY,0.4258639307815445,Entertainment,Software - Application,False,Entertainment | Software - Application,22,0.29484213420598365,0.09481524763901156,1.381864202626964
+ADI,CSGP,0.44476841116059423,Semiconductors,Real Estate Services,False,Real Estate Services | Semiconductors,14,0.34580113463459916,0.07181003869699995,1.37818163479321
+ASML,LULU,0.40266071086988997,Semiconductor Equipment & Materials,Apparel Retail,False,Apparel Retail | Semiconductor Equipment & Materials,8,0.3776603262070566,0.018210956496415846,1.372821063394105
+ABNB,PLTR,0.445944281098294,Travel Services,Software - Infrastructure,False,Software - Infrastructure | Travel Services,16,0.37427499779575063,0.052752149396704966,1.358604040255846
+AXON,PLTR,0.43394580141115285,Aerospace & Defense,Software - Infrastructure,False,Aerospace & Defense | Software - Infrastructure,8,0.37926117630854705,0.040269414035308926,1.3579692283244391
+CPRT,NXPI,0.49953932256819883,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,1.3511937349065826
+ADBE,NFLX,0.4203986632633607,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.29484213420598365,0.09481524763901156,1.3242229724000323
+ADI,CSX,0.43750705137802853,Semiconductors,Railroads,False,Railroads | Semiconductors,14,0.33851631250218034,0.07522101065049323,1.3159985224846098
+ADI,TTD,0.4400989413974498,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.3144391108911806
+ABNB,ADI,0.4729629363693216,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,1.3087032021600578
+NXPI,ODFL,0.49460407323459415,Semiconductors,Trucking,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,1.3054826888913649
+NXPI,PCAR,0.4616263287118811,Semiconductors,Farm & Heavy Construction Machinery,False,Farm & Heavy Construction Machinery | Semiconductors,14,0.36429873905520477,0.07551640077602607,1.2888271773616435
+LULU,WDAY,0.42078915365062397,Apparel Retail,Software - Application,False,Apparel Retail | Software - Application,22,0.3581807067056881,0.04866480047615451,1.2865242707737738
+HON,TXN,0.4592612520987983,Conglomerates,Semiconductors,False,Conglomerates | Semiconductors,14,0.3656175353252194,0.07306553373044199,1.2816400838055226
+AXON,INTU,0.42396829395856994,Aerospace & Defense,Software - Application,False,Aerospace & Defense | Software - Application,11,0.33878355197755633,0.06710618660882721,1.2694022158876233
+ADI,AMZN,0.4945353861624083,Semiconductors,Internet Retail,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,1.2686157276865935
+ASML,TTD,0.4298943040087517,Semiconductor Equipment & Materials,Advertising Agencies,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4097629415161831,0.015935345881578074,1.2633150633925891
+ADP,CSCO,0.48191372492341783,Software - Application,Communication Equipment,False,Communication Equipment | Software - Application,11,0.372808818389834,0.08642279037746373,1.2624552627501702
+CDW,SNPS,0.4205763037591509,Information Technology Services,Software - Infrastructure,False,Information Technology Services | Software - Infrastructure,16,0.35397225271107935,0.0528739578812735,1.2596759107314883
+ADI,IDXX,0.453573568013458,Semiconductors,Diagnostics & Research,False,Diagnostics & Research | Semiconductors,14,0.37689243640434894,0.061172176317773275,1.253529565643878
+FAST,TXN,0.43777766562235804,Industrial Distribution,Semiconductors,False,Industrial Distribution | Semiconductors,14,0.34293495642659894,0.07580172732796504,1.2511945642796638
+BKNG,NXPI,0.47032605304333075,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,1.2511167216451082
+ADI,BKNG,0.47027879816072204,Semiconductors,Travel Services,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,1.25008472969091
+LULU,ON,0.41316543933973343,Apparel Retail,Semiconductors,False,Apparel Retail | Semiconductors,28,0.347301810930265,0.05286807797338919,1.2458109115035438
+AMZN,CTSH,0.4428141707050134,Internet Retail,Information Technology Services,False,Information Technology Services | Internet Retail,8,0.32396581229379323,0.09572234196374065,1.2415947622367993
+ASML,CPRT,0.49232784031175775,Semiconductor Equipment & Materials,Specialty Business Services,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,1.2403258010686233
+TEAM,TTD,0.47680288617609423,Software - Application,Advertising Agencies,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,1.2400342252384917
+ADBE,LULU,0.41851513208505886,Software - Application,Apparel Retail,False,Apparel Retail | Software - Application,22,0.3581807067056881,0.04866480047615451,1.2397960083887392
+ADSK,TTD,0.47674790688796725,Software - Application,Advertising Agencies,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,1.23937278830959
+INTU,TTD,0.47645196050537275,Software - Application,Advertising Agencies,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,1.2358123590444674
+CSCO,TXN,0.4653342756166987,Communication Equipment,Semiconductors,False,Communication Equipment | Semiconductors,14,0.40080305618444917,0.05237820206088142,1.2320243325122568
+ADI,PCAR,0.4569496026104381,Semiconductors,Farm & Heavy Construction Machinery,False,Farm & Heavy Construction Machinery | Semiconductors,14,0.36429873905520477,0.07551640077602607,1.2268972382572405
+CSCO,PAYX,0.47859914930566344,Communication Equipment,Software - Application,False,Communication Equipment | Software - Application,11,0.372808818389834,0.08642279037746373,1.2241022356924054
+ABNB,NXPI,0.46897282653392025,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,1.2215638205939405
+NVDA,TTD,0.4342881472858857,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.217422089448717
+IDXX,MSFT,0.4512741600135408,Diagnostics & Research,Software - Infrastructure,False,Diagnostics & Research | Software - Infrastructure,8,0.3909561270372995,0.05009515439057522,1.2040692100869026
+ADI,MAR,0.49358319563969727,Semiconductors,Lodging,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,1.19900380147194
+ODFL,ROP,0.4784138351929548,Trucking,Software - Application,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,1.1902123119226875
+ADSK,IDXX,0.490592502467857,Software - Application,Diagnostics & Research,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,1.187790695467595
+BKNG,MCHP,0.46713632742556926,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,1.181456805210908
+NFLX,ZS,0.4091844605129502,Entertainment,Software - Infrastructure,False,Entertainment | Software - Infrastructure,16,0.30072519831511413,0.09190615070613332,1.1801088541356797
+MCHP,SBUX,0.4349557971428865,Semiconductors,Restaurants,False,Restaurants | Semiconductors,14,0.35785781540115974,0.0655500276735269,1.1761700868490044
+META,NVDA,0.49826490554986735,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,1.1744480906696175
+NXPI,TTD,0.43094145141697665,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.16154565351904
+IDXX,NXPI,0.44775509521160306,Diagnostics & Research,Semiconductors,False,Diagnostics & Research | Semiconductors,14,0.37689243640434894,0.061172176317773275,1.1584132374029223
+ABNB,DDOG,0.4530164604548899,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,1.1580080657660314
+ADI,FAST,0.4305793623553548,Semiconductors,Industrial Distribution,False,Industrial Distribution | Semiconductors,14,0.34293495642659894,0.07580172732796504,1.1562323052290366
+PCAR,TXN,0.45093817028308114,Farm & Heavy Construction Machinery,Semiconductors,False,Farm & Heavy Construction Machinery | Semiconductors,14,0.36429873905520477,0.07551640077602607,1.147292910381681
+LIN,TXN,0.4444768406402966,Specialty Chemicals,Semiconductors,False,Semiconductors | Specialty Chemicals,14,0.36280774639959956,0.0711886694617254,1.147220405413061
+CTAS,MSFT,0.4843172007488377,Specialty Business Services,Software - Infrastructure,False,Software - Infrastructure | Specialty Business Services,16,0.39800426011154905,0.07544864590604623,1.1439958875441103
+BKNG,INTU,0.45220452978374476,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,1.1434861748178442
+CPRT,KLAC,0.48909934479233763,Specialty Business Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,1.1421989525397265
+CRWD,NFLX,0.40568316361053747,Software - Infrastructure,Entertainment,False,Entertainment | Software - Infrastructure,16,0.30072519831511413,0.09190615070613332,1.1420124168949555
+ADI,CPRT,0.48420764709710457,Semiconductors,Specialty Business Services,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,1.1389837945944938
+LIN,MCHP,0.44376655879089666,Specialty Chemicals,Semiconductors,False,Semiconductors | Specialty Chemicals,14,0.36280774639959956,0.0711886694617254,1.1372429489614861
+CSGP,INTU,0.47800432170388607,Real Estate Services,Software - Application,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,1.131141699760036
+MELI,NFLX,0.4459484180647052,Internet Retail,Entertainment,False,Entertainment | Internet Retail,8,0.31353561217824144,0.11723688744645135,1.129446616765087
+CDNS,NFLX,0.4018048229978235,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.29484213420598365,0.09481524763901156,1.128116958562161
+APP,NVDA,0.42883151936792907,Advertising Agencies,Semiconductors,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.126318226954878
+ON,TSLA,0.4926069363476294,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,1.1244756042334574
+ADSK,GOOGL,0.4934954560505114,Software - Application,Internet Content & Information,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,1.119048089112208
+MELI,NVDA,0.480320532070225,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,1.1164877280014267
+ODFL,TXN,0.4810612487860038,Trucking,Semiconductors,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,1.1150874042827104
+MDB,TTD,0.4708326436919176,Software - Infrastructure,Advertising Agencies,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,1.1067245299782134
+MCHP,TTD,0.42755347543188293,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.1049800047485463
+INTU,META,0.4924704277940181,Software - Application,Internet Content & Information,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,1.1048361352846754
+MCHP,ODFL,0.48009700645022135,Semiconductors,Trucking,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,1.1015313551254664
+SNPS,TXN,0.4894810070245587,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,1.1008937871592694
+EXC,PEP,0.4189411129760394,Utilities - Regulated Electric,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Utilities - Regulated Electric,12,0.33559952834012474,0.07585580520974801,1.0986843314821828
+MRVL,TTD,0.4270714854628518,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.0969326999804274
+CTAS,TXN,0.48055153472916556,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,1.0883785369475127
+ON,SNPS,0.4884315656164016,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,1.086795550018922
+ADP,CSX,0.460400929450869,Software - Application,Railroads,False,Railroads | Software - Application,11,0.3579330476587908,0.09432934777416131,1.0862778574214442
+APP,MRVL,0.42631350478818736,Advertising Agencies,Semiconductors,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,1.0842774542506664
+FAST,NXPI,0.4246233235626681,Industrial Distribution,Semiconductors,False,Industrial Distribution | Semiconductors,14,0.34293495642659894,0.07580172732796504,1.0776583861029296
+NXPI,SBUX,0.4283855224487577,Semiconductors,Restaurants,False,Restaurants | Semiconductors,14,0.35785781540115974,0.0655500276735269,1.075937105608292
+AMZN,MCHP,0.47630724509306055,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,1.0735373525674439
+AXON,CRWD,0.42240624560939605,Aerospace & Defense,Software - Infrastructure,False,Aerospace & Defense | Software - Infrastructure,8,0.37926117630854705,0.040269414035308926,1.0714104074873958
+ABNB,INTU,0.4479901644400821,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,1.0681095988225429
+MSFT,TXN,0.4868431451674992,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,1.0654566472529934
+GOOGL,QCOM,0.4923554425171219,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,1.0645225668315255
+AMAT,TTD,0.4266915931188622,Semiconductor Equipment & Materials,Advertising Agencies,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4097629415161831,0.015935345881578074,1.0623334898710495
+CTSH,PAYX,0.4911367452999876,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,1.058852890101893
+CTSH,ROP,0.49083575351918796,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,1.0542704338384539
+IDXX,SNPS,0.44375852279917904,Diagnostics & Research,Software - Infrastructure,False,Diagnostics & Research | Software - Infrastructure,8,0.3909561270372995,0.05009515439057522,1.0540419807911336
+AXON,CDNS,0.4093618499810576,Aerospace & Defense,Software - Application,False,Aerospace & Defense | Software - Application,11,0.33878355197755633,0.06710618660882721,1.0517405558285347
+MAR,MCHP,0.48486965191931747,Lodging,Semiconductors,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,1.0496222661924484
+ADSK,CDW,0.49051393802865734,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,1.0493709465290793
+ISRG,NVDA,0.48494361529132163,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,1.0482851343692383
+LIN,NXPI,0.43730673958951816,Specialty Chemicals,Semiconductors,False,Semiconductors | Specialty Chemicals,14,0.36280774639959956,0.0711886694617254,1.0465007107623072
+ADSK,ODFL,0.4680922655136039,Software - Application,Trucking,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,1.039439211953375
+CSGP,TXN,0.42014509439977366,Real Estate Services,Semiconductors,False,Real Estate Services | Semiconductors,14,0.34580113463459916,0.07181003869699995,1.0352864462149414
+CSX,MCHP,0.4160034513755391,Railroads,Semiconductors,False,Railroads | Semiconductors,14,0.33851631250218034,0.07522101065049323,1.0301262666277495
+CDNS,IDXX,0.4814636669589877,Software - Application,Diagnostics & Research,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,1.0265047031600736
+AMZN,CPRT,0.47458084511168647,Internet Retail,Specialty Business Services,False,Internet Retail | Specialty Business Services,8,0.34806403745725484,0.12331494534841382,1.0259649168798743
+AMAT,AMZN,0.4992532476663906,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,1.0241186652693826
+ADI,CTAS,0.4756984734854765,Semiconductors,Specialty Business Services,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,1.0212059804453981
+COST,ROP,0.4678171391287687,Discount Stores,Software - Application,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,1.0205994700602756
+AMZN,AVGO,0.47133298614682134,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,1.0203026124498131
+AMZN,NXPI,0.4709358175392677,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,1.0160520963760602
+ABNB,MCHP,0.4594006937962229,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,1.0125195181962257
+AMZN,KLAC,0.49830050508089796,Internet Retail,Semiconductor Equipment & Materials,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,1.0118328745340608
+CSX,ROP,0.45237434339996446,Railroads,Software - Application,False,Railroads | Software - Application,11,0.3579330476587908,0.09432934777416131,1.001186777706556
+DASH,NVDA,0.46913102477336394,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.9967371240560713
+IDXX,TXN,0.4378368810616213,Diagnostics & Research,Semiconductors,False,Diagnostics & Research | Semiconductors,14,0.37689243640434894,0.061172176317773275,0.996277201920724
+MCHP,PCAR,0.4395153500122092,Semiconductors,Farm & Heavy Construction Machinery,False,Farm & Heavy Construction Machinery | Semiconductors,14,0.36429873905520477,0.07551640077602607,0.9960301362890588
+HON,ROP,0.4841081482072164,Conglomerates,Software - Application,False,Conglomerates | Software - Application,11,0.3765213612318112,0.1082609755053263,0.9937725618416593
+CDW,PAYX,0.4867896415706757,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.992670309769353
+MDB,NVDA,0.48140812551210405,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.992442379501953
+ADI,PYPL,0.4736896636298137,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.9917297037762035
+HON,MCHP,0.4377149992876645,Conglomerates,Semiconductors,False,Conglomerates | Semiconductors,14,0.3656175353252194,0.07306553373044199,0.9867506645257892
+ISRG,SNPS,0.4874353355828803,Medical Instruments & Supplies,Software - Infrastructure,False,Medical Instruments & Supplies | Software - Infrastructure,8,0.43556084803742035,0.05258678815084272,0.9864547611590283
+ADSK,ROST,0.4058390880681197,Software - Application,Apparel Retail,False,Apparel Retail | Software - Application,22,0.3581807067056881,0.04866480047615451,0.9793193621698698
+NXPI,PYPL,0.47236181358382817,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.9736250492697627
+HON,NXPI,0.4365660954041384,Conglomerates,Semiconductors,False,Conglomerates | Semiconductors,14,0.3656175353252194,0.07306553373044199,0.971026371211725
+CDNS,TSLA,0.4268898461802011,Software - Application,Auto Manufacturers,False,Auto Manufacturers | Software - Application,11,0.3583130456959701,0.07062838427321647,0.9709524179252182
+MCHP,PYPL,0.47210515997249547,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.9701256895528602
+INTU,MAR,0.4382849086993181,Software - Application,Lodging,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,0.9699773472600031
+CPRT,MNST,0.41105510075568785,Specialty Business Services,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Specialty Business Services,8,0.35017778526254334,0.06305286122108515,0.9654964788939169
+ADSK,TSLA,0.42618855236341396,Software - Application,Auto Manufacturers,False,Auto Manufacturers | Software - Application,11,0.3583130456959701,0.07062838427321647,0.9610230697742783
+ABNB,NVDA,0.4569832847904718,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.9597261028660119
+NXPI,TSLA,0.48418101851257833,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.9579902335569283
+AVGO,SNPS,0.4786802030235821,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.9557953615315012
+AMZN,TTD,0.48714313632193723,Internet Retail,Advertising Agencies,False,Advertising Agencies | Internet Retail,8,0.39591265021076794,0.0956345314116264,0.953949214416063
+CSCO,NXPI,0.4502877566321219,Communication Equipment,Semiconductors,False,Communication Equipment | Semiconductors,14,0.40080305618444917,0.05237820206088142,0.9447575231802449
+CPRT,QCOM,0.4701427525382648,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.9443077175763976
+CPRT,MCHP,0.46918251875270645,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.9310168574415627
+AMZN,GFS,0.4628939970735671,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.9299881766663948
+CDW,INTU,0.4825768065279498,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.928531906132253
+ADBE,QCOM,0.48907887941786027,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.9267308533174257
+AMZN,CDW,0.41266573125547656,Internet Retail,Information Technology Services,False,Information Technology Services | Internet Retail,8,0.32396581229379323,0.09572234196374065,0.9266375763693978
+INTU,MRVL,0.4887066845214919,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.9226624089788068
+CPRT,MELI,0.4617228904125425,Specialty Business Services,Internet Retail,False,Internet Retail | Specialty Business Services,8,0.34806403745725484,0.12331494534841382,0.9216956844456781
+AMZN,ON,0.46138342751934436,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.9138219942223845
+MAR,PAYX,0.43568563752455836,Lodging,Software - Application,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,0.913587337789837
+CPRT,NVDA,0.4676317771709648,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.9095526163596729
+MU,SNPS,0.4751983362477032,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.9090198263602323
+DDOG,NVDA,0.4871095538354785,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.9052042510057999
+MSTR,TSLA,0.42191653184508054,Software - Application,Auto Manufacturers,False,Auto Manufacturers | Software - Application,11,0.3583130456959701,0.07062838427321647,0.9005371820919597
+ADI,GOOGL,0.4834631365033292,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.8991113625853351
+ADSK,MRVL,0.48629119060935005,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.8962587623202675
+CSX,NXPI,0.40579805375906197,Railroads,Semiconductors,False,Railroads | Semiconductors,14,0.33851631250218034,0.07522101065049323,0.8944540983303109
+GOOGL,MRVL,0.48305597066760536,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.8915374226972423
+SBUX,TXN,0.41622437701436443,Restaurants,Semiconductors,False,Restaurants | Semiconductors,14,0.35785781540115974,0.0655500276735269,0.8904124633463225
+AMD,MELI,0.4581551726083484,Semiconductors,Internet Retail,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.879273066818783
+QCOM,TTD,0.4137748491611563,Semiconductors,Advertising Agencies,False,Advertising Agencies | Semiconductors,28,0.3613711580454765,0.059894583704677234,0.8749320535236906
+INTU,TSLA,0.4199903466119272,Software - Application,Auto Manufacturers,False,Auto Manufacturers | Software - Application,11,0.3583130456959701,0.07062838427321647,0.8732650697114447
+MELI,WDAY,0.48748052623576826,Internet Retail,Software - Application,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.8686819635240873
+CPRT,ZS,0.4634090028040118,Specialty Business Services,Software - Infrastructure,False,Software - Infrastructure | Specialty Business Services,16,0.39800426011154905,0.07544864590604623,0.8668776212883819
+CSCO,MCHP,0.4461815746058136,Communication Equipment,Semiconductors,False,Communication Equipment | Semiconductors,14,0.40080305618444917,0.05237820206088142,0.8663626591958814
+MSFT,PYPL,0.4332008573142159,Software - Infrastructure,Credit Services,False,Credit Services | Software - Infrastructure,8,0.4127034367081592,0.023805996395441172,0.8610192266508948
+AMD,INTU,0.4830110292346293,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.8604034776160643
+ADSK,AMD,0.48288972464534646,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.8590775030410992
+BKNG,KLAC,0.45203923120955997,Travel Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,0.854601720942754
+CDNS,TTD,0.4446108080975456,Software - Application,Advertising Agencies,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,0.852742392538449
+DASH,NFLX,0.41344865558938465,Internet Retail,Entertainment,False,Entertainment | Internet Retail,8,0.31353561217824144,0.11723688744645135,0.8522321394516644
+ADSK,CSGP,0.46325816732131353,Software - Application,Real Estate Services,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,0.8521496380141032
+CSGP,NXPI,0.40697769965858077,Real Estate Services,Semiconductors,False,Real Estate Services | Semiconductors,14,0.34580113463459916,0.07181003869699995,0.8519221843357316
+NVDA,PLTR,0.47082148796108086,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.8502210743837061
+ADSK,CTSH,0.47719272277435043,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.8465617996595182
+CSGP,MCHP,0.4061084659963562,Real Estate Services,Semiconductors,False,Real Estate Services | Semiconductors,14,0.34580113463459916,0.07181003869699995,0.8398175583252614
+CTSH,INTU,0.4765291935954241,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.8364598844714427
+ADP,COST,0.4539761416004483,Software - Application,Discount Stores,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,0.8342976477918751
+TTD,WDAY,0.4422685004872663,Advertising Agencies,Software - Application,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,0.8245628943116221
+DDOG,MELI,0.4817926540417703,Software - Application,Internet Retail,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.8220870435815049
+APP,PLTR,0.4572773088378566,Advertising Agencies,Software - Infrastructure,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,0.8196442418692305
+CPRT,TXN,0.4606072134733039,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.812323696675744
+AMZN,TXN,0.451672706675103,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.8098974285563999
+ADBE,META,0.470808948646699,Software - Application,Internet Content & Information,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,0.8045010571757647
+CTAS,MNST,0.40073645105633277,Specialty Business Services,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Specialty Business Services,8,0.35017778526254334,0.06305286122108515,0.8018457023942696
+ABNB,TEAM,0.4329898497801835,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,0.7998195324153841
+DASH,PLTR,0.49559001180898943,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.7991392135156393
+ADBE,ADI,0.4769984016127409,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.7946797370511605
+AMD,CPRT,0.45911218539731646,Semiconductors,Specialty Business Services,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.7916306015624055
+CDNS,GFS,0.47659591536493157,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.7902801794208724
+MAR,ON,0.46955037016293527,Lodging,Semiconductors,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,0.7869945797328997
+ABNB,MSFT,0.4157581261685305,Travel Services,Software - Infrastructure,False,Software - Infrastructure | Travel Services,16,0.37427499779575063,0.052752149396704966,0.7863779741147569
+GFS,ODFL,0.4573556545658481,Semiconductors,Trucking,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,0.7818162040617237
+MELI,ZS,0.49254652333441346,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.7708825676709585
+PYPL,WDAY,0.4802363391513967,Credit Services,Software - Application,False,Credit Services | Software - Application,11,0.433126292617087,0.06120002417529798,0.7697716981184557
+ADSK,DASH,0.47500891832314684,Software - Application,Internet Retail,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.7665148345128056
+CRWD,MRVL,0.4644748724343196,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.7649603918535408
+MSFT,ON,0.4643391330369001,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.7631368634514466
+CSCO,ROP,0.4383015935691832,Communication Equipment,Software - Application,False,Communication Equipment | Software - Application,11,0.372808818389834,0.08642279037746373,0.7578183358035568
+CRWD,TTD,0.4540357305263249,Software - Infrastructure,Advertising Agencies,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,0.7509928034782737
+CRWD,DASH,0.49034314185782363,Software - Infrastructure,Internet Retail,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.7504257233080428
+ADBE,NXPI,0.4725774540199411,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.7463545735931
+DASH,TTD,0.4671397669748059,Internet Retail,Advertising Agencies,False,Advertising Agencies | Internet Retail,8,0.39591265021076794,0.0956345314116264,0.7447845010863808
+DASH,INTU,0.4723408519297205,Internet Retail,Software - Application,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.7446580951623009
+COST,INTU,0.4472276370442909,Discount Stores,Software - Application,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,0.7434618034947993
+CDNS,MELI,0.4720620956288153,Software - Application,Internet Retail,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.7423745298708948
+AMZN,MU,0.4452234757163164,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.740877472466427
+ADSK,META,0.4660200648420866,Software - Application,Internet Content & Information,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,0.7381034773184
+CPRT,DASH,0.4390830479833831,Specialty Business Services,Internet Retail,False,Internet Retail | Specialty Business Services,8,0.34806403745725484,0.12331494534841382,0.7381020221755223
+AMD,DASH,0.4449396204038261,Semiconductors,Internet Retail,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.73783964030796
+ISRG,QCOM,0.46739030000847903,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,0.7370723347793675
+ISRG,MCHP,0.46713547932317523,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,0.7325544726211961
+INTU,ON,0.47116811033515077,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.7309491062116269
+CDNS,META,0.4653977828554265,Software - Application,Internet Content & Information,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,0.7294755757887643
+ODFL,PAYX,0.4468606337424189,Trucking,Software - Application,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,0.729296565147175
+IDXX,MCHP,0.42108832302856064,Diagnostics & Research,Semiconductors,False,Diagnostics & Research | Semiconductors,14,0.37689243640434894,0.061172176317773275,0.7224834767137556
+BKNG,LRCX,0.4495529152469659,Travel Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,0.7195949597883396
+COST,PAYX,0.44511560453687415,Discount Stores,Software - Application,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,0.715033541440945
+ADSK,AVGO,0.4696005742989079,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.7138144459181616
+ADBE,AMD,0.46905752711619514,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.7078784235340072
+ARM,CDNS,0.4688080854108296,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.705151788365411
+MELI,TTD,0.4632437174391072,Internet Retail,Advertising Agencies,False,Advertising Agencies | Internet Retail,8,0.39591265021076794,0.0956345314116264,0.7040455600554524
+IDXX,ZS,0.4262101441139516,Diagnostics & Research,Software - Infrastructure,False,Diagnostics & Research | Software - Infrastructure,8,0.3909561270372995,0.05009515439057522,0.7037410604983524
+CSGP,ROP,0.4549498762109072,Real Estate Services,Software - Application,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,0.6949596882589937
+TSLA,ZS,0.42690689605803456,Auto Manufacturers,Software - Infrastructure,False,Auto Manufacturers | Software - Infrastructure,8,0.3956258516459177,0.04503852110241606,0.6945397772050474
+GFS,MSFT,0.45772355864960107,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.6742629770135774
+BKNG,MSFT,0.4095166393655294,Travel Services,Software - Infrastructure,False,Software - Infrastructure | Travel Services,16,0.37427499779575063,0.052752149396704966,0.6680607704674884
+MAR,TXN,0.4624072135622284,Lodging,Semiconductors,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,0.6645351379721698
+NXPI,WDAY,0.46495470579152876,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.6630306828648724
+MCHP,TSLA,0.469182059316515,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.6616299639218524
+AMD,META,0.4706194370567651,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.6601978806227208
+ADSK,APP,0.428528540773645,Software - Application,Advertising Agencies,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,0.6592621589652117
+ABNB,ON,0.4428159898156024,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.6503287745965486
+ISRG,NXPI,0.46224121529641465,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,0.6457812571256051
+AMD,ZS,0.4553846580426416,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.6428420942960534
+PYPL,TXN,0.4477374832185104,Credit Services,Semiconductors,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.6378830766996144
+ABNB,AMZN,0.47215125330895,Travel Services,Internet Retail,False,Internet Retail | Travel Services,8,0.4128031386507148,0.09317211215324164,0.6369729448724364
+CDNS,ODFL,0.4404881395479329,Software - Application,Trucking,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,0.6362098802642295
+NVDA,TSLA,0.4678169632303554,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.6346574094343221
+DASH,NXPI,0.4352212730757282,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.6338334556730993
+ADSK,CSX,0.41639521279066616,Software - Application,Railroads,False,Railroads | Software - Application,11,0.3579330476587908,0.09432934777416131,0.6197664513894721
+ABNB,CRWD,0.4069618996902186,Travel Services,Software - Infrastructure,False,Software - Infrastructure | Travel Services,16,0.37427499779575063,0.052752149396704966,0.6196316599093817
+CDNS,CDW,0.4620448858399167,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.6159432091672974
+MSFT,TSLA,0.4233266095031275,Software - Infrastructure,Auto Manufacturers,False,Auto Manufacturers | Software - Infrastructure,8,0.3956258516459177,0.04503852110241606,0.6150459024668959
+ON,PCAR,0.4098372784279574,Semiconductors,Farm & Heavy Construction Machinery,False,Farm & Heavy Construction Machinery | Semiconductors,14,0.36429873905520477,0.07551640077602607,0.6030284667275828
+ADI,ODFL,0.4445045499281805,Semiconductors,Trucking,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,0.6011456405236277
+MELI,MSFT,0.4742405106416443,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.6009241394367671
+ADI,CTSH,0.4994546667439738,Semiconductors,Information Technology Services,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.5955572457345468
+CPRT,ON,0.4449269695474612,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.5952891244363552
+CDNS,COST,0.4360264135892143,Software - Application,Discount Stores,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,0.5926917208438592
+ADBE,PYPL,0.46908223484598155,Software - Application,Credit Services,False,Credit Services | Software - Application,11,0.433126292617087,0.06120002417529798,0.5875151638160192
+ADBE,MCHP,0.4577004884653561,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.583735185533365
+KLAC,TTD,0.41906308176168244,Semiconductor Equipment & Materials,Advertising Agencies,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4097629415161831,0.015935345881578074,0.5836170933855102
+CTAS,NXPI,0.443825136916636,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.5800383557084258
+CPRT,LRCX,0.470396077138995,Specialty Business Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,0.5737320920546257
+GFS,PCAR,0.40760119710690124,Semiconductors,Farm & Heavy Construction Machinery,False,Farm & Heavy Construction Machinery | Semiconductors,14,0.36429873905520477,0.07551640077602607,0.5734179278502313
+ADP,CTSH,0.45920758380788607,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.5727466393692557
+MELI,TEAM,0.45121107184085,Internet Retail,Software - Application,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.571563416156642
+DDOG,MRVL,0.45644599841981404,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.5700224157629055
+ADBE,ASML,0.4952376702739726,Software - Application,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,0.5659206554862168
+ADBE,TXN,0.45593149459815213,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.5643983994723476
+ODFL,QCOM,0.4417810464341322,Trucking,Semiconductors,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,0.562856565386427
+AMAT,CPRT,0.46990724438551984,Semiconductor Equipment & Materials,Specialty Business Services,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,0.5588745160512876
+ODFL,ON,0.4414901621163282,Trucking,Semiconductors,False,Semiconductors | Trucking,14,0.40174503571867354,0.07113004125300036,0.5587670933057156
+AMD,CRWD,0.4489498078192758,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.5563960633823873
+ADBE,COST,0.43332161077734865,Software - Application,Discount Stores,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,0.5562846850289768
+MDB,MRVL,0.4489070843650437,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.5558221148183823
+AMAT,BKNG,0.4465285460630437,Semiconductor Equipment & Materials,Travel Services,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,0.5553719510479116
+CRWD,MELI,0.4692532060898251,Software - Infrastructure,Internet Retail,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.5546205310552855
+ABNB,GFS,0.4383393818750308,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.5525648373749703
+DASH,MRVL,0.42733688980103246,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.549454435772345
+AVGO,INTU,0.45393232668248185,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.5425455920646729
+GFS,HON,0.4046128136663081,Semiconductors,Conglomerates,False,Conglomerates | Semiconductors,14,0.3656175353252194,0.07306553373044199,0.5337027781792786
+AMD,PLTR,0.4470713196171927,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.5311603790150062
+GFS,MAR,0.4545683483507048,Semiconductors,Lodging,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,0.5301487439029436
+APP,CRWD,0.443565870598606,Advertising Agencies,Software - Infrastructure,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,0.5292579340065858
+ADBE,TTD,0.41769319424477347,Software - Application,Advertising Agencies,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,0.528905827048167
+DASH,MDB,0.4662327635717967,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.5265778506774551
+INTU,LIN,0.44552211735196473,Software - Application,Specialty Chemicals,False,Software - Application | Specialty Chemicals,11,0.39367120707397985,0.09930185875897933,0.5221544785363476
+AAPL,SNPS,0.49056838621554466,Consumer Electronics,Software - Infrastructure,False,Consumer Electronics | Software - Infrastructure,8,0.4473723205705498,0.0834646023357534,0.5175375480881087
+ABNB,AMD,0.4366723780439116,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.5161594027116756
+AMZN,APP,0.4447559912563193,Internet Retail,Advertising Agencies,False,Advertising Agencies | Internet Retail,8,0.39591265021076794,0.0956345314116264,0.5107291302063456
+AMD,DDOG,0.4509722558055236,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.5101892010480894
+ADP,CSGP,0.4449751860239737,Software - Application,Real Estate Services,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,0.5062420532518369
+MSFT,MU,0.44499842478608975,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.5033130283494649
+ASML,MELI,0.4585688983218912,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.4994865034868957
+ADBE,MELI,0.4422946198358139,Software - Application,Internet Retail,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.49852004366579306
+CPRT,GFS,0.43742269844476345,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.4914204425175641
+ISRG,MRVL,0.4532732803865167,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,0.4867835928737094
+DASH,DDOG,0.440829029990921,Internet Retail,Software - Application,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.4865139649139694
+IDXX,QCOM,0.4066368881589471,Diagnostics & Research,Semiconductors,False,Diagnostics & Research | Semiconductors,14,0.37689243640434894,0.061172176317773275,0.48624151607887234
+AMAT,GOOGL,0.49781174752746804,Semiconductor Equipment & Materials,Internet Content & Information,False,Internet Content & Information | Semiconductor Equipment & Materials,8,0.48683200173966285,0.02264366602951499,0.48489258645192856
+ADSK,GFS,0.4479889099870213,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.47757839277570674
+NVDA,WDAY,0.447984330918384,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.4775283391987899
+PAYX,TXN,0.4479365575672952,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.4770061310178864
+MCHP,WDAY,0.44786068837602117,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.47617680857223676
+ADI,TSLA,0.45979578788268094,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.47616923317133597
+GOOGL,SNPS,0.4626512574749217,Internet Content & Information,Software - Infrastructure,False,Internet Content & Information | Software - Infrastructure,16,0.4235277552127767,0.08284701533775826,0.47223792073429255
+MDB,MELI,0.4602463102380886,Software - Infrastructure,Internet Retail,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.4709978499219516
+CPRT,FTNT,0.433451426925307,Specialty Business Services,Software - Infrastructure,False,Software - Infrastructure | Specialty Business Services,16,0.39800426011154905,0.07544864590604623,0.46981846245324527
+BKNG,CDNS,0.414469056911809,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,0.4685634980434348
+ABNB,CDNS,0.4144478432727202,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,0.46818407875997886
+AVGO,GOOGL,0.4602032714809543,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.4664404358327921
+CSCO,MRVL,0.42519342717557673,Communication Equipment,Semiconductors,False,Communication Equipment | Semiconductors,14,0.40080305618444917,0.05237820206088142,0.4656588052178193
+MRVL,WDAY,0.4467892172346952,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.46446460955646435
+ADI,WDAY,0.4467208189831023,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.4637169515896842
+APP,DDOG,0.4116537999065902,Advertising Agencies,Software - Application,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,0.4562479484257901
+ABNB,MRVL,0.43387329498914473,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.45503066781306534
+ADP,MAR,0.41445921533086727,Software - Application,Lodging,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,0.45308973363715394
+CRWD,PYPL,0.42343160797340296,Software - Infrastructure,Credit Services,False,Credit Services | Software - Infrastructure,8,0.4127034367081592,0.023805996395441172,0.4506499575585173
+ADI,DASH,0.4178062029651428,Semiconductors,Internet Retail,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.44745660205789745
+ADBE,MRVL,0.4445725645753775,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.44023448697692175
+IDXX,NVDA,0.4037627909150823,Diagnostics & Research,Semiconductors,False,Diagnostics & Research | Semiconductors,14,0.37689243640434894,0.061172176317773275,0.4392577823477949
+MRVL,PYPL,0.4331092528436563,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.4384335546861574
+CTSH,NXPI,0.4850595264788979,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.43219407633889634
+ISRG,TXN,0.4498716093265387,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,0.42647341460816157
+ABNB,MELI,0.45253088761844595,Travel Services,Internet Retail,False,Internet Retail | Travel Services,8,0.4128031386507148,0.09317211215324164,0.4263909881359169
+APP,DASH,0.43666887293901346,Advertising Agencies,Internet Retail,False,Advertising Agencies | Internet Retail,8,0.39591265021076794,0.0956345314116264,0.42616638704302523
+AMD,TSLA,0.45666744330603554,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.4143571414037022
+ADI,MELI,0.4145587552383006,Semiconductors,Internet Retail,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.41270227228687906
+MELI,NXPI,0.41419630933452833,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.40882336013080717
+CTSH,TXN,0.4828291840486728,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.40688304764936495
+MDB,PYPL,0.42232183919579946,Software - Infrastructure,Credit Services,False,Credit Services | Software - Infrastructure,8,0.4127034367081592,0.023805996395441172,0.40403276249685577
+AMZN,PLTR,0.45298688076753746,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.40359916275840624
+CTAS,MCHP,0.43107678985599823,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.4035849749989106
+ADSK,CSCO,0.40768709658798064,Software - Application,Communication Equipment,False,Communication Equipment | Software - Application,11,0.372808818389834,0.08642279037746373,0.403577320817933
+CPRT,MDB,0.4280792622720928,Specialty Business Services,Software - Infrastructure,False,Software - Infrastructure | Specialty Business Services,16,0.39800426011154905,0.07544864590604623,0.3986155324509759
+GOOGL,NXPI,0.45655415458369836,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.398560988198625
+GOOGL,MCHP,0.4565334841004422,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.39817648394039906
+ASML,DASH,0.4503150271614131,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.3930513179729555
+LRCX,TTD,0.4159892924636674,Semiconductor Equipment & Materials,Advertising Agencies,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4097629415161831,0.015935345881578074,0.39072581127230044
+ADSK,HON,0.41881727930232426,Software - Application,Conglomerates,False,Conglomerates | Software - Application,11,0.3765213612318112,0.1082609755053263,0.390684804686913
+GFS,INTU,0.4396164041579202,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.3860589381221758
+CSGP,WDAY,0.4384975210861238,Real Estate Services,Software - Application,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,0.3836869077254948
+CTSH,MCHP,0.48075436333950194,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.38333695634796866
+MRVL,TSLA,0.45506098266134054,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.3826155316295451
+APP,ZS,0.43656709436288915,Advertising Agencies,Software - Infrastructure,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,0.381035059412088
+INTU,MU,0.43908931786655553,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.38029738346629505
+ADP,ODFL,0.4229065424506924,Software - Application,Trucking,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,0.37938538756467294
+QCOM,TSLA,0.45473354543854133,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.3761457904715851
+PYPL,QCOM,0.428017781155657,Credit Services,Semiconductors,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.3690135654944268
+CDNS,DASH,0.42643206831684544,Software - Application,Internet Retail,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.36857438157947475
+BKNG,MELI,0.4471050234362696,Travel Services,Internet Retail,False,Internet Retail | Travel Services,8,0.4128031386507148,0.09317211215324164,0.36815613591691465
+ROP,TXN,0.43796761570807,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.3680361116411426
+CDNS,MDB,0.48888619137519373,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.3669252038664109
+ADI,ROP,0.43770139939815267,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.3651261140847566
+INTU,ODFL,0.421720841657361,Software - Application,Trucking,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,0.3620651746706693
+AVGO,CRWD,0.4340369364392438,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.3560559629013126
+MRVL,ZS,0.4339759636450325,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.3552368519864783
+AMZN,BKNG,0.4457893850497627,Internet Retail,Travel Services,False,Internet Retail | Travel Services,8,0.4128031386507148,0.09317211215324164,0.3540356189928903
+GFS,SNPS,0.43386218831188644,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.3537083896874426
+CPRT,CRWD,0.42465527131892855,Specialty Business Services,Software - Infrastructure,False,Software - Infrastructure | Specialty Business Services,16,0.39800426011154905,0.07544864590604623,0.3532337908432068
+CSCO,INTU,0.40288839610680816,Communication Equipment,Software - Application,False,Communication Equipment | Software - Application,11,0.372808818389834,0.08642279037746373,0.3480514524652279
+MSFT,TTD,0.43487363467415213,Software - Infrastructure,Advertising Agencies,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,0.3451702946845736
+ADBE,KLAC,0.474376313601607,Software - Application,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,0.34019525176090487
+DASH,TEAM,0.42291924131658903,Internet Retail,Software - Application,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.339797382507342
+ADP,CDW,0.4438602525773219,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.3390908433945642
+ADSK,FAST,0.43422667807403925,Software - Application,Industrial Distribution,False,Industrial Distribution | Software - Application,11,0.3975479682082996,0.10858779110138671,0.33777931656693655
+DASH,MCHP,0.40742451834638105,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.33635135228379176
+ADBE,LRCX,0.47396969178025067,Software - Application,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,0.33579549597173514
+DASH,WDAY,0.4222579266738742,Internet Retail,Software - Application,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.3343799079609428
+MELI,MRVL,0.4072115721308574,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.33407239242968023
+BKNG,ON,0.4282619413278965,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.33248519714665314
+ADSK,LIN,0.4265911212833215,Software - Application,Specialty Chemicals,False,Software - Application | Specialty Chemicals,11,0.39367120707397985,0.09930185875897933,0.33151357508063645
+APP,INTU,0.4012328522426526,Advertising Agencies,Software - Application,False,Advertising Agencies | Software - Application,22,0.37373002166292096,0.0831209836110367,0.33087710689794864
+ADI,PAYX,0.43422500868323965,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.32712585599170296
+DASH,ON,0.40654917921793643,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.3269834340629734
+CPRT,WDAY,0.49972428068858976,Specialty Business Services,Software - Application,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,0.32572172705306124
+FAST,INTU,0.4323797053643798,Industrial Distribution,Software - Application,False,Industrial Distribution | Software - Application,11,0.3975479682082996,0.10858779110138671,0.32077028920828116
+INTU,PANW,0.4836331880612563,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.3202012266992971
+FTNT,ISRG,0.4523336636466884,Software - Infrastructure,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Software - Infrastructure,8,0.43556084803742035,0.05258678815084272,0.3189549352425945
+ABNB,WDAY,0.4061012543506434,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,0.3189000839272747
+ADBE,GFS,0.43343070685128354,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.31844338123745974
+ADSK,MU,0.4332836116790764,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.316835491052926
+ADSK,COST,0.41548377760584404,Software - Application,Discount Stores,False,Discount Stores | Software - Application,11,0.3919933250054788,0.07429340926349084,0.3161848787562492
+CRWD,TSLA,0.40984856683869003,Software - Infrastructure,Auto Manufacturers,False,Auto Manufacturers | Software - Infrastructure,8,0.3956258516459177,0.04503852110241606,0.3157900136292304
+AVGO,CSCO,0.41684209713585924,Semiconductors,Communication Equipment,False,Communication Equipment | Semiconductors,14,0.40080305618444917,0.05237820206088142,0.3062159509172767
+ADP,TXN,0.43192618732927773,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.3019975514010718
+CTAS,SNPS,0.42069091488008264,Specialty Business Services,Software - Infrastructure,False,Software - Infrastructure | Specialty Business Services,16,0.39800426011154905,0.07544864590604623,0.3006900189671337
+META,MRVL,0.4511646539548194,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.298307601964986
+META,QCOM,0.4510536670988841,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.29624306780845994
+ON,PYPL,0.4224222121478132,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.2927204298649656
+ADSK,FTNT,0.48029880705016387,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.290542851686401
+QCOM,WDAY,0.4308165073688157,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.28986769363872267
+NVDA,PANW,0.42908318456786426,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.289507065483788
+MELI,ON,0.4027387658505357,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.28620422100899956
+ABNB,ADBE,0.4042731971459518,Travel Services,Software - Application,False,Software - Application | Travel Services,22,0.3882712926676135,0.05591080900153054,0.28620413054477933
+MAR,QCOM,0.4402401722190717,Lodging,Semiconductors,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,0.2845121789205134
+GOOGL,ZS,0.4469914672996065,Internet Content & Information,Software - Infrastructure,False,Internet Content & Information | Software - Infrastructure,16,0.4235277552127767,0.08284701533775826,0.28321734936582554
+PYPL,TEAM,0.45043607433634514,Credit Services,Software - Application,False,Credit Services | Software - Application,11,0.433126292617087,0.06120002417529798,0.2828394588485281
+AMD,CDW,0.47176428407663057,Semiconductors,Information Technology Services,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.28131309173416774
+CPRT,MRVL,0.42208550600252254,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.27913414028926214
+MCHP,MELI,0.40198065709720104,Semiconductors,Internet Retail,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.2780909074680582
+DDOG,GOOGL,0.4326780101664187,Software - Application,Internet Content & Information,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,0.27581793683315553
+MSFT,TEAM,0.4781451805386499,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.2713869536340457
+QCOM,ZS,0.42746617258225633,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.26778406288956197
+ADI,ADP,0.4285398527621984,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.2649816926869103
+BKNG,TXN,0.4249961568763354,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.2611642437953393
+MELI,QCOM,0.40022709057438516,Internet Retail,Semiconductors,False,Internet Retail | Semiconductors,56,0.3759958174739747,0.09344009072360981,0.25932416067622527
+ABNB,QCOM,0.42487462660557046,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.25851016331312743
+CDW,ROP,0.4382643116525105,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.25389531256440695
+AAPL,WDAY,0.4768336815719119,Consumer Electronics,Software - Application,False,Consumer Electronics | Software - Application,11,0.46224960201944076,0.057682040700213454,0.25283570718775183
+GOOGL,WDAY,0.43092935607734595,Internet Content & Information,Software - Application,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,0.25157295527601503
+ADI,META,0.4485340732907516,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.24937456762774202
+MSFT,ROP,0.4752680999715059,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.2457961365921994
+ADBE,ON,0.426764164184391,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.24557172706937833
+CDNS,MAR,0.4048142810218342,Software - Application,Lodging,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,0.24384725739733637
+SNPS,TTD,0.4299425452765779,Software - Infrastructure,Advertising Agencies,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,0.24073771664887347
+NXPI,ZS,0.4247822156183902,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.23172767950602413
+AMZN,PANW,0.4339220318393742,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.2265954748044031
+SNPS,WDAY,0.4726781536148997,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.2227592970552732
+GFS,PYPL,0.4170699795693125,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.21974508000160498
+ADBE,ODFL,0.41175113443368444,Software - Application,Trucking,False,Software - Application | Trucking,11,0.3969347164825766,0.0684576338979014,0.21643193180186782
+DDOG,PANW,0.47153235761420015,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.2125677660442777
+MRVL,PLTR,0.4232868814144173,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.2116393010145523
+MCHP,META,0.4464479770793156,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.2105698204708373
+ADP,CPRT,0.4892696893688337,Software - Application,Specialty Business Services,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,0.20957356907021935
+DDOG,SNPS,0.4706581765448344,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.20479217294373703
+ADBE,DASH,0.40634275078752274,Software - Application,Internet Retail,False,Internet Retail | Software - Application,44,0.3814399537475055,0.1220706506418933,0.20400314825118887
+MAR,ROP,0.4029023709436327,Lodging,Software - Application,False,Lodging | Software - Application,11,0.39357425547205227,0.04609453339664549,0.20236923522604228
+KLAC,MELI,0.4346973601200648,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.19165863125399224
+ADBE,FTNT,0.4689042490216861,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.18919148422402499
+AMD,MDB,0.4211685804223851,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.18318196219775498
+ADBE,MDB,0.4680827963179902,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.1818848950068594
+CDW,MRVL,0.4629952640993656,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.18179791719604554
+ADI,ZS,0.42103972768272246,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.18145094942674456
+ADI,FTNT,0.4209117717794487,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.17973198479104513
+ADBE,AVGO,0.42061729330466946,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.17838057997188095
+FTNT,NVDA,0.42066562921291173,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.1764252958740658
+AMAT,MELI,0.433299772908369,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.17363648731006653
+BKNG,NVDA,0.4209343170614681,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.17245836248153135
+GOOGL,TXN,0.4442249610854889,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.169218144985641
+ADBE,ISRG,0.4574265662118058,Software - Application,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,0.16764041104581057
+CDNS,INTC,0.41911234154069393,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.16193002531951148
+DASH,MSFT,0.42683639163105763,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.1608102984773836
+META,SNPS,0.43671949919768704,Internet Content & Information,Software - Infrastructure,False,Internet Content & Information | Software - Infrastructure,16,0.4235277552127767,0.08284701533775826,0.15923016575949114
+ADSK,CTAS,0.48432556141701116,Software - Application,Specialty Business Services,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,0.15464541962161263
+SNPS,TEAM,0.4649280308344824,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.15382414925634316
+ASML,ZS,0.46432684073956193,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,0.14414774837491612
+CDNS,LIN,0.40786130871776666,Software - Application,Specialty Chemicals,False,Software - Application | Specialty Chemicals,11,0.39367120707397985,0.09930185875897933,0.14289865085233036
+CTSH,WDAY,0.43094060180354476,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.14239532415991632
+ISRG,ZS,0.4430315877186673,Medical Instruments & Supplies,Software - Infrastructure,False,Medical Instruments & Supplies | Software - Infrastructure,8,0.43556084803742035,0.05258678815084272,0.14206495479087802
+NVDA,PYPL,0.41130864890870317,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.1411918567494404
+GFS,ZS,0.41784880950131087,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.13858402911340678
+DASH,META,0.4520912655314933,Internet Retail,Internet Content & Information,False,Internet Content & Information | Internet Retail,8,0.4339053097469012,0.1316243843830033,0.13816555245321585
+MELI,PLTR,0.42411440188307653,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.1355385417600299
+GFS,WDAY,0.4165915043974114,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.13437487691678374
+BKNG,QCOM,0.4191668557931412,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,0.13385905363604467
+ADBE,AMAT,0.45505381259277555,Software - Application,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,0.1311206738366957
+ON,WDAY,0.4159666432519531,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.1275445500786998
+TSLA,TXN,0.44201462812144693,Auto Manufacturers,Semiconductors,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,0.12483623516926372
+TXN,WDAY,0.41561930673953623,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.12374783152794502
+CPRT,PAYX,0.4812936150610724,Specialty Business Services,Software - Application,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,0.12096117759106938
+AMD,PYPL,0.4098235483873699,Semiconductors,Credit Services,False,Credit Services | Semiconductors,14,0.40095321166957626,0.07334302046543453,0.12094316080115754
+MELI,SNPS,0.42204276583652656,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.11630486087855627
+CTSH,QCOM,0.4568900692016507,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.11251314678720392
+MSTR,NVDA,0.41442998142095183,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.11074737422349577
+CSGP,PAYX,0.42399776284980434,Real Estate Services,Software - Application,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,0.10935657452694834
+META,NXPI,0.44100422413495505,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.10930725384877717
+DDOG,NXPI,0.4139782764609914,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.10580980924071773
+ADBE,CRWD,0.4594779039300228,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.1053468135641696
+AMD,ISRG,0.43155374736324004,Semiconductors,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,0.10170552818666284
+PANW,WDAY,0.4589128700194745,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.10032099691085496
+IDXX,ROP,0.4289067301245585,Diagnostics & Research,Software - Application,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,0.09794183205248287
+ASML,CRWD,0.46067642513809975,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,0.09568313314187554
+MRVL,TEAM,0.4129206476418379,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.09424891997643657
+MCHP,ZS,0.4145099485042067,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.09372963919706617
+CSGP,TEAM,0.42314318244026333,Real Estate Services,Software - Application,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,0.09318821332578647
+DDOG,PLTR,0.4577139957498303,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.089657349725925
+DASH,LRCX,0.42626817632174746,Internet Retail,Semiconductor Equipment & Materials,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.08296275705609159
+ADBE,CTSH,0.42701139562509277,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,0.08257503466577153
+LRCX,MELI,0.42574338366383024,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.07619545928565519
+AAPL,ZS,0.4536537358708807,Consumer Electronics,Software - Infrastructure,False,Consumer Electronics | Software - Infrastructure,8,0.4473723205705498,0.0834646023357534,0.07525843440866835
+CRWD,QCOM,0.41291386337641417,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.07228776883355895
+META,WDAY,0.41782006572098507,Internet Content & Information,Software - Application,False,Internet Content & Information | Software - Application,22,0.4127848144571869,0.07212437282955013,0.06981344954912623
+CDNS,FTNT,0.4551521525803181,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.06687048008119735
+CDNS,PANW,0.4549719393538035,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.06526753445606509
+DDOG,PYPL,0.437105771679543,Software - Application,Credit Services,False,Credit Services | Software - Application,11,0.433126292617087,0.06120002417529798,0.06502414200127425
+ADP,NXPI,0.40984705425948087,Software - Application,Semiconductors,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.060651619965931006
+NVDA,TEAM,0.4097787265102394,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.05990473265693107
+NXPI,PAYX,0.4097652901527686,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.05975786048587994
+GOOGL,MELI,0.44023656828574237,Internet Content & Information,Internet Retail,False,Internet Content & Information | Internet Retail,8,0.4339053097469012,0.1316243843830033,0.04810095461049466
+FTNT,NXPI,0.41060614420870306,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,0.041285778796925666
+FTNT,WDAY,0.452182223195478,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.040453799094717004
+CDW,MU,0.4503645865329036,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.038458742941678885
+DASH,KLAC,0.4222325189548254,Internet Retail,Semiconductor Equipment & Materials,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,0.03092221363498858
+ADI,DDOG,0.4064649794322485,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.023682324261185994
+AMD,WDAY,0.40592673410601426,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,0.017798790737022466
+GOOGL,ON,0.43594880294820515,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,0.015268282947982869
+AVGO,CDW,0.44807890083859486,Semiconductors,Information Technology Services,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,0.012519651526885568
+MELI,META,0.43540243848097226,Internet Retail,Internet Content & Information,False,Internet Content & Information | Internet Retail,8,0.4339053097469012,0.1316243843830033,0.011374250607810365
+AMZN,FTNT,0.41035757008785884,Internet Retail,Software - Infrastructure,False,Internet Retail | Software - Infrastructure,32,0.40951571271186554,0.1077087666846665,0.007816052508130156
+CTAS,QCOM,0.40242969189485445,Specialty Business Services,Semiconductors,False,Semiconductors | Specialty Business Services,28,0.40191871247002336,0.07224767816505948,0.007072606868606641
+CDNS,PLTR,0.4479135993855239,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,0.002485598903006317
+MDB,NXPI,0.4073285177588726,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,-0.002745983803648603
+ASML,WDAY,0.4424197965798996,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.005582725178393113
+ADSK,PANW,0.4465085759633685,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.010011686625420424
+INTC,SNPS,0.4066613019599066,Semiconductors,Software - Infrastructure,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,-0.011709387081329311
+ADBE,IDXX,0.4226855068940713,Software - Application,Diagnostics & Research,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,-0.01197319063807344
+AAPL,GFS,0.49199478110049893,Consumer Electronics,Semiconductors,False,Consumer Electronics | Semiconductors,14,0.49323888240782093,0.07163600783132555,-0.01736698268071226
+ASML,DDOG,0.44117997999002034,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.018997869010651886
+DDOG,KLAC,0.4409404700613455,Software - Application,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.021589429866229557
+AMD,MSTR,0.4011221507147653,Semiconductors,Software - Application,False,Semiconductors | Software - Application,154,0.4042984411953886,0.09148334483413655,-0.034719877004738386
+CTSH,GFS,0.44370760014572214,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,-0.03708803012256619
+CRWD,KLAC,0.45047724623294016,Software - Infrastructure,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.0397259093609868
+GOOGL,MU,0.43267757072704327,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,-0.0455819014959669
+ROP,SNPS,0.44238186686131553,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.04671759567140543
+FTNT,MCHP,0.4039578239152034,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,-0.04802801743238446
+IDXX,WDAY,0.42036360134125705,Diagnostics & Research,Software - Application,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,-0.052996039693261825
+PLTR,TTD,0.4157402271451557,Software - Infrastructure,Advertising Agencies,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,-0.06004464135850919
+GFS,TSLA,0.43232932508262123,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,-0.06653297802502017
+AMAT,DASH,0.4139368971558898,Semiconductor Equipment & Materials,Internet Retail,False,Internet Retail | Semiconductor Equipment & Materials,16,0.41983455284890314,0.07754833254269153,-0.07605135403480877
+CRWD,NXPI,0.40166116949765,Software - Infrastructure,Semiconductors,False,Semiconductors | Software - Infrastructure,112,0.40753292268418273,0.07443777528423849,-0.07888136318034215
+CDNS,CTSH,0.41615155097205275,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,-0.08276091908716576
+ADSK,PLTR,0.4379456497731722,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.08617649062104597
+CDW,WDAY,0.4156405027349591,Information Technology Services,Software - Application,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,-0.09054138468249828
+AAPL,ROP,0.4567206810975536,Consumer Electronics,Software - Application,False,Consumer Electronics | Software - Application,11,0.46224960201944076,0.057682040700213454,-0.09585168719363132
+ADBE,PANW,0.43600277818662886,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.10345778328793391
+AVGO,TSLA,0.430259923673994,Semiconductors,Auto Manufacturers,False,Auto Manufacturers | Semiconductors,14,0.4356965963562594,0.05061055995978247,-0.10742170579787345
+AMAT,WDAY,0.43133054579342345,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.12557135535719532
+CRWD,GOOGL,0.41258230114707417,Software - Infrastructure,Internet Content & Information,False,Internet Content & Information | Software - Infrastructure,16,0.4235277552127767,0.08284701533775826,-0.1321164561098441
+KLAC,ZS,0.4430969920953819,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.13770959564469326
+ADP,MSFT,0.4317280629277598,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.1414801651930392
+DDOG,LRCX,0.4295105919861767,Software - Application,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.14526373751402694
+BKNG,MRVL,0.40635028144388924,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,-0.1460400991845561
+KLAC,WDAY,0.42926623666271196,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.14790772682439476
+DDOG,FTNT,0.4302624420790689,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.15451644767323247
+LRCX,WDAY,0.42834535771587395,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.1578718808974855
+FTNT,TEAM,0.42978811968343356,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.1587354110850229
+PANW,TEAM,0.42885408402093456,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.16704339384453906
+DDOG,ISRG,0.4376302488995732,Software - Application,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,-0.17408209677354605
+APP,MDB,0.410026812673205,Advertising Agencies,Software - Infrastructure,False,Advertising Agencies | Software - Infrastructure,16,0.4185754103796716,0.047217922705006535,-0.18104561185111576
+CDNS,CTAS,0.45273937893684946,Software - Application,Specialty Business Services,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,-0.19626996296708663
+ADP,IDXX,0.41159038722897184,Software - Application,Diagnostics & Research,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,-0.2079990017305882
+AAPL,ADP,0.44991773342018965,Consumer Electronics,Software - Application,False,Consumer Electronics | Software - Application,11,0.46224960201944076,0.057682040700213454,-0.21379043545533719
+MAR,MRVL,0.4102338493454405,Lodging,Semiconductors,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,-0.2299043114072328
+INTU,PLTR,0.42163501487371674,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.23125496993615852
+ADBE,CDW,0.40635706270124927,Software - Application,Information Technology Services,False,Information Technology Services | Software - Application,22,0.42158757806856967,0.06568350323407553,-0.23187733018812332
+ISRG,ON,0.41267097807228525,Medical Instruments & Supplies,Semiconductors,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,-0.2330779244179681
+CRWD,ISRG,0.4232376303365817,Software - Infrastructure,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Software - Infrastructure,8,0.43556084803742035,0.05258678815084272,-0.23434056602753706
+CSGP,DDOG,0.4058119892831258,Real Estate Services,Software - Application,False,Real Estate Services | Software - Application,11,0.41821770975212086,0.05285510379862093,-0.23471187411268993
+ADBE,CTAS,0.44912158970060395,Software - Application,Specialty Business Services,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,-0.23646278762260575
+ABNB,TXN,0.402164616642837,Travel Services,Semiconductors,False,Semiconductors | Travel Services,28,0.41303745348535187,0.045789971924161815,-0.23745017490997108
+PLTR,TEAM,0.42025035484427875,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.24357112885195825
+LRCX,ZS,0.43509974427373477,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.24388477702517852
+AVGO,META,0.4219968210123879,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,-0.24426103712321456
+AVGO,ISRG,0.411970595867665,Semiconductors,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Semiconductors,14,0.4258172570754973,0.05640293492419041,-0.24549540243682702
+MSTR,PLTR,0.41985282502094584,Software - Application,Software - Infrastructure,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.24710704407580214
+CDW,NVDA,0.42499574142408114,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,-0.24943945496189848
+MSFT,PAYX,0.419523375459917,Software - Infrastructure,Software - Application,False,Software - Application | Software - Infrastructure,88,0.4476341527273785,0.1124262880094608,-0.25003740464237256
+CRWD,LRCX,0.4342941672195587,Software - Infrastructure,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.2545799926481806
+APP,LRCX,0.4054853015607829,Advertising Agencies,Semiconductor Equipment & Materials,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4097629415161831,0.015935345881578074,-0.268437220452512
+AMAT,DDOG,0.4180549523427452,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.26921679215263683
+FTNT,PYPL,0.40618171086037846,Software - Infrastructure,Credit Services,False,Credit Services | Software - Infrastructure,8,0.4127034367081592,0.023805996395441172,-0.27395307213562453
+ASML,MDB,0.43244974939278485,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.2790673415045002
+META,ZS,0.40037684574676247,Internet Content & Information,Software - Infrastructure,False,Internet Content & Information | Software - Infrastructure,16,0.4235277552127767,0.08284701533775826,-0.2794416838268764
+AAPL,MRVL,0.47309806868496224,Consumer Electronics,Semiconductors,False,Consumer Electronics | Semiconductors,14,0.49323888240782093,0.07163600783132555,-0.28115488750130163
+ASML,FTNT,0.43224121973111246,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.2818358782742808
+CTSH,ON,0.4217346976790139,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,-0.28644739180184126
+ISRG,WDAY,0.43095855773778363,Medical Instruments & Supplies,Software - Application,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,-0.28924831679539753
+ISRG,TEAM,0.43085963921503173,Medical Instruments & Supplies,Software - Application,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,-0.2909558407318662
+AAPL,FTNT,0.423074314542207,Consumer Electronics,Software - Infrastructure,False,Consumer Electronics | Software - Infrastructure,8,0.4473723205705498,0.0834646023357534,-0.2911174959008266
+AMAT,CRWD,0.42950409735326234,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.3181751879230552
+META,ON,0.41763097819571,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,-0.3254727404469808
+CTAS,KLAC,0.4407795209025544,Specialty Business Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,-0.32643311191714686
+META,TXN,0.4172028593423193,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,-0.33343644018808377
+AMAT,ZS,0.42788786009052315,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.33963310549073766
+PYPL,SNPS,0.4044268958314359,Credit Services,Software - Infrastructure,False,Credit Services | Software - Infrastructure,8,0.4127034367081592,0.023805996395441172,-0.34766622405724024
+APP,ASML,0.40410511086635237,Advertising Agencies,Semiconductor Equipment & Materials,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4097629415161831,0.015935345881578074,-0.35504912738489147
+ASML,META,0.4786439421023219,Semiconductor Equipment & Materials,Internet Content & Information,False,Internet Content & Information | Semiconductor Equipment & Materials,8,0.48683200173966285,0.02264366602951499,-0.361604857917802
+CPRT,DDOG,0.4375486323492012,Specialty Business Services,Software - Application,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,-0.36503574065993016
+GFS,GOOGL,0.41538101667465077,Semiconductors,Internet Content & Information,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,-0.36732564610820445
+IDXX,PAYX,0.40229093458400583,Diagnostics & Research,Software - Application,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,-0.3722994151078379
+IDXX,TEAM,0.4021692975422875,Diagnostics & Research,Software - Application,False,Diagnostics & Research | Software - Application,11,0.42336319307306014,0.05660029974248187,-0.3744484680681893
+AAPL,PAYX,0.44000474800273015,Consumer Electronics,Software - Application,False,Consumer Electronics | Software - Application,11,0.46224960201944076,0.057682040700213454,-0.3856460996642287
+AAPL,AVGO,0.46521641573400224,Consumer Electronics,Semiconductors,False,Consumer Electronics | Semiconductors,14,0.49323888240782093,0.07163600783132555,-0.39117850815752475
+KLAC,MDB,0.42330073933381474,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.40053385400066616
+MAR,MU,0.40019977501474857,Lodging,Semiconductors,False,Lodging | Semiconductors,14,0.42364435061792116,0.0583307950616309,-0.40192449937295766
+CPRT,TEAM,0.4329881264959245,Specialty Business Services,Software - Application,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,-0.4157019348828545
+ADP,ISRG,0.4228136696129518,Software - Application,Medical Instruments & Supplies,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,-0.42984474955745333
+META,MU,0.4118311277386325,Internet Content & Information,Semiconductors,False,Internet Content & Information | Semiconductors,28,0.43512799854805967,0.05375878891829937,-0.43335929395345735
+ASML,TEAM,0.4004069551389488,Semiconductor Equipment & Materials,Software - Application,False,Semiconductor Equipment & Materials | Software - Application,44,0.4429357474619367,0.09241917980021443,-0.460172795462195
+ISRG,MDB,0.4107264424220009,Medical Instruments & Supplies,Software - Infrastructure,False,Medical Instruments & Supplies | Software - Infrastructure,8,0.43556084803742035,0.05258678815084272,-0.47225560808511674
+CTSH,MRVL,0.4049815606150342,Information Technology Services,Semiconductors,False,Information Technology Services | Semiconductors,28,0.4469757015038482,0.08811741543904694,-0.4765702747814068
+CDNS,PYPL,0.4034878956650043,Software - Application,Credit Services,False,Credit Services | Software - Application,11,0.433126292617087,0.06120002417529798,-0.48428734059300543
+AAPL,CRWD,0.4068709041136537,Consumer Electronics,Software - Infrastructure,False,Consumer Electronics | Software - Infrastructure,8,0.4473723205705498,0.0834646023357534,-0.4852526139640722
+ISRG,ROP,0.4150920445937753,Medical Instruments & Supplies,Software - Application,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,-0.563134847123388
+ISRG,PAYX,0.41345289234794835,Medical Instruments & Supplies,Software - Application,False,Medical Instruments & Supplies | Software - Application,11,0.4477149941160915,0.057930972819318735,-0.5914297671990323
+AAPL,DDOG,0.42675803155733816,Consumer Electronics,Software - Application,False,Consumer Electronics | Software - Application,11,0.46224960201944076,0.057682040700213454,-0.6152967202835331
+ABNB,ASML,0.42483365215188784,Travel Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,-0.6226590814512221
+FTNT,KLAC,0.40636714722117284,Software - Infrastructure,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.6253520982366694
+KLAC,PLTR,0.40466180861244194,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.6479929667123265
+CTAS,WDAY,0.4117712550893223,Specialty Business Services,Software - Application,False,Software - Application | Specialty Business Services,22,0.4704057998840303,0.09001082325645218,-0.6514166038416382
+LRCX,MDB,0.40334235713838534,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.6655106181225405
+ABNB,LRCX,0.4236576848631806,Travel Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,-0.6865140127071256
+ASML,PLTR,0.4012361934233813,Semiconductor Equipment & Materials,Software - Infrastructure,False,Semiconductor Equipment & Materials | Software - Infrastructure,32,0.453469451548433,0.07532125415438186,-0.6934730271218272
+KLAC,META,0.4679138183959544,Semiconductor Equipment & Materials,Internet Content & Information,False,Internet Content & Information | Semiconductor Equipment & Materials,8,0.48683200173966285,0.02264366602951499,-0.8354735191311087
+AMAT,CTSH,0.4106294346232185,Semiconductor Equipment & Materials,Information Technology Services,False,Information Technology Services | Semiconductor Equipment & Materials,8,0.4631561355967213,0.062156769616381995,-0.8450680641495069
+CTSH,LRCX,0.4059421218322181,Information Technology Services,Semiconductor Equipment & Materials,False,Information Technology Services | Semiconductor Equipment & Materials,8,0.4631561355967213,0.062156769616381995,-0.9204792031119955
+LRCX,META,0.46548266924112924,Semiconductor Equipment & Materials,Internet Content & Information,False,Internet Content & Information | Semiconductor Equipment & Materials,8,0.48683200173966285,0.02264366602951499,-0.9428390469416796
+AAPL,MU,0.4255712769129161,Consumer Electronics,Semiconductors,False,Consumer Electronics | Semiconductors,14,0.49323888240782093,0.07163600783132555,-0.9446032455386862
+CTAS,LRCX,0.4201614815570798,Specialty Business Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,-0.9530975169461545
+CTSH,KLAC,0.4026471785511498,Information Technology Services,Semiconductor Equipment & Materials,False,Information Technology Services | Semiconductor Equipment & Materials,8,0.4631561355967213,0.062156769616381995,-0.9734894110330956
+ASML,CTSH,0.4022848544473742,Semiconductor Equipment & Materials,Information Technology Services,False,Information Technology Services | Semiconductor Equipment & Materials,8,0.4631561355967213,0.062156769616381995,-0.979318608818176
+AAPL,TEAM,0.4041747555758051,Consumer Electronics,Software - Application,False,Consumer Electronics | Software - Application,11,0.46224960201944076,0.057682040700213454,-1.0068098447741072
+ABNB,AMAT,0.41629469428387766,Travel Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,-1.0863238218695215
+AMAT,CTAS,0.41566009350084093,Semiconductor Equipment & Materials,Specialty Business Services,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,-1.0899126437776365
+ASML,CTAS,0.4138250118903501,Semiconductor Equipment & Materials,Specialty Business Services,False,Semiconductor Equipment & Materials | Specialty Business Services,8,0.45151957680992943,0.032901245355590664,-1.145688089073327
+ABNB,KLAC,0.41484749600327997,Travel Services,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Travel Services,8,0.43630068684132584,0.01841623294518077,-1.1649065746455938
+AMAT,META,0.4557315928398038,Semiconductor Equipment & Materials,Internet Content & Information,False,Internet Content & Information | Semiconductor Equipment & Materials,8,0.48683200173966285,0.02264366602951499,-1.3734705705039578
+ARM,ASML,0.4969988037674389,Semiconductors,Semiconductor Equipment & Materials,False,Semiconductor Equipment & Materials | Semiconductors,56,0.6605879027305034,0.07181291930146849,-2.2779898179089804
+ASML,INTC,0.48475425642360775,Semiconductor Equipment & Materials,Semiconductors,False,Semiconductor Equipment & Materials | Semiconductors,56,0.6605879027305034,0.07181291930146849,-2.448496009036358

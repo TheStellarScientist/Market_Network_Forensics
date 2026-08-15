@@ -1,0 +1,959 @@
+Stock_A,Stock_B,Correlation,Industry_A,Industry_B,Same_Industry
+ISRG,NVDA,0.4994258696185195,Medical Instruments & Supplies,Semiconductors,False
+CTAS,TXN,0.4993180831156178,Specialty Business Services,Semiconductors,False
+CSCO,MCHP,0.49910489395145063,Communication Equipment,Semiconductors,False
+CTAS,ROST,0.49902350512691274,Specialty Business Services,Apparel Retail,False
+ISRG,PYPL,0.49875611788534213,Medical Instruments & Supplies,Credit Services,False
+ISRG,MCHP,0.49867416401566417,Medical Instruments & Supplies,Semiconductors,False
+CDW,SBUX,0.4985039614236306,Information Technology Services,Restaurants,False
+FAST,LIN,0.49823365207058823,Industrial Distribution,Specialty Chemicals,False
+PCAR,TXN,0.4980371930208099,Farm & Heavy Construction Machinery,Semiconductors,False
+CDW,LIN,0.4975559979997112,Information Technology Services,Specialty Chemicals,False
+PAYX,SBUX,0.4973323521656484,Software - Application,Restaurants,False
+AAPL,ROP,0.49715529296855493,Consumer Electronics,Software - Application,False
+DASH,ZS,0.4970333467328088,Internet Retail,Software - Infrastructure,False
+CTAS,KLAC,0.49700172319907454,Specialty Business Services,Semiconductor Equipment & Materials,False
+ARM,ASML,0.4969987843759244,Semiconductors,Semiconductor Equipment & Materials,False
+INTU,ZS,0.49680070576225344,Software - Application,Software - Infrastructure,False
+ADI,ADP,0.49664764334329453,Semiconductors,Software - Application,False
+ADBE,CPRT,0.4965815727630107,Software - Application,Specialty Business Services,False
+AVGO,GOOGL,0.4963492746629406,Semiconductors,Internet Content & Information,False
+LIN,VRSK,0.49627745846245636,Specialty Chemicals,Consulting Services,False
+ADSK,AVGO,0.49627485483226985,Software - Application,Semiconductors,False
+CPRT,KLAC,0.4962739191761838,Specialty Business Services,Semiconductor Equipment & Materials,False
+INTU,QCOM,0.495991674758595,Software - Application,Semiconductors,False
+MSFT,ON,0.4959531696112809,Software - Infrastructure,Semiconductors,False
+ADP,EXC,0.49581751696106857,Software - Application,Utilities - Regulated Electric,False
+IDXX,SNPS,0.4958144861317614,Diagnostics & Research,Software - Infrastructure,False
+ODFL,TXN,0.4957080516562135,Trucking,Semiconductors,False
+ADSK,CSGP,0.4956910729623353,Software - Application,Real Estate Services,False
+AMZN,MRVL,0.4953566115491268,Internet Retail,Semiconductors,False
+MCHP,ODFL,0.4950407868828749,Semiconductors,Trucking,False
+HON,MCHP,0.49493204643919464,Conglomerates,Semiconductors,False
+CSGP,MSFT,0.4948089410463691,Real Estate Services,Software - Infrastructure,False
+CSX,TXN,0.49474061777700823,Railroads,Semiconductors,False
+LIN,MCHP,0.4944352283510811,Specialty Chemicals,Semiconductors,False
+AMZN,MDB,0.49414909790988076,Internet Retail,Software - Infrastructure,False
+INTU,MRVL,0.4940657187478006,Software - Application,Semiconductors,False
+MCHP,PYPL,0.4939755581391244,Semiconductors,Credit Services,False
+ADBE,QCOM,0.4936859394639659,Software - Application,Semiconductors,False
+PCAR,ROP,0.493625162999966,Farm & Heavy Construction Machinery,Software - Application,False
+ADI,BKNG,0.49346527676543994,Semiconductors,Travel Services,False
+CPRT,FAST,0.4934137217846328,Specialty Business Services,Industrial Distribution,False
+DDOG,MSFT,0.4932448443873484,Software - Application,Software - Infrastructure,False
+AMZN,ZS,0.4928664950534631,Internet Retail,Software - Infrastructure,False
+ADI,MAR,0.4928018285317394,Semiconductors,Lodging,False
+ADI,CPRT,0.49244244129375164,Semiconductors,Specialty Business Services,False
+MSFT,MU,0.49228230038290294,Software - Infrastructure,Semiconductors,False
+META,NVDA,0.4922275746550833,Internet Content & Information,Semiconductors,False
+CTSH,LIN,0.49215038144477047,Information Technology Services,Specialty Chemicals,False
+AAPL,GFS,0.49199476073053083,Consumer Electronics,Semiconductors,False
+ISRG,LIN,0.4919039517694568,Medical Instruments & Supplies,Specialty Chemicals,False
+CDW,PCAR,0.4917381146697959,Information Technology Services,Farm & Heavy Construction Machinery,False
+MELI,MSFT,0.49168043094976416,Internet Retail,Software - Infrastructure,False
+CDNS,CDW,0.49167658874847686,Software - Application,Information Technology Services,False
+CSCO,CTSH,0.49156128221334,Communication Equipment,Information Technology Services,False
+INTC,MSFT,0.4910789671947502,Semiconductors,Software - Infrastructure,False
+CTAS,FAST,0.4910643581034141,Specialty Business Services,Industrial Distribution,False
+INTU,MELI,0.49083772606088805,Software - Application,Internet Retail,False
+ADP,MDLZ,0.4907715605642651,Software - Application,Confectioners,False
+CDNS,FTNT,0.49073505201800716,Software - Application,Software - Infrastructure,False
+CDNS,MDB,0.4902298790062027,Software - Application,Software - Infrastructure,False
+AAPL,CPRT,0.49016732948405706,Consumer Electronics,Specialty Business Services,False
+CPRT,ODFL,0.48979727304728954,Specialty Business Services,Trucking,False
+AAPL,ADP,0.48949299623943854,Consumer Electronics,Software - Application,False
+KLAC,PYPL,0.489197314103101,Semiconductor Equipment & Materials,Credit Services,False
+AMD,CDNS,0.48910356452497616,Semiconductors,Software - Application,False
+ASML,LIN,0.48910166612839845,Semiconductor Equipment & Materials,Specialty Chemicals,False
+CSCO,CSX,0.48893911004140567,Communication Equipment,Railroads,False
+ISRG,ROP,0.4888581878758837,Medical Instruments & Supplies,Software - Application,False
+CDNS,META,0.48876795763403147,Software - Application,Internet Content & Information,False
+DDOG,TTD,0.48849728419641414,Software - Application,Advertising Agencies,False
+HON,MSFT,0.4883506812029813,Conglomerates,Software - Infrastructure,False
+CDNS,ZS,0.4881916047361205,Software - Application,Software - Infrastructure,False
+AVGO,INTU,0.48811142361559284,Semiconductors,Software - Application,False
+ODFL,ROP,0.4878616598616775,Trucking,Software - Application,False
+CDW,MAR,0.4877888749196388,Information Technology Services,Lodging,False
+AMZN,KLAC,0.4876851692975168,Internet Retail,Semiconductor Equipment & Materials,False
+MAR,PCAR,0.4876585201220168,Lodging,Farm & Heavy Construction Machinery,False
+CRWD,DASH,0.4875837295920226,Software - Infrastructure,Internet Retail,False
+AMAT,CSCO,0.4873893724544877,Semiconductor Equipment & Materials,Communication Equipment,False
+DASH,PLTR,0.4873775354810514,Internet Retail,Software - Infrastructure,False
+GOOGL,QCOM,0.48737472453333425,Internet Content & Information,Semiconductors,False
+HON,SBUX,0.4873721249477777,Conglomerates,Restaurants,False
+CTAS,LRCX,0.4872938558717522,Specialty Business Services,Semiconductor Equipment & Materials,False
+CSCO,KLAC,0.486974352150787,Communication Equipment,Semiconductor Equipment & Materials,False
+ASML,META,0.48685470853902074,Semiconductor Equipment & Materials,Internet Content & Information,False
+ADSK,BKNG,0.4865838331442283,Software - Application,Travel Services,False
+MAR,MCHP,0.48647082039401435,Lodging,Semiconductors,False
+CRWD,NVDA,0.4864663581510781,Software - Infrastructure,Semiconductors,False
+CPRT,LIN,0.4864251695906556,Specialty Business Services,Specialty Chemicals,False
+CMCSA,PAYX,0.48632435102385735,Telecom Services,Software - Application,False
+CPRT,MCHP,0.48630690972600843,Specialty Business Services,Semiconductors,False
+AMAT,AMZN,0.4862110701602193,Semiconductor Equipment & Materials,Internet Retail,False
+PAYX,PCAR,0.4861223965452491,Software - Application,Farm & Heavy Construction Machinery,False
+AAPL,PAYX,0.486026146570023,Consumer Electronics,Software - Application,False
+ADSK,MRVL,0.48577770650415086,Software - Application,Semiconductors,False
+FTNT,WDAY,0.48569707782755145,Software - Infrastructure,Software - Application,False
+CSX,CTSH,0.48543000135971803,Railroads,Information Technology Services,False
+CDW,CSX,0.48519022597313527,Information Technology Services,Railroads,False
+WDAY,ZS,0.48486590411374225,Software - Application,Software - Infrastructure,False
+ADSK,LIN,0.4844820844852939,Software - Application,Specialty Chemicals,False
+BKR,HON,0.48413099949971306,Oil & Gas Equipment & Services,Conglomerates,False
+LRCX,PYPL,0.48387763971202297,Semiconductor Equipment & Materials,Credit Services,False
+AAPL,CTAS,0.48384350809265914,Consumer Electronics,Specialty Business Services,False
+ROP,SNPS,0.48381269841992913,Software - Application,Software - Infrastructure,False
+ADSK,CTSH,0.4838052049025989,Software - Application,Information Technology Services,False
+AMZN,LRCX,0.48355860770968195,Internet Retail,Semiconductor Equipment & Materials,False
+AMAT,PYPL,0.4835265403395829,Semiconductor Equipment & Materials,Credit Services,False
+ADSK,IDXX,0.48350853769690016,Software - Application,Diagnostics & Research,False
+MSFT,NFLX,0.48290478136803483,Software - Infrastructure,Entertainment,False
+MU,SNPS,0.48287695472725584,Semiconductors,Software - Infrastructure,False
+CSCO,GOOGL,0.48277222806482767,Communication Equipment,Internet Content & Information,False
+ADI,SBUX,0.4827472781414823,Semiconductors,Restaurants,False
+CPRT,NXPI,0.4825351041556934,Specialty Business Services,Semiconductors,False
+ADSK,CTAS,0.4824479978286288,Software - Application,Specialty Business Services,False
+AMZN,TEAM,0.4819917334021532,Internet Retail,Software - Application,False
+INTU,ON,0.48191778661064794,Software - Application,Semiconductors,False
+AMZN,ISRG,0.4818513132161132,Internet Retail,Medical Instruments & Supplies,False
+AAPL,LIN,0.4816987509876669,Consumer Electronics,Specialty Chemicals,False
+ADBE,CSCO,0.48153760791658257,Software - Application,Communication Equipment,False
+ADP,SBUX,0.4815179176379205,Software - Application,Restaurants,False
+CSCO,CTAS,0.48125472556847865,Communication Equipment,Specialty Business Services,False
+ADSK,MELI,0.4809286564171795,Software - Application,Internet Retail,False
+MELI,PYPL,0.4807995169287893,Internet Retail,Credit Services,False
+HON,NXPI,0.4807185650185007,Conglomerates,Semiconductors,False
+CDW,QCOM,0.4803925802403306,Information Technology Services,Semiconductors,False
+BKNG,INTU,0.47997461622713433,Travel Services,Software - Application,False
+ISRG,NXPI,0.479918850039615,Medical Instruments & Supplies,Semiconductors,False
+ADBE,NFLX,0.4798294973775416,Software - Application,Entertainment,False
+CSGP,PYPL,0.4795719195549254,Real Estate Services,Credit Services,False
+ADI,PAYX,0.479541061918091,Semiconductors,Software - Application,False
+CDW,ROP,0.4794341579093953,Information Technology Services,Software - Application,False
+CSGP,CTAS,0.4794138615535956,Real Estate Services,Specialty Business Services,False
+CSCO,LRCX,0.4789218909223834,Communication Equipment,Semiconductor Equipment & Materials,False
+CPRT,LRCX,0.478687011462685,Specialty Business Services,Semiconductor Equipment & Materials,False
+ADSK,CSCO,0.47854860533802507,Software - Application,Communication Equipment,False
+AMZN,TXN,0.4784905901892616,Internet Retail,Semiconductors,False
+MCHP,PCAR,0.4783614941018525,Semiconductors,Farm & Heavy Construction Machinery,False
+CSCO,FAST,0.4783310701443742,Communication Equipment,Industrial Distribution,False
+CTAS,MCHP,0.47814542789686665,Specialty Business Services,Semiconductors,False
+CTAS,PCAR,0.4778103906811198,Specialty Business Services,Farm & Heavy Construction Machinery,False
+HON,ON,0.4777791114099481,Conglomerates,Semiconductors,False
+MDLZ,MNST,0.4777048266542914,Confectioners,Beverages - Non-Alcoholic,False
+ODFL,PAYX,0.4776950006799912,Trucking,Software - Application,False
+ADBE,ZS,0.47768012060063736,Software - Application,Software - Infrastructure,False
+BKNG,LIN,0.4774900812734411,Travel Services,Specialty Chemicals,False
+META,SNPS,0.4774861978797648,Internet Content & Information,Software - Infrastructure,False
+AAPL,IDXX,0.4774168796638297,Consumer Electronics,Diagnostics & Research,False
+BKNG,CDW,0.4773578977237138,Travel Services,Information Technology Services,False
+ISRG,WDAY,0.47716439397743077,Medical Instruments & Supplies,Software - Application,False
+FAST,TXN,0.47700366401532335,Industrial Distribution,Semiconductors,False
+CDW,ISRG,0.47674147282111484,Information Technology Services,Medical Instruments & Supplies,False
+CRWD,WDAY,0.47663364018760085,Software - Infrastructure,Software - Application,False
+CDNS,GFS,0.47659591536493157,Software - Application,Semiconductors,False
+AAPL,MRVL,0.4762839792137825,Consumer Electronics,Semiconductors,False
+ADSK,MU,0.47619497475199013,Software - Application,Semiconductors,False
+AAPL,COST,0.4758783009192595,Consumer Electronics,Discount Stores,False
+ASML,CPRT,0.4758756454428248,Semiconductor Equipment & Materials,Specialty Business Services,False
+MDB,TTD,0.4756028758308849,Software - Infrastructure,Advertising Agencies,False
+KLAC,LIN,0.4754051442229575,Semiconductor Equipment & Materials,Specialty Chemicals,False
+ADSK,ZS,0.47534576359701275,Software - Application,Software - Infrastructure,False
+HON,INTU,0.4753153161194429,Conglomerates,Software - Application,False
+ADI,AMZN,0.47513760468671035,Semiconductors,Internet Retail,False
+CTSH,GOOGL,0.4751140099281315,Information Technology Services,Internet Content & Information,False
+ADBE,VRSK,0.4750351339999265,Software - Application,Consulting Services,False
+NXPI,PCAR,0.475007180482835,Semiconductors,Farm & Heavy Construction Machinery,False
+ADBE,AVGO,0.4748457273280318,Software - Application,Semiconductors,False
+AMAT,CTAS,0.4747237047739313,Semiconductor Equipment & Materials,Specialty Business Services,False
+NXPI,ODFL,0.4746767541204885,Semiconductors,Trucking,False
+GOOGL,WDAY,0.4745154697345612,Internet Content & Information,Software - Application,False
+SNPS,TEAM,0.47429644137569993,Software - Infrastructure,Software - Application,False
+AAPL,CTSH,0.4740564418803372,Consumer Electronics,Information Technology Services,False
+GOOGL,MRVL,0.4740213299499922,Internet Content & Information,Semiconductors,False
+CTAS,EXC,0.4737269004258446,Specialty Business Services,Utilities - Regulated Electric,False
+KLAC,META,0.4736438510072264,Semiconductor Equipment & Materials,Internet Content & Information,False
+INTU,SBUX,0.4736429939765598,Software - Application,Restaurants,False
+ADP,CMCSA,0.4736218701630074,Software - Application,Telecom Services,False
+FTNT,PYPL,0.47354398380830304,Software - Infrastructure,Credit Services,False
+FAST,VRSK,0.47351086272932763,Industrial Distribution,Consulting Services,False
+ADBE,MELI,0.47347410766473946,Software - Application,Internet Retail,False
+BKNG,ON,0.47330998315330625,Travel Services,Semiconductors,False
+ADBE,IDXX,0.4733007788706838,Software - Application,Diagnostics & Research,False
+CSGP,ROP,0.4732560406765372,Real Estate Services,Software - Application,False
+ADSK,META,0.4731795039025742,Software - Application,Internet Content & Information,False
+ASML,WDAY,0.4731022836440611,Semiconductor Equipment & Materials,Software - Application,False
+HON,VRSK,0.4729979654773888,Conglomerates,Consulting Services,False
+AVGO,CDW,0.4728379443607522,Semiconductors,Information Technology Services,False
+IDXX,KLAC,0.4727952771604071,Diagnostics & Research,Semiconductor Equipment & Materials,False
+CDW,ODFL,0.47272423314739476,Information Technology Services,Trucking,False
+AMAT,CPRT,0.4726434796076808,Semiconductor Equipment & Materials,Specialty Business Services,False
+BKNG,NXPI,0.47189784583876365,Travel Services,Semiconductors,False
+CTSH,NXPI,0.47173968165611163,Information Technology Services,Semiconductors,False
+AMZN,CRWD,0.471592382186884,Internet Retail,Software - Infrastructure,False
+LIN,SBUX,0.47153774360357065,Specialty Chemicals,Restaurants,False
+AAPL,WDAY,0.4715341183774968,Consumer Electronics,Software - Application,False
+ON,PCAR,0.47134793566319805,Semiconductors,Farm & Heavy Construction Machinery,False
+CPRT,CSX,0.47132915624932453,Specialty Business Services,Railroads,False
+AMAT,LIN,0.47122288684225244,Semiconductor Equipment & Materials,Specialty Chemicals,False
+BKNG,TXN,0.47117964819879077,Travel Services,Semiconductors,False
+DDOG,NVDA,0.47115971804005197,Software - Application,Semiconductors,False
+LRCX,META,0.4711054464735933,Semiconductor Equipment & Materials,Internet Content & Information,False
+EXC,VRSK,0.47079732523725826,Utilities - Regulated Electric,Consulting Services,False
+ADBE,NXPI,0.47074957999642375,Software - Application,Semiconductors,False
+LIN,LRCX,0.4706525496052406,Specialty Chemicals,Semiconductor Equipment & Materials,False
+ADSK,DASH,0.4703945914964898,Software - Application,Internet Retail,False
+ISRG,VRSK,0.4703800682035268,Medical Instruments & Supplies,Consulting Services,False
+CCEP,LIN,0.4701727846951072,Beverages - Non-Alcoholic,Specialty Chemicals,False
+AAPL,HON,0.47015093048600115,Consumer Electronics,Conglomerates,False
+MCHP,PAYX,0.4700302068252757,Semiconductors,Software - Application,False
+CPRT,TXN,0.46991728889348455,Specialty Business Services,Semiconductors,False
+AEP,MDLZ,0.4697800677917451,Utilities - Regulated Electric,Confectioners,False
+CDNS,MELI,0.46953009043481536,Software - Application,Internet Retail,False
+CDNS,INTC,0.4694007528696006,Software - Application,Semiconductors,False
+AMZN,MCHP,0.4692682965427542,Internet Retail,Semiconductors,False
+CDW,MU,0.469144443706358,Information Technology Services,Semiconductors,False
+CPRT,CTSH,0.4691178682996174,Specialty Business Services,Information Technology Services,False
+DASH,PYPL,0.46905889155634767,Internet Retail,Credit Services,False
+ADI,WDAY,0.46899816626113466,Semiconductors,Software - Application,False
+MCHP,SBUX,0.46899745547304056,Semiconductors,Restaurants,False
+CSCO,ISRG,0.46894232603526925,Communication Equipment,Medical Instruments & Supplies,False
+CTAS,NXPI,0.4689059099025428,Specialty Business Services,Semiconductors,False
+CTSH,ISRG,0.4688736023607319,Information Technology Services,Medical Instruments & Supplies,False
+ARM,CDNS,0.4688080854108296,Semiconductors,Software - Application,False
+ADP,PCAR,0.46875655885779016,Software - Application,Farm & Heavy Construction Machinery,False
+ADBE,CDW,0.4686526519452681,Software - Application,Information Technology Services,False
+LIN,MAR,0.4685766326274539,Specialty Chemicals,Lodging,False
+FTNT,ISRG,0.46821715029675676,Software - Infrastructure,Medical Instruments & Supplies,False
+CTAS,SBUX,0.46802264439629837,Specialty Business Services,Restaurants,False
+CMCSA,HON,0.4680116047009009,Telecom Services,Conglomerates,False
+ADBE,CSGP,0.46783368130712893,Software - Application,Real Estate Services,False
+CPRT,PYPL,0.4677565603929847,Specialty Business Services,Credit Services,False
+BKNG,LRCX,0.4676084444390508,Travel Services,Semiconductor Equipment & Materials,False
+FAST,MSFT,0.4675833959891281,Industrial Distribution,Software - Infrastructure,False
+CPRT,WDAY,0.46758178830953834,Specialty Business Services,Software - Application,False
+GOOGL,IDXX,0.46747648045061097,Internet Content & Information,Diagnostics & Research,False
+CPRT,CSGP,0.46745328167087885,Specialty Business Services,Real Estate Services,False
+DASH,INTU,0.4673989674985503,Internet Retail,Software - Application,False
+PANW,WDAY,0.4672319483277277,Software - Infrastructure,Software - Application,False
+ISRG,META,0.4670184545816656,Medical Instruments & Supplies,Internet Content & Information,False
+INTU,PANW,0.4669266446422204,Software - Application,Software - Infrastructure,False
+AVGO,CSCO,0.46692061595840373,Semiconductors,Communication Equipment,False
+CDNS,CTAS,0.4668935101279473,Software - Application,Specialty Business Services,False
+ABNB,ADSK,0.46679673987390563,Travel Services,Software - Application,False
+ADI,ODFL,0.4666906440222283,Semiconductors,Trucking,False
+ADBE,CTSH,0.4666624182984984,Software - Application,Information Technology Services,False
+CTSH,LRCX,0.4664565772536682,Information Technology Services,Semiconductor Equipment & Materials,False
+HON,LRCX,0.4663938143246064,Conglomerates,Semiconductor Equipment & Materials,False
+ADP,GOOGL,0.46639024915342764,Software - Application,Internet Content & Information,False
+HON,KLAC,0.46632620799040153,Conglomerates,Semiconductor Equipment & Materials,False
+IDXX,TXN,0.4659503786706131,Diagnostics & Research,Semiconductors,False
+AMZN,AVGO,0.46591446481538434,Internet Retail,Semiconductors,False
+HON,ODFL,0.46589730200864465,Conglomerates,Trucking,False
+CSCO,PCAR,0.4657881245141961,Communication Equipment,Farm & Heavy Construction Machinery,False
+AMAT,BKNG,0.4657602225329896,Semiconductor Equipment & Materials,Travel Services,False
+GOOGL,PAYX,0.46573070997551597,Internet Content & Information,Software - Application,False
+CSX,MCHP,0.4656287976866882,Railroads,Semiconductors,False
+COST,VRSK,0.465617066832941,Discount Stores,Consulting Services,False
+ASML,IDXX,0.46527601784793093,Semiconductor Equipment & Materials,Diagnostics & Research,False
+AVGO,ISRG,0.4651742491279959,Semiconductors,Medical Instruments & Supplies,False
+ADSK,CRWD,0.46514860262303104,Software - Application,Software - Infrastructure,False
+DASH,TTD,0.4651423455820558,Internet Retail,Advertising Agencies,False
+CTAS,ON,0.4650515191191457,Specialty Business Services,Semiconductors,False
+ABNB,AMZN,0.4647197538768338,Travel Services,Internet Retail,False
+ADBE,ON,0.4646276886907802,Software - Application,Semiconductors,False
+MSFT,TEAM,0.46452155551489743,Software - Infrastructure,Software - Application,False
+CDW,SNPS,0.4644592939892267,Information Technology Services,Software - Infrastructure,False
+ADI,CSGP,0.46416071577074114,Semiconductors,Real Estate Services,False
+PAYX,XEL,0.4640426436711197,Software - Application,Utilities - Regulated Electric,False
+CRWD,INTU,0.46389226925563715,Software - Infrastructure,Software - Application,False
+AMAT,CTSH,0.4637693658583386,Semiconductor Equipment & Materials,Information Technology Services,False
+ASML,BKNG,0.4637165464903984,Semiconductor Equipment & Materials,Travel Services,False
+NVDA,WDAY,0.46370851788451034,Semiconductors,Software - Application,False
+ADSK,HON,0.46350910611968704,Software - Application,Conglomerates,False
+DASH,NVDA,0.46346099826922754,Internet Retail,Semiconductors,False
+CCEP,HON,0.463382649096358,Beverages - Non-Alcoholic,Conglomerates,False
+MAR,SBUX,0.46335223158919076,Lodging,Restaurants,False
+KLAC,ROP,0.4633301816678859,Semiconductor Equipment & Materials,Software - Application,False
+NXPI,PYPL,0.4632986001822622,Semiconductors,Credit Services,False
+AMD,SNPS,0.46321833704567417,Semiconductors,Software - Infrastructure,False
+DDOG,SNPS,0.46319435911916057,Software - Application,Software - Infrastructure,False
+GOOGL,ON,0.46315046159784706,Internet Content & Information,Semiconductors,False
+ABNB,ADI,0.4631159987202845,Travel Services,Semiconductors,False
+ADBE,CTAS,0.46299991906384036,Software - Application,Specialty Business Services,False
+AMZN,GFS,0.4628939970735671,Internet Retail,Semiconductors,False
+CSGP,WDAY,0.46266284933842855,Real Estate Services,Software - Application,False
+INTC,SNPS,0.46263489388353196,Semiconductors,Software - Infrastructure,False
+CDNS,CSCO,0.4625612638256291,Software - Application,Communication Equipment,False
+CSX,VRSK,0.4624264836983565,Railroads,Consulting Services,False
+CPRT,ON,0.4623471546575667,Specialty Business Services,Semiconductors,False
+CTSH,KLAC,0.4622829518673185,Information Technology Services,Semiconductor Equipment & Materials,False
+NVDA,PYPL,0.4621363006269857,Semiconductors,Credit Services,False
+CCEP,MDLZ,0.46193867502784025,Beverages - Non-Alcoholic,Confectioners,False
+ABNB,PYPL,0.46184377785694025,Travel Services,Credit Services,False
+CSGP,ISRG,0.46178538156258453,Real Estate Services,Medical Instruments & Supplies,False
+AMAT,HON,0.4617235879942944,Semiconductor Equipment & Materials,Conglomerates,False
+CDNS,CSGP,0.46172223600215184,Software - Application,Real Estate Services,False
+AMAT,META,0.4615409048841183,Semiconductor Equipment & Materials,Internet Content & Information,False
+ADSK,ODFL,0.4615293793622509,Software - Application,Trucking,False
+INTU,TTD,0.4612190461630882,Software - Application,Advertising Agencies,False
+CSGP,VRSK,0.4611802396527269,Real Estate Services,Consulting Services,False
+BKNG,GOOGL,0.4610752292469531,Travel Services,Internet Content & Information,False
+ISRG,ON,0.4608139196222713,Medical Instruments & Supplies,Semiconductors,False
+BKNG,KLAC,0.460631466426803,Travel Services,Semiconductor Equipment & Materials,False
+ADP,MCHP,0.4604234318849827,Software - Application,Semiconductors,False
+ADBE,PANW,0.46041337348578837,Software - Application,Software - Infrastructure,False
+FAST,INTU,0.46038453504899685,Industrial Distribution,Software - Application,False
+BKNG,MSFT,0.46015441334976254,Travel Services,Software - Infrastructure,False
+DDOG,MELI,0.45982027685741894,Software - Application,Internet Retail,False
+LRCX,ODFL,0.45965407847596085,Semiconductor Equipment & Materials,Trucking,False
+META,NFLX,0.4596489787897127,Internet Content & Information,Entertainment,False
+GOOGL,MU,0.4595831383956372,Internet Content & Information,Semiconductors,False
+PYPL,TTD,0.45943675026496683,Credit Services,Advertising Agencies,False
+ADI,FAST,0.45928964033550435,Semiconductors,Industrial Distribution,False
+ADP,SNPS,0.4592077611379914,Software - Application,Software - Infrastructure,False
+CTAS,ODFL,0.4591350460401208,Specialty Business Services,Trucking,False
+PEP,ROP,0.45910082162108456,Beverages - Non-Alcoholic,Software - Application,False
+AMGN,REGN,0.4589080215688099,Drug Manufacturers - General,Biotechnology,False
+CPRT,PCAR,0.4588081811277963,Specialty Business Services,Farm & Heavy Construction Machinery,False
+MDLZ,ROP,0.45880634103126033,Confectioners,Software - Application,False
+BKNG,SBUX,0.45860748722301403,Travel Services,Restaurants,False
+MDB,NVDA,0.4585347311868801,Software - Infrastructure,Semiconductors,False
+ADP,IDXX,0.45832463147233127,Software - Application,Diagnostics & Research,False
+KLAC,PAYX,0.4583169838341178,Semiconductor Equipment & Materials,Software - Application,False
+LRCX,WDAY,0.45829523820051093,Semiconductor Equipment & Materials,Software - Application,False
+SBUX,TXN,0.4582948645313993,Restaurants,Semiconductors,False
+PYPL,TEAM,0.4581012206805107,Credit Services,Software - Application,False
+AMAT,WDAY,0.4579657021298437,Semiconductor Equipment & Materials,Software - Application,False
+ASML,MELI,0.45795640571677315,Semiconductor Equipment & Materials,Internet Retail,False
+GFS,MSFT,0.4577233491370304,Semiconductors,Software - Infrastructure,False
+CPRT,GOOGL,0.45757771116024926,Specialty Business Services,Internet Content & Information,False
+BKNG,CTAS,0.45756819116133574,Travel Services,Specialty Business Services,False
+ADI,META,0.4575340048550571,Semiconductors,Internet Content & Information,False
+AAPL,FAST,0.4575182283940599,Consumer Electronics,Industrial Distribution,False
+COST,INTU,0.4574174289772733,Discount Stores,Software - Application,False
+GFS,ODFL,0.4573557167910845,Semiconductors,Trucking,False
+MCHP,ROP,0.4573430077792674,Semiconductors,Software - Application,False
+INTU,MU,0.4573308513835992,Software - Application,Semiconductors,False
+CSGP,TXN,0.4572871092484564,Real Estate Services,Semiconductors,False
+APP,PLTR,0.4572773088378566,Advertising Agencies,Software - Infrastructure,False
+ADP,KLAC,0.45698470894404625,Software - Application,Semiconductor Equipment & Materials,False
+CSX,MAR,0.45670680765721783,Railroads,Lodging,False
+CDNS,LIN,0.45660012014329865,Software - Application,Specialty Chemicals,False
+ADSK,TTD,0.4565323099106687,Software - Application,Advertising Agencies,False
+AMAT,ODFL,0.45652694430631136,Semiconductor Equipment & Materials,Trucking,False
+MSFT,SBUX,0.45629285132046093,Software - Infrastructure,Restaurants,False
+AMGN,VRTX,0.45590441605273424,Drug Manufacturers - General,Biotechnology,False
+IDXX,LRCX,0.4558849398064355,Diagnostics & Research,Semiconductor Equipment & Materials,False
+CTAS,SNPS,0.45581459220111287,Specialty Business Services,Software - Infrastructure,False
+ABNB,NXPI,0.45581404583776336,Travel Services,Semiconductors,False
+ADP,ORLY,0.45574371675012537,Software - Application,Auto Parts,False
+PAYX,SNPS,0.45571134522227463,Software - Application,Software - Infrastructure,False
+ADBE,MRVL,0.45566744827936023,Software - Application,Semiconductors,False
+CDW,ROST,0.4555824162194222,Information Technology Services,Apparel Retail,False
+ADP,ROST,0.45557552904179993,Software - Application,Apparel Retail,False
+ON,WDAY,0.4555336616982629,Semiconductors,Software - Application,False
+PLTR,TSLA,0.45544591381095495,Software - Infrastructure,Auto Manufacturers,False
+ADI,IDXX,0.4554180750676302,Semiconductors,Diagnostics & Research,False
+AMZN,QCOM,0.45538477376354497,Internet Retail,Semiconductors,False
+INTU,ODFL,0.45507786001269357,Software - Application,Trucking,False
+BKNG,CCEP,0.4549952670203923,Travel Services,Beverages - Non-Alcoholic,False
+GOOGL,NXPI,0.45491276753238796,Internet Content & Information,Semiconductors,False
+DASH,MDB,0.45491192090393867,Internet Retail,Software - Infrastructure,False
+NVDA,ZS,0.45484585722761106,Semiconductors,Software - Infrastructure,False
+AAPL,FTNT,0.45457521232544074,Consumer Electronics,Software - Infrastructure,False
+GFS,MAR,0.4545684267737006,Semiconductors,Lodging,False
+ASML,FTNT,0.4543550458808933,Semiconductor Equipment & Materials,Software - Infrastructure,False
+CTSH,MAR,0.4543431296501312,Information Technology Services,Lodging,False
+ADP,CSGP,0.45433801320654194,Software - Application,Real Estate Services,False
+ASML,CTAS,0.4543366616944888,Semiconductor Equipment & Materials,Specialty Business Services,False
+MDB,PYPL,0.45421137616175733,Software - Infrastructure,Credit Services,False
+ISRG,MRVL,0.4541493688695827,Medical Instruments & Supplies,Semiconductors,False
+MRVL,PYPL,0.45394750777988935,Semiconductors,Credit Services,False
+CDW,GOOGL,0.45392594551126897,Information Technology Services,Internet Content & Information,False
+AAPL,MU,0.4538097708012667,Consumer Electronics,Semiconductors,False
+AAPL,VRSK,0.45372414853557175,Consumer Electronics,Consulting Services,False
+ADSK,PANW,0.4536935172682646,Software - Application,Software - Infrastructure,False
+PAYX,ROST,0.4536155187097926,Software - Application,Apparel Retail,False
+LIN,PEP,0.4535374544680671,Specialty Chemicals,Beverages - Non-Alcoholic,False
+CRWD,TTD,0.45329947586265174,Software - Infrastructure,Advertising Agencies,False
+DDOG,PANW,0.45328125856487517,Software - Application,Software - Infrastructure,False
+ADSK,MAR,0.45310171952994904,Software - Application,Lodging,False
+CSGP,IDXX,0.45298748175568126,Real Estate Services,Diagnostics & Research,False
+CSGP,SNPS,0.4528677177453823,Real Estate Services,Software - Infrastructure,False
+MCHP,WDAY,0.45283426160499246,Semiconductors,Software - Application,False
+KLAC,ODFL,0.45277379231189485,Semiconductor Equipment & Materials,Trucking,False
+ASML,CSCO,0.4526758027334381,Semiconductor Equipment & Materials,Communication Equipment,False
+CDW,CSGP,0.4525589998961662,Information Technology Services,Real Estate Services,False
+CRWD,MELI,0.45241710396506857,Software - Infrastructure,Internet Retail,False
+ADP,ODFL,0.45216018837549626,Software - Application,Trucking,False
+ABNB,DDOG,0.4521222494566553,Travel Services,Software - Application,False
+ADP,COST,0.4519995780348047,Software - Application,Discount Stores,False
+AAPL,INTC,0.45196990157303946,Consumer Electronics,Semiconductors,False
+BKNG,CTSH,0.45191388481193806,Travel Services,Information Technology Services,False
+ADP,PYPL,0.45184983714214016,Software - Application,Credit Services,False
+VRSK,XEL,0.4517020667772637,Consulting Services,Utilities - Regulated Electric,False
+MCHP,META,0.4516955209012023,Semiconductors,Internet Content & Information,False
+AMAT,ROP,0.45163517673085,Semiconductor Equipment & Materials,Software - Application,False
+BKNG,ROST,0.4514798228857683,Travel Services,Apparel Retail,False
+CDW,FAST,0.45146839453603654,Information Technology Services,Industrial Distribution,False
+COST,PAYX,0.4514070021129612,Discount Stores,Software - Application,False
+ADBE,CRWD,0.451388398296447,Software - Application,Software - Infrastructure,False
+ADBE,COST,0.45137265806083776,Software - Application,Discount Stores,False
+LRCX,ROP,0.4513692463709624,Semiconductor Equipment & Materials,Software - Application,False
+IDXX,PAYX,0.4513259776767813,Diagnostics & Research,Software - Application,False
+CDNS,CTSH,0.4511861500150808,Software - Application,Information Technology Services,False
+BKNG,ISRG,0.4509814865450769,Travel Services,Medical Instruments & Supplies,False
+LRCX,MAR,0.45090914165191015,Semiconductor Equipment & Materials,Lodging,False
+LIN,ODFL,0.45082936819523034,Specialty Chemicals,Trucking,False
+CTSH,ON,0.45056522707154223,Information Technology Services,Semiconductors,False
+AAPL,SBUX,0.45051496396725726,Consumer Electronics,Restaurants,False
+MELI,WDAY,0.45050917421465064,Internet Retail,Software - Application,False
+CSGP,PAYX,0.4504820154386362,Real Estate Services,Software - Application,False
+TXN,WDAY,0.4504633838963641,Semiconductors,Software - Application,False
+BKNG,PAYX,0.4502549351800942,Travel Services,Software - Application,False
+MSFT,TTWO,0.4502247978357,Software - Infrastructure,Electronic Gaming & Multimedia,False
+CDNS,ODFL,0.45020375279042674,Software - Application,Trucking,False
+ABNB,MDB,0.4500468894782824,Travel Services,Software - Infrastructure,False
+CSCO,VRSK,0.44993467563748285,Communication Equipment,Consulting Services,False
+HON,MDLZ,0.4498810247352629,Conglomerates,Confectioners,False
+ABNB,ZS,0.4497078113313971,Travel Services,Software - Infrastructure,False
+ABNB,MCHP,0.44954696210649664,Travel Services,Semiconductors,False
+AMD,MSFT,0.4495298045821338,Semiconductors,Software - Infrastructure,False
+CDNS,PANW,0.4495236454858518,Software - Application,Software - Infrastructure,False
+ROST,SBUX,0.4494670876224345,Apparel Retail,Restaurants,False
+PAYX,PYPL,0.44931286993109526,Software - Application,Credit Services,False
+LIN,NXPI,0.44927924300347316,Specialty Chemicals,Semiconductors,False
+LRCX,PCAR,0.4491280229497793,Semiconductor Equipment & Materials,Farm & Heavy Construction Machinery,False
+GOOGL,ROP,0.4490436124516999,Internet Content & Information,Software - Application,False
+ISRG,SBUX,0.44903078709285155,Medical Instruments & Supplies,Restaurants,False
+ADP,NXPI,0.44889324055726104,Software - Application,Semiconductors,False
+LIN,MDLZ,0.4488614891875669,Specialty Chemicals,Confectioners,False
+CSX,MSFT,0.4486556703041528,Railroads,Software - Infrastructure,False
+NXPI,SBUX,0.448637992144139,Semiconductors,Restaurants,False
+IDXX,PYPL,0.4484615391784084,Diagnostics & Research,Credit Services,False
+CPRT,SBUX,0.4484429459082218,Specialty Business Services,Restaurants,False
+CPRT,ROST,0.4483652161058942,Specialty Business Services,Apparel Retail,False
+ON,PYPL,0.4483632241279204,Semiconductors,Credit Services,False
+FTNT,NVDA,0.4483083977610948,Software - Infrastructure,Semiconductors,False
+CSX,NXPI,0.44829418958553535,Railroads,Semiconductors,False
+DASH,META,0.4482778915448447,Internet Retail,Internet Content & Information,False
+ASML,ODFL,0.44821381393623216,Semiconductor Equipment & Materials,Trucking,False
+ADP,LRCX,0.4481573505997552,Software - Application,Semiconductor Equipment & Materials,False
+ABNB,NVDA,0.44806190064807283,Travel Services,Semiconductors,False
+ADSK,GFS,0.4479889099870213,Software - Application,Semiconductors,False
+TTD,WDAY,0.4478846899538594,Advertising Agencies,Software - Application,False
+INTU,NFLX,0.44780760963941735,Software - Application,Entertainment,False
+AAPL,CSX,0.4476270540814794,Consumer Electronics,Railroads,False
+AMAT,IDXX,0.44759665681009564,Semiconductor Equipment & Materials,Diagnostics & Research,False
+ADI,FTNT,0.4474184397792366,Semiconductors,Software - Infrastructure,False
+DDOG,PYPL,0.4473678487486924,Software - Application,Credit Services,False
+MELI,NVDA,0.44731624760046135,Internet Retail,Semiconductors,False
+LRCX,PAYX,0.4473107218331731,Semiconductor Equipment & Materials,Software - Application,False
+ADP,MNST,0.4472382887571559,Software - Application,Beverages - Non-Alcoholic,False
+AAPL,ODFL,0.4472171511717642,Consumer Electronics,Trucking,False
+CSCO,SBUX,0.4468634643503166,Communication Equipment,Restaurants,False
+CSCO,INTC,0.4467796775504777,Communication Equipment,Semiconductors,False
+ADP,TMUS,0.4465236961443983,Software - Application,Telecom Services,False
+ABNB,INTU,0.4464782060247991,Travel Services,Software - Application,False
+CMCSA,CTSH,0.4464643624741436,Telecom Services,Information Technology Services,False
+AAPL,CSGP,0.44641792958459575,Consumer Electronics,Real Estate Services,False
+META,TXN,0.4463419578652129,Internet Content & Information,Semiconductors,False
+ODFL,ON,0.4462779390557192,Trucking,Semiconductors,False
+COST,PEP,0.4462353237449808,Discount Stores,Beverages - Non-Alcoholic,False
+ABNB,MELI,0.4462199170870668,Travel Services,Internet Retail,False
+GOOGL,MELI,0.44603262385545756,Internet Content & Information,Internet Retail,False
+TTD,ZS,0.4460200898216753,Advertising Agencies,Software - Infrastructure,False
+CSCO,MU,0.445790386776568,Communication Equipment,Semiconductors,False
+AMAT,PCAR,0.4456065212584484,Semiconductor Equipment & Materials,Farm & Heavy Construction Machinery,False
+CSCO,NXPI,0.4454842912479844,Communication Equipment,Semiconductors,False
+ASML,DASH,0.44537339833215284,Semiconductor Equipment & Materials,Internet Retail,False
+NVDA,PLTR,0.4453479976658837,Semiconductors,Software - Infrastructure,False
+KLAC,WDAY,0.44528955595750164,Semiconductor Equipment & Materials,Software - Application,False
+CDW,MRVL,0.44508247488605784,Information Technology Services,Semiconductors,False
+ADP,AMAT,0.4447734688096359,Software - Application,Semiconductor Equipment & Materials,False
+AMZN,APP,0.4447559912563193,Internet Retail,Advertising Agencies,False
+NXPI,WDAY,0.44448863513970505,Semiconductors,Software - Application,False
+INTU,LULU,0.4444178246227493,Software - Application,Apparel Retail,False
+MAR,TXN,0.4444120619694759,Lodging,Semiconductors,False
+AMAT,MAR,0.44436472165285934,Semiconductor Equipment & Materials,Lodging,False
+AMZN,TTD,0.44425929939101133,Internet Retail,Advertising Agencies,False
+ADP,BKNG,0.4440349101670832,Software - Application,Travel Services,False
+MELI,SNPS,0.4439743202784652,Internet Retail,Software - Infrastructure,False
+ABNB,TTD,0.44384807114728214,Travel Services,Advertising Agencies,False
+CTSH,GFS,0.44370765119589417,Information Technology Services,Semiconductors,False
+ASML,MAR,0.4436093022849443,Semiconductor Equipment & Materials,Lodging,False
+APP,CRWD,0.443565870598606,Advertising Agencies,Software - Infrastructure,False
+AAPL,MELI,0.44335263991059365,Consumer Electronics,Internet Retail,False
+ADP,XEL,0.4432722613840509,Software - Application,Utilities - Regulated Electric,False
+PYPL,QCOM,0.44325973839425176,Credit Services,Semiconductors,False
+AAPL,AMD,0.4430176495869007,Consumer Electronics,Semiconductors,False
+MSFT,TTD,0.4429461263043909,Software - Infrastructure,Advertising Agencies,False
+KLAC,PCAR,0.44289689254698605,Semiconductor Equipment & Materials,Farm & Heavy Construction Machinery,False
+ADP,MAR,0.44266904801316737,Software - Application,Lodging,False
+CPRT,CSCO,0.4426011924392829,Specialty Business Services,Communication Equipment,False
+AVGO,META,0.4424000688091816,Semiconductors,Internet Content & Information,False
+ADSK,VRSK,0.4422246381562814,Software - Application,Consulting Services,False
+GOOGL,NFLX,0.4420346788679984,Internet Content & Information,Entertainment,False
+CDNS,VRSK,0.4419375863950268,Software - Application,Consulting Services,False
+AMAT,PAYX,0.44187288379032025,Semiconductor Equipment & Materials,Software - Application,False
+CTAS,ORLY,0.441850299175447,Specialty Business Services,Auto Parts,False
+CSCO,MRVL,0.4416653935871715,Communication Equipment,Semiconductors,False
+CTAS,GOOGL,0.44153157952746347,Specialty Business Services,Internet Content & Information,False
+CCEP,PAYX,0.44151088311533115,Beverages - Non-Alcoholic,Software - Application,False
+CTSH,VRSK,0.44127194246026996,Information Technology Services,Consulting Services,False
+CSCO,ON,0.4410419969174989,Communication Equipment,Semiconductors,False
+CPRT,NVDA,0.4410353813931096,Specialty Business Services,Semiconductors,False
+ASML,HON,0.4407691019947866,Semiconductor Equipment & Materials,Conglomerates,False
+ISRG,MU,0.4407493532947071,Medical Instruments & Supplies,Semiconductors,False
+FAST,KLAC,0.44068136861530927,Industrial Distribution,Semiconductor Equipment & Materials,False
+ORLY,PAYX,0.44067519531420124,Auto Parts,Software - Application,False
+MNST,PAYX,0.44057006273690735,Beverages - Non-Alcoholic,Software - Application,False
+AMZN,CSGP,0.4403448706924372,Internet Retail,Real Estate Services,False
+AAPL,TSLA,0.4403296738441988,Consumer Electronics,Auto Manufacturers,False
+ABNB,PLTR,0.4398039364733883,Travel Services,Software - Infrastructure,False
+AMD,AMZN,0.43979541602361694,Semiconductors,Internet Retail,False
+CTSH,FAST,0.4396460717042008,Information Technology Services,Industrial Distribution,False
+GFS,INTU,0.4396163620139316,Semiconductors,Software - Application,False
+CSCO,QCOM,0.43914407902682456,Communication Equipment,Semiconductors,False
+COST,TXN,0.4390544125956355,Discount Stores,Semiconductors,False
+CTSH,PCAR,0.4389007517840928,Information Technology Services,Farm & Heavy Construction Machinery,False
+ADBE,TTD,0.4388970174425786,Software - Application,Advertising Agencies,False
+AMD,DASH,0.4387989707524413,Semiconductors,Internet Retail,False
+CDNS,COST,0.43871372775418666,Software - Application,Discount Stores,False
+NFLX,PYPL,0.4386719491766227,Entertainment,Credit Services,False
+ABNB,GFS,0.4383393818750308,Travel Services,Semiconductors,False
+CPRT,MAR,0.4382883417911421,Specialty Business Services,Lodging,False
+BKNG,CPRT,0.43828378351125125,Travel Services,Specialty Business Services,False
+ISRG,QCOM,0.43807189810621644,Medical Instruments & Supplies,Semiconductors,False
+AMGN,PEP,0.43795239752236886,Drug Manufacturers - General,Beverages - Non-Alcoholic,False
+EXC,LIN,0.43791491675578403,Utilities - Regulated Electric,Specialty Chemicals,False
+IDXX,ROP,0.4378907954128272,Diagnostics & Research,Software - Application,False
+MAR,PAYX,0.4374411449767319,Lodging,Software - Application,False
+KLAC,MELI,0.4374381290905848,Semiconductor Equipment & Materials,Internet Retail,False
+ADSK,AMD,0.43742591135416176,Software - Application,Semiconductors,False
+CPRT,GFS,0.43742269844476345,Specialty Business Services,Semiconductors,False
+CMCSA,CTAS,0.43740631006787845,Telecom Services,Specialty Business Services,False
+MNST,MSFT,0.43737542283393666,Beverages - Non-Alcoholic,Software - Infrastructure,False
+AMAT,MELI,0.43735842446168116,Semiconductor Equipment & Materials,Internet Retail,False
+CDNS,TTD,0.4372564482481451,Software - Application,Advertising Agencies,False
+ON,SBUX,0.437202276897913,Semiconductors,Restaurants,False
+MDB,MELI,0.4371730278685543,Software - Infrastructure,Internet Retail,False
+ON,TSLA,0.4370991474508311,Semiconductors,Auto Manufacturers,False
+META,WDAY,0.437084997872035,Internet Content & Information,Software - Application,False
+TEAM,TTD,0.43673889315351905,Software - Application,Advertising Agencies,False
+APP,DASH,0.43666887293901346,Advertising Agencies,Internet Retail,False
+APP,ZS,0.43656709436288915,Advertising Agencies,Software - Infrastructure,False
+ADSK,NFLX,0.4365327066853658,Software - Application,Entertainment,False
+BKR,MAR,0.4364838966585882,Oil & Gas Equipment & Services,Lodging,False
+CTAS,PEP,0.43643158085581485,Specialty Business Services,Beverages - Non-Alcoholic,False
+SNPS,TTD,0.43643151698389143,Software - Infrastructure,Advertising Agencies,False
+CTSH,PYPL,0.43633245967419165,Information Technology Services,Credit Services,False
+CDW,NVDA,0.43615963453150497,Information Technology Services,Semiconductors,False
+EXC,HON,0.4360575644988266,Utilities - Regulated Electric,Conglomerates,False
+INTC,INTU,0.435992942620448,Semiconductors,Software - Application,False
+ADBE,TTWO,0.4359859442034692,Software - Application,Electronic Gaming & Multimedia,False
+NFLX,NVDA,0.43576623736417,Entertainment,Semiconductors,False
+ODFL,SNPS,0.43570282455436443,Trucking,Software - Infrastructure,False
+IDXX,MCHP,0.4356450762848811,Diagnostics & Research,Semiconductors,False
+META,MRVL,0.43553866171552463,Internet Content & Information,Semiconductors,False
+CTAS,IDXX,0.4355270698331177,Specialty Business Services,Diagnostics & Research,False
+CTSH,SNPS,0.4354251372368717,Information Technology Services,Software - Infrastructure,False
+CMCSA,CSCO,0.4354124745049528,Telecom Services,Communication Equipment,False
+KLAC,SBUX,0.4353742752874545,Semiconductor Equipment & Materials,Restaurants,False
+CMCSA,LIN,0.43514823495563376,Telecom Services,Specialty Chemicals,False
+DASH,DDOG,0.4350455642264202,Internet Retail,Software - Application,False
+PYPL,SBUX,0.4349866761353281,Credit Services,Restaurants,False
+CRWD,MRVL,0.4349790639043647,Software - Infrastructure,Semiconductors,False
+ADP,ASML,0.4346962041722431,Software - Application,Semiconductor Equipment & Materials,False
+CSX,INTU,0.4345525693236891,Railroads,Software - Application,False
+ADBE,LIN,0.43453200082878807,Software - Application,Specialty Chemicals,False
+ABNB,ON,0.43433917543313144,Travel Services,Semiconductors,False
+MSFT,ODFL,0.4340365308551008,Software - Infrastructure,Trucking,False
+GFS,SNPS,0.43386218831188644,Semiconductors,Software - Infrastructure,False
+ADBE,ODFL,0.4337196425475329,Software - Application,Trucking,False
+DDOG,FTNT,0.43349015771394195,Software - Application,Software - Infrastructure,False
+FTNT,TEAM,0.4334392066711195,Software - Infrastructure,Software - Application,False
+ADBE,GFS,0.43343070685128354,Software - Application,Semiconductors,False
+DDOG,MRVL,0.43337877660166635,Software - Application,Semiconductors,False
+ASML,ROP,0.4327387191973556,Semiconductor Equipment & Materials,Software - Application,False
+ASML,CTSH,0.4326541429319369,Semiconductor Equipment & Materials,Information Technology Services,False
+CTSH,QCOM,0.43248644646488665,Information Technology Services,Semiconductors,False
+CPRT,IDXX,0.43247637101520986,Specialty Business Services,Diagnostics & Research,False
+ADSK,FAST,0.43243252936117077,Software - Application,Industrial Distribution,False
+GFS,TSLA,0.43232932508262123,Semiconductors,Auto Manufacturers,False
+MNST,VRSK,0.4323032555628021,Beverages - Non-Alcoholic,Consulting Services,False
+PYPL,ZS,0.4322259930940701,Credit Services,Software - Infrastructure,False
+CSGP,CTSH,0.43209227005065354,Real Estate Services,Information Technology Services,False
+GOOGL,HON,0.432090468710036,Internet Content & Information,Conglomerates,False
+CMCSA,CSX,0.4319776537343678,Telecom Services,Railroads,False
+CSCO,NVDA,0.4319650920039848,Communication Equipment,Semiconductors,False
+FAST,MCHP,0.4319312195437089,Industrial Distribution,Semiconductors,False
+AMAT,CSX,0.43165587358248964,Semiconductor Equipment & Materials,Railroads,False
+COST,CSCO,0.4316137257566424,Discount Stores,Communication Equipment,False
+HON,PEP,0.4315915195486158,Conglomerates,Beverages - Non-Alcoholic,False
+IDXX,NVDA,0.4315628379190274,Diagnostics & Research,Semiconductors,False
+CTSH,ODFL,0.43153455608508895,Information Technology Services,Trucking,False
+ADP,CCEP,0.4315201193757958,Software - Application,Beverages - Non-Alcoholic,False
+CSGP,MCHP,0.43151126108880156,Real Estate Services,Semiconductors,False
+CDW,IDXX,0.43146116484795566,Information Technology Services,Diagnostics & Research,False
+MAR,ODFL,0.43139486039928915,Lodging,Trucking,False
+ADBE,AMD,0.43137541361608744,Software - Application,Semiconductors,False
+IDXX,VRSK,0.43116404616500376,Diagnostics & Research,Consulting Services,False
+ODFL,QCOM,0.43113303280885623,Trucking,Semiconductors,False
+AAPL,NFLX,0.4311224935804819,Consumer Electronics,Entertainment,False
+CDW,WDAY,0.4310948916780289,Information Technology Services,Software - Application,False
+AMZN,CPRT,0.43086232468423435,Internet Retail,Specialty Business Services,False
+GOOGL,LIN,0.43048884658342185,Internet Content & Information,Specialty Chemicals,False
+LIN,ROST,0.43030715992905005,Specialty Chemicals,Apparel Retail,False
+CMCSA,TXN,0.4302821470065162,Telecom Services,Semiconductors,False
+AMZN,ON,0.4302798228328958,Internet Retail,Semiconductors,False
+LRCX,SBUX,0.4298966785698165,Semiconductor Equipment & Materials,Restaurants,False
+BKR,CSX,0.4298441176858463,Oil & Gas Equipment & Services,Railroads,False
+CSX,ISRG,0.4297990875734257,Railroads,Medical Instruments & Supplies,False
+CPRT,DASH,0.4295908421345954,Specialty Business Services,Internet Retail,False
+BKR,PCAR,0.42958435609534007,Oil & Gas Equipment & Services,Farm & Heavy Construction Machinery,False
+FTNT,KLAC,0.4295752530374879,Software - Infrastructure,Semiconductor Equipment & Materials,False
+CSX,ROST,0.42953238580211905,Railroads,Apparel Retail,False
+EXC,ROP,0.42951545935767566,Utilities - Regulated Electric,Software - Application,False
+CPRT,FTNT,0.429391563830116,Specialty Business Services,Software - Infrastructure,False
+BKNG,PCAR,0.42937551432590615,Travel Services,Farm & Heavy Construction Machinery,False
+AMZN,IDXX,0.4293496545155298,Internet Retail,Diagnostics & Research,False
+CTSH,SBUX,0.42920610632803763,Information Technology Services,Restaurants,False
+ABNB,TEAM,0.42896988142511994,Travel Services,Software - Application,False
+LULU,MSFT,0.428959748823199,Apparel Retail,Software - Infrastructure,False
+DASH,NXPI,0.4288839285620293,Internet Retail,Semiconductors,False
+FTNT,GOOGL,0.42886041671407854,Software - Infrastructure,Internet Content & Information,False
+CSX,ON,0.4288383262813652,Railroads,Semiconductors,False
+APP,NVDA,0.42883170181988034,Advertising Agencies,Semiconductors,False
+ADSK,APP,0.428528540773645,Software - Application,Advertising Agencies,False
+MNST,ROP,0.42831641312110413,Beverages - Non-Alcoholic,Software - Application,False
+CPRT,QCOM,0.4282350658934852,Specialty Business Services,Semiconductors,False
+MRVL,WDAY,0.4281726826543644,Semiconductors,Software - Application,False
+FTNT,MCHP,0.4281514199124887,Software - Infrastructure,Semiconductors,False
+ORLY,ROST,0.42804454174185075,Auto Parts,Apparel Retail,False
+COST,ROP,0.4278001477306293,Discount Stores,Software - Application,False
+MDB,MRVL,0.42775049217789507,Software - Infrastructure,Semiconductors,False
+CTAS,MDLZ,0.4276275061875688,Specialty Business Services,Confectioners,False
+ABNB,MRVL,0.42754978577678204,Travel Services,Semiconductors,False
+CSCO,SNPS,0.42746730902395963,Communication Equipment,Software - Infrastructure,False
+AMZN,NXPI,0.42746519235782454,Internet Retail,Semiconductors,False
+AVGO,PYPL,0.4274159082435487,Semiconductors,Credit Services,False
+ISRG,MELI,0.42724081145337295,Medical Instruments & Supplies,Internet Retail,False
+LIN,SNPS,0.4272292853981654,Specialty Chemicals,Software - Infrastructure,False
+NFLX,WDAY,0.42707713518171825,Entertainment,Software - Application,False
+ROP,SBUX,0.42683155244016335,Software - Application,Restaurants,False
+CDW,PYPL,0.426605104379916,Information Technology Services,Credit Services,False
+MELI,ZS,0.4265631543367768,Internet Retail,Software - Infrastructure,False
+LIN,QCOM,0.42643014100507287,Specialty Chemicals,Semiconductors,False
+APP,MRVL,0.42631341676408213,Advertising Agencies,Semiconductors,False
+META,NXPI,0.4261189733576204,Internet Content & Information,Semiconductors,False
+AEP,PAYX,0.42608076049917193,Utilities - Regulated Electric,Software - Application,False
+CSX,KLAC,0.42605743294606296,Railroads,Semiconductor Equipment & Materials,False
+CCEP,CTAS,0.42590580936929284,Beverages - Non-Alcoholic,Specialty Business Services,False
+CSGP,KLAC,0.42565962089724235,Real Estate Services,Semiconductor Equipment & Materials,False
+ADBE,MU,0.42541990528329987,Software - Application,Semiconductors,False
+AMZN,PLTR,0.4253226564010896,Internet Retail,Software - Infrastructure,False
+ADSK,PLTR,0.42531922859020793,Software - Application,Software - Infrastructure,False
+CCEP,MAR,0.4252797990966977,Beverages - Non-Alcoholic,Lodging,False
+ADBE,LULU,0.42514494689799254,Software - Application,Apparel Retail,False
+ADSK,INTC,0.42514346794424224,Software - Application,Semiconductors,False
+AAPL,BKNG,0.42507269575751155,Consumer Electronics,Travel Services,False
+LIN,ON,0.4250078551997711,Specialty Chemicals,Semiconductors,False
+ABNB,AMD,0.4249963362984888,Travel Services,Semiconductors,False
+ADSK,SBUX,0.424745074372656,Software - Application,Restaurants,False
+CSX,SBUX,0.42469255408927586,Railroads,Restaurants,False
+AMAT,SBUX,0.42467605745951076,Semiconductor Equipment & Materials,Restaurants,False
+PYPL,VRSK,0.4246190572267177,Credit Services,Consulting Services,False
+LRCX,TSLA,0.42446344262962793,Semiconductor Equipment & Materials,Auto Manufacturers,False
+ISRG,TEAM,0.4244217732936912,Medical Instruments & Supplies,Software - Application,False
+AMAT,FTNT,0.42435619948598935,Semiconductor Equipment & Materials,Software - Infrastructure,False
+CDW,INTC,0.4243494414178469,Information Technology Services,Semiconductors,False
+AMD,INTU,0.4243046532571445,Semiconductors,Software - Application,False
+LRCX,MELI,0.4242896899171333,Semiconductor Equipment & Materials,Internet Retail,False
+CDNS,HON,0.4240044080479365,Software - Application,Conglomerates,False
+COST,CTAS,0.4240002111320539,Discount Stores,Specialty Business Services,False
+DXCM,ISRG,0.42385594760466355,Medical Devices,Medical Instruments & Supplies,False
+ISRG,MAR,0.4236990164464927,Medical Instruments & Supplies,Lodging,False
+AVGO,CTAS,0.423649336492513,Semiconductors,Specialty Business Services,False
+META,TTD,0.4235602199188938,Internet Content & Information,Advertising Agencies,False
+CTAS,WDAY,0.4235542044083901,Specialty Business Services,Software - Application,False
+ABNB,META,0.4234433969559504,Travel Services,Internet Content & Information,False
+TXN,VRSK,0.4234237219175285,Semiconductors,Consulting Services,False
+FTNT,LRCX,0.4233540347706467,Software - Infrastructure,Semiconductor Equipment & Materials,False
+FAST,NXPI,0.4232666902227099,Industrial Distribution,Semiconductors,False
+CSX,LRCX,0.423223635213882,Railroads,Semiconductor Equipment & Materials,False
+AMZN,CSCO,0.4232040585675284,Internet Retail,Communication Equipment,False
+CSGP,LIN,0.4231920831998011,Real Estate Services,Specialty Chemicals,False
+CRWD,PYPL,0.42305624501838707,Software - Infrastructure,Credit Services,False
+FTNT,TXN,0.42272706116235265,Software - Infrastructure,Semiconductors,False
+IDXX,NXPI,0.4226648916980639,Diagnostics & Research,Semiconductors,False
+CDNS,FAST,0.4225652929130705,Software - Application,Industrial Distribution,False
+QCOM,ROP,0.4225586750036335,Semiconductors,Software - Application,False
+AXON,PLTR,0.42253222300273063,Aerospace & Defense,Software - Infrastructure,False
+MELI,TTD,0.42250973064524394,Internet Retail,Advertising Agencies,False
+ASML,TTD,0.4222823077325131,Semiconductor Equipment & Materials,Advertising Agencies,False
+GOOGL,INTC,0.42223681949538255,Internet Content & Information,Semiconductors,False
+ASML,PCAR,0.42220205898714097,Semiconductor Equipment & Materials,Farm & Heavy Construction Machinery,False
+DASH,MRVL,0.42209704665493664,Internet Retail,Semiconductors,False
+HON,QCOM,0.42203592021107367,Conglomerates,Semiconductors,False
+DASH,LRCX,0.4219954158779988,Internet Retail,Semiconductor Equipment & Materials,False
+NXPI,PAYX,0.4219808772844727,Semiconductors,Software - Application,False
+NVDA,TSLA,0.42193794958318603,Semiconductors,Auto Manufacturers,False
+AVGO,CEG,0.4218527121120448,Semiconductors,Utilities - Independent Power Producers,False
+AAPL,ABNB,0.42184894330608613,Consumer Electronics,Travel Services,False
+ADI,GEHC,0.421830139367852,Semiconductors,Medical Devices,False
+CDW,FTNT,0.4217828587521487,Information Technology Services,Software - Infrastructure,False
+COST,MDLZ,0.4217561950347105,Discount Stores,Confectioners,False
+LIN,MNST,0.4217340855058155,Specialty Chemicals,Beverages - Non-Alcoholic,False
+CSGP,LRCX,0.421712722290967,Real Estate Services,Semiconductor Equipment & Materials,False
+CDW,VRSK,0.4216737354680615,Information Technology Services,Consulting Services,False
+CMCSA,ROP,0.4216534715739293,Telecom Services,Software - Application,False
+CSCO,FTNT,0.42163482258612534,Communication Equipment,Software - Infrastructure,False
+CMCSA,MSFT,0.42159344481038236,Telecom Services,Software - Infrastructure,False
+PCAR,ROST,0.4215680057330767,Farm & Heavy Construction Machinery,Apparel Retail,False
+CSGP,NXPI,0.4214156941551038,Real Estate Services,Semiconductors,False
+PYPL,ROP,0.42136157619774217,Credit Services,Software - Application,False
+COST,CPRT,0.42127902560969727,Discount Stores,Specialty Business Services,False
+AMZN,FTNT,0.42116334024275764,Internet Retail,Software - Infrastructure,False
+CTSH,WDAY,0.4209535648217575,Information Technology Services,Software - Application,False
+CDNS,DASH,0.4209492980706775,Software - Application,Internet Retail,False
+CSCO,PEP,0.42088724333671335,Communication Equipment,Beverages - Non-Alcoholic,False
+MELI,NFLX,0.4207903868149003,Internet Retail,Entertainment,False
+DDOG,PLTR,0.42077962795285145,Software - Application,Software - Infrastructure,False
+APP,META,0.4207424762261597,Advertising Agencies,Internet Content & Information,False
+AMAT,FAST,0.4206718577294892,Semiconductor Equipment & Materials,Industrial Distribution,False
+CDNS,TTWO,0.42061367609431405,Software - Application,Electronic Gaming & Multimedia,False
+PAYX,TMUS,0.4204651703229455,Software - Application,Telecom Services,False
+NXPI,TSLA,0.4204505756717906,Semiconductors,Auto Manufacturers,False
+SNPS,VRSK,0.4202972294018032,Software - Infrastructure,Consulting Services,False
+ASML,CRWD,0.420155358438176,Semiconductor Equipment & Materials,Software - Infrastructure,False
+KLAC,MAR,0.41978796583764455,Semiconductor Equipment & Materials,Lodging,False
+CSGP,HON,0.41964125270391184,Real Estate Services,Conglomerates,False
+CTAS,PYPL,0.41939738187425096,Specialty Business Services,Credit Services,False
+CTAS,TMUS,0.4193418194711384,Specialty Business Services,Telecom Services,False
+DASH,MSFT,0.4192797525304344,Internet Retail,Software - Infrastructure,False
+AMGN,ROP,0.41913131108218166,Drug Manufacturers - General,Software - Application,False
+CDW,CMCSA,0.4190715293196099,Information Technology Services,Telecom Services,False
+DASH,KLAC,0.41902170578523046,Internet Retail,Semiconductor Equipment & Materials,False
+IDXX,WDAY,0.4188974508653461,Diagnostics & Research,Software - Application,False
+NXPI,ROP,0.41889098471425734,Semiconductors,Software - Application,False
+AMZN,COST,0.41866994856757844,Internet Retail,Discount Stores,False
+AMD,PLTR,0.4186668185126017,Semiconductors,Software - Infrastructure,False
+MELI,META,0.41844026484771796,Internet Retail,Internet Content & Information,False
+FANG,HON,0.41839873771656244,Oil & Gas E&P,Conglomerates,False
+ASML,MDB,0.41838498947033653,Semiconductor Equipment & Materials,Software - Infrastructure,False
+DASH,TEAM,0.4183810586357396,Internet Retail,Software - Application,False
+CTAS,MNST,0.41832956594616705,Specialty Business Services,Beverages - Non-Alcoholic,False
+META,ON,0.4183211821340451,Internet Content & Information,Semiconductors,False
+LULU,MCHP,0.4182752560119236,Apparel Retail,Semiconductors,False
+ABNB,QCOM,0.4182436899147721,Travel Services,Semiconductors,False
+ADI,MELI,0.41790536494288705,Semiconductors,Internet Retail,False
+GFS,ZS,0.41784880950131087,Semiconductors,Software - Infrastructure,False
+MELI,TEAM,0.4178342628903811,Internet Retail,Software - Application,False
+CSCO,ODFL,0.4178204218517521,Communication Equipment,Trucking,False
+AMZN,BKNG,0.4177123256476206,Internet Retail,Travel Services,False
+AVGO,BKNG,0.417708980837375,Semiconductors,Travel Services,False
+GILD,REGN,0.41767456694833177,Drug Manufacturers - General,Biotechnology,False
+CSCO,PYPL,0.41748018056121666,Communication Equipment,Credit Services,False
+AMD,CRWD,0.41747081768589883,Semiconductors,Software - Infrastructure,False
+ADSK,CSX,0.41731961519173255,Software - Application,Railroads,False
+ADI,TSLA,0.4171754498304893,Semiconductors,Auto Manufacturers,False
+LIN,PYPL,0.4170786807468559,Specialty Chemicals,Credit Services,False
+GFS,PYPL,0.41706993995430913,Semiconductors,Credit Services,False
+BKNG,CDNS,0.4170559856245518,Travel Services,Software - Application,False
+ADP,ON,0.4169931141472084,Software - Application,Semiconductors,False
+AMD,GOOGL,0.4169902360970894,Semiconductors,Internet Content & Information,False
+AVGO,WDAY,0.41694618525225635,Semiconductors,Software - Application,False
+AMZN,MU,0.4169179414372723,Internet Retail,Semiconductors,False
+GEHC,MAR,0.41685469419908544,Medical Devices,Lodging,False
+ISRG,PANW,0.4168313063441888,Medical Instruments & Supplies,Software - Infrastructure,False
+ADI,CMCSA,0.41678015656289996,Semiconductors,Telecom Services,False
+ORLY,PEP,0.4166797905897837,Auto Parts,Beverages - Non-Alcoholic,False
+GFS,WDAY,0.4165915043974114,Semiconductors,Software - Application,False
+ASML,SBUX,0.416559352263709,Semiconductor Equipment & Materials,Restaurants,False
+NXPI,ROST,0.41636751290067897,Semiconductors,Apparel Retail,False
+PANW,TEAM,0.4163190286368322,Software - Infrastructure,Software - Application,False
+NVDA,PANW,0.4162265911486009,Semiconductors,Software - Infrastructure,False
+PANW,PYPL,0.41609056963991686,Software - Infrastructure,Credit Services,False
+ABNB,ASML,0.4158488373323763,Travel Services,Semiconductor Equipment & Materials,False
+BKNG,CSX,0.4157629342388453,Travel Services,Railroads,False
+DASH,WDAY,0.4157547466262432,Internet Retail,Software - Application,False
+CSGP,GOOGL,0.415614775079183,Real Estate Services,Internet Content & Information,False
+HON,INTC,0.41543842824715943,Conglomerates,Semiconductors,False
+GFS,GOOGL,0.41538078626019354,Semiconductors,Internet Content & Information,False
+INTU,MAR,0.41537252436919797,Software - Application,Lodging,False
+CDNS,PLTR,0.4151554011527457,Software - Application,Software - Infrastructure,False
+MSFT,TSLA,0.41495122821655034,Software - Infrastructure,Auto Manufacturers,False
+FANG,MAR,0.4148769979590832,Oil & Gas E&P,Lodging,False
+TMUS,VRSK,0.41476142233234836,Telecom Services,Consulting Services,False
+MCHP,TSLA,0.4146540763723697,Semiconductors,Auto Manufacturers,False
+MSFT,TMUS,0.41461309181170974,Software - Infrastructure,Telecom Services,False
+ADP,AEP,0.4145905864482381,Software - Application,Utilities - Regulated Electric,False
+ADI,DASH,0.4144041313833763,Semiconductors,Internet Retail,False
+GEHC,TXN,0.41439693364291513,Medical Devices,Semiconductors,False
+HON,SNPS,0.4143650002385747,Conglomerates,Software - Infrastructure,False
+COST,ISRG,0.41416919058371715,Discount Stores,Medical Instruments & Supplies,False
+ADI,TTD,0.41414935648364587,Semiconductors,Advertising Agencies,False
+CPRT,MELI,0.41392282104276734,Specialty Business Services,Internet Retail,False
+ABNB,LRCX,0.4138764173778554,Travel Services,Semiconductor Equipment & Materials,False
+BKNG,CSCO,0.41377568278956606,Travel Services,Communication Equipment,False
+NVDA,TTD,0.41367770288957817,Semiconductors,Advertising Agencies,False
+AVGO,HON,0.4136291553201112,Semiconductors,Conglomerates,False
+KLAC,TSLA,0.413626052996878,Semiconductor Equipment & Materials,Auto Manufacturers,False
+AMAT,TSLA,0.41356962916568607,Semiconductor Equipment & Materials,Auto Manufacturers,False
+ABNB,MSFT,0.4133012098036804,Travel Services,Software - Infrastructure,False
+ADI,ROST,0.4132770263664221,Semiconductors,Apparel Retail,False
+FAST,LRCX,0.4131780184251894,Industrial Distribution,Semiconductor Equipment & Materials,False
+GOOGL,SBUX,0.4129174312774354,Internet Content & Information,Restaurants,False
+AMAT,TTD,0.4126265890836527,Semiconductor Equipment & Materials,Advertising Agencies,False
+INTU,ROST,0.4125562872346252,Software - Application,Apparel Retail,False
+CSGP,MELI,0.4125494941165161,Real Estate Services,Internet Retail,False
+ABNB,CRWD,0.41245071698864905,Travel Services,Software - Infrastructure,False
+AXON,DASH,0.41234348434716206,Aerospace & Defense,Internet Retail,False
+INTU,TTWO,0.41225000502705633,Software - Application,Electronic Gaming & Multimedia,False
+CDNS,TSLA,0.4120368007430793,Software - Application,Auto Manufacturers,False
+AAPL,PCAR,0.4120072952940815,Consumer Electronics,Farm & Heavy Construction Machinery,False
+MU,PCAR,0.4118838673506269,Semiconductors,Farm & Heavy Construction Machinery,False
+IDXX,LIN,0.41178938762207246,Diagnostics & Research,Specialty Chemicals,False
+ADP,AMGN,0.41177511404955297,Software - Application,Drug Manufacturers - General,False
+ISRG,ROST,0.41176357650021705,Medical Instruments & Supplies,Apparel Retail,False
+AMAT,CSGP,0.41166771168074223,Semiconductor Equipment & Materials,Real Estate Services,False
+APP,DDOG,0.4116537999065902,Advertising Agencies,Software - Application,False
+DDOG,KLAC,0.41160467695782677,Software - Application,Semiconductor Equipment & Materials,False
+CSGP,TEAM,0.4115999103703649,Real Estate Services,Software - Application,False
+AMZN,PANW,0.41146045737381803,Internet Retail,Software - Infrastructure,False
+MCHP,MELI,0.41143827385798065,Semiconductors,Internet Retail,False
+MRVL,PLTR,0.41140947566449443,Semiconductors,Software - Infrastructure,False
+BKNG,MU,0.41113317589433845,Travel Services,Semiconductors,False
+CDNS,NFLX,0.4111125093606231,Software - Application,Entertainment,False
+AVGO,CRWD,0.41111242068570814,Semiconductors,Software - Infrastructure,False
+AVGO,TSLA,0.4109611771990314,Semiconductors,Auto Manufacturers,False
+DDOG,ISRG,0.4107474251839747,Software - Application,Medical Instruments & Supplies,False
+ABNB,CDNS,0.41070495051430433,Travel Services,Software - Application,False
+ADBE,SBUX,0.4102020481348054,Software - Application,Restaurants,False
+KLAC,TTD,0.4101578291250375,Semiconductor Equipment & Materials,Advertising Agencies,False
+APP,MDB,0.410026812673205,Advertising Agencies,Software - Infrastructure,False
+ABNB,WDAY,0.4099244267325576,Travel Services,Software - Application,False
+MAR,MU,0.4099057759356833,Lodging,Semiconductors,False
+MELI,TXN,0.4098227983249901,Internet Retail,Semiconductors,False
+AMZN,TSLA,0.40980667053550335,Internet Retail,Auto Manufacturers,False
+CSCO,MDLZ,0.4097284698204346,Communication Equipment,Confectioners,False
+CPRT,MRVL,0.4095071860545065,Specialty Business Services,Semiconductors,False
+ISRG,MDB,0.4094873987414429,Medical Instruments & Supplies,Software - Infrastructure,False
+AMZN,INTC,0.40930123763688825,Internet Retail,Semiconductors,False
+CMCSA,PEP,0.4092753492647916,Telecom Services,Beverages - Non-Alcoholic,False
+FTNT,ON,0.40924512110930944,Software - Infrastructure,Semiconductors,False
+FTNT,NXPI,0.40921645809616053,Software - Infrastructure,Semiconductors,False
+AMAT,DASH,0.40914991935059064,Semiconductor Equipment & Materials,Internet Retail,False
+AMD,DDOG,0.4091422399284696,Semiconductors,Software - Application,False
+ADBE,BKNG,0.40897146123745115,Software - Application,Travel Services,False
+CMCSA,FAST,0.40870424401374983,Telecom Services,Industrial Distribution,False
+ASML,NFLX,0.4085796503393675,Semiconductor Equipment & Materials,Entertainment,False
+CCEP,ROST,0.40847713026698373,Beverages - Non-Alcoholic,Apparel Retail,False
+AVGO,FTNT,0.40846888613222054,Semiconductors,Software - Infrastructure,False
+ADBE,INTC,0.408263414315831,Software - Application,Semiconductors,False
+BKNG,SNPS,0.4081815516283933,Travel Services,Software - Infrastructure,False
+LULU,PYPL,0.4080309893840715,Apparel Retail,Credit Services,False
+AVGO,CTSH,0.4080106382021251,Semiconductors,Information Technology Services,False
+PLTR,TTD,0.4079783109993149,Software - Infrastructure,Advertising Agencies,False
+FTNT,MRVL,0.40761131163097036,Software - Infrastructure,Semiconductors,False
+GFS,PCAR,0.4076014069438321,Semiconductors,Farm & Heavy Construction Machinery,False
+ASML,DDOG,0.4076006148517522,Semiconductor Equipment & Materials,Software - Application,False
+MELI,PLTR,0.4075794275537886,Internet Retail,Software - Infrastructure,False
+IDXX,MELI,0.40757778257373783,Diagnostics & Research,Internet Retail,False
+MCHP,ROST,0.4075347276636682,Semiconductors,Apparel Retail,False
+VRSK,WDAY,0.4074198543126999,Consulting Services,Software - Application,False
+ADSK,LULU,0.40719796267876485,Software - Application,Apparel Retail,False
+INTU,MNST,0.407188494152458,Software - Application,Beverages - Non-Alcoholic,False
+AAPL,DDOG,0.40715842922521056,Consumer Electronics,Software - Application,False
+MAR,ROP,0.4071405484262717,Lodging,Software - Application,False
+ABNB,AMAT,0.40711244262863117,Travel Services,Semiconductor Equipment & Materials,False
+PEP,SBUX,0.4068604181665073,Beverages - Non-Alcoholic,Restaurants,False
+HON,MNST,0.406842727457037,Conglomerates,Beverages - Non-Alcoholic,False
+CDNS,SBUX,0.4068049201277613,Software - Application,Restaurants,False
+ADBE,FAST,0.4067722250166231,Software - Application,Industrial Distribution,False
+META,QCOM,0.4066051159965766,Internet Content & Information,Semiconductors,False
+ABNB,KLAC,0.40658505889798924,Travel Services,Semiconductor Equipment & Materials,False
+ADI,VRSK,0.4065827422900392,Semiconductors,Consulting Services,False
+MELI,ON,0.4064780241042871,Internet Retail,Semiconductors,False
+PAYX,QCOM,0.406396608940351,Software - Application,Semiconductors,False
+BKR,LIN,0.4063151890283489,Oil & Gas Equipment & Services,Specialty Chemicals,False
+ASML,TSLA,0.4059898442888201,Semiconductor Equipment & Materials,Auto Manufacturers,False
+GOOGL,TTD,0.40595581205363324,Internet Content & Information,Advertising Agencies,False
+CSX,PEP,0.40594627461162713,Railroads,Beverages - Non-Alcoholic,False
+AMGN,PAYX,0.40587245457872984,Drug Manufacturers - General,Software - Application,False
+DASH,NFLX,0.4058262674667704,Internet Retail,Entertainment,False
+AVGO,CPRT,0.4055556904385737,Semiconductors,Specialty Business Services,False
+GEHC,MCHP,0.40552387049622574,Medical Devices,Semiconductors,False
+APP,LRCX,0.4054852039923876,Advertising Agencies,Semiconductor Equipment & Materials,False
+GILD,VRTX,0.4053169041580972,Drug Manufacturers - General,Biotechnology,False
+PCAR,QCOM,0.40526357202279534,Farm & Heavy Construction Machinery,Semiconductors,False
+ADBE,HON,0.40518312243310656,Software - Application,Conglomerates,False
+CDNS,LULU,0.4049958214237786,Software - Application,Apparel Retail,False
+CPRT,LULU,0.40497057363678773,Specialty Business Services,Apparel Retail,False
+META,MU,0.4048254915001601,Internet Content & Information,Semiconductors,False
+INTU,PLTR,0.40466382595488476,Software - Application,Software - Infrastructure,False
+GFS,HON,0.4046128840796659,Semiconductors,Conglomerates,False
+ORLY,VRSK,0.404551720625883,Auto Parts,Consulting Services,False
+ADP,QCOM,0.4044380997499042,Software - Application,Semiconductors,False
+AMZN,CDW,0.40439978472394605,Internet Retail,Information Technology Services,False
+MU,PYPL,0.4042416444615927,Semiconductors,Credit Services,False
+ODFL,VRSK,0.4042355046067534,Trucking,Consulting Services,False
+ASML,PANW,0.4041678638679183,Semiconductor Equipment & Materials,Software - Infrastructure,False
+APP,ASML,0.4041051202911405,Advertising Agencies,Semiconductor Equipment & Materials,False
+CTSH,INTC,0.40397568012464125,Information Technology Services,Semiconductors,False
+INTC,ODFL,0.403972970839525,Semiconductors,Trucking,False
+AMD,ZS,0.40377554555072553,Semiconductors,Software - Infrastructure,False
+ISRG,ODFL,0.40355513196272386,Medical Instruments & Supplies,Trucking,False
+BKNG,PYPL,0.4035328674598532,Travel Services,Credit Services,False
+CTSH,ROST,0.403422307137433,Information Technology Services,Apparel Retail,False
+MRVL,TTD,0.40330414085590827,Semiconductors,Advertising Agencies,False
+CMCSA,SBUX,0.403287454152326,Telecom Services,Restaurants,False
+ADP,INTC,0.4032792082575268,Software - Application,Semiconductors,False
+ON,ROP,0.4032640939844403,Semiconductors,Software - Application,False
+DASH,MCHP,0.4032049835391256,Internet Retail,Semiconductors,False
+AVGO,LIN,0.4031875673659045,Semiconductors,Specialty Chemicals,False
+IDXX,META,0.40318139998747105,Diagnostics & Research,Internet Content & Information,False
+DDOG,GOOGL,0.403130788874528,Software - Application,Internet Content & Information,False
+GOOGL,VRSK,0.40308970616183676,Internet Content & Information,Consulting Services,False
+PEP,TMUS,0.4030098721386389,Beverages - Non-Alcoholic,Telecom Services,False
+COST,GOOGL,0.4029142623517457,Discount Stores,Internet Content & Information,False
+ROP,ROST,0.4028021105934628,Software - Application,Apparel Retail,False
+ABNB,CPRT,0.40269994433570205,Travel Services,Specialty Business Services,False
+CMCSA,INTU,0.40265714566216043,Telecom Services,Software - Application,False
+AVGO,ROP,0.4026347563871639,Semiconductors,Software - Application,False
+CEG,MRVL,0.4025701319546826,Utilities - Independent Power Producers,Semiconductors,False
+INTC,LIN,0.4024935876397946,Semiconductors,Specialty Chemicals,False
+DASH,ON,0.4024474335638807,Internet Retail,Semiconductors,False
+CCEP,EXC,0.4022248462756124,Beverages - Non-Alcoholic,Utilities - Regulated Electric,False
+AMZN,TTWO,0.40219238138798197,Internet Retail,Electronic Gaming & Multimedia,False
+ADBE,DASH,0.40212431625395495,Software - Application,Internet Retail,False
+LRCX,TTD,0.4020644633808348,Semiconductor Equipment & Materials,Advertising Agencies,False
+AAPL,TTD,0.4020103875505847,Consumer Electronics,Advertising Agencies,False
+CSGP,ON,0.4019768139598476,Real Estate Services,Semiconductors,False
+ABNB,ADBE,0.4018507138089947,Travel Services,Software - Application,False
+CRWD,KLAC,0.4018219525388065,Software - Infrastructure,Semiconductor Equipment & Materials,False
+CSX,EXC,0.4017667110722423,Railroads,Utilities - Regulated Electric,False
+QCOM,SBUX,0.40168909959902377,Semiconductors,Restaurants,False
+CTAS,QCOM,0.4016552540016004,Specialty Business Services,Semiconductors,False
+APP,INTU,0.40123310393115796,Advertising Agencies,Software - Application,False
+CSCO,WDAY,0.40122383401514644,Communication Equipment,Software - Application,False
+AMAT,CRWD,0.4010953959818183,Semiconductor Equipment & Materials,Software - Infrastructure,False
+ASML,LULU,0.4010505036501629,Semiconductor Equipment & Materials,Apparel Retail,False
+HON,PYPL,0.4009956212301373,Conglomerates,Credit Services,False
+BKNG,NVDA,0.40084253909673806,Travel Services,Semiconductors,False
+AMGN,MDLZ,0.4008266710796027,Drug Manufacturers - General,Confectioners,False
+AMD,MDB,0.4007406151895973,Semiconductors,Software - Infrastructure,False
+CTSH,MU,0.40072582152612374,Information Technology Services,Semiconductors,False
+AMZN,CTSH,0.4006758085702171,Internet Retail,Information Technology Services,False
+AAPL,CMCSA,0.40046486854052793,Consumer Electronics,Telecom Services,False
+PCAR,SBUX,0.40044173343529965,Farm & Heavy Construction Machinery,Restaurants,False
+ADP,AVGO,0.4003966534739539,Software - Application,Semiconductors,False
+MDLZ,MSFT,0.4003452977202574,Confectioners,Software - Infrastructure,False
+CPRT,META,0.4003056426577154,Specialty Business Services,Internet Content & Information,False
+GOOGL,MAR,0.400224523919786,Internet Content & Information,Lodging,False
+ADSK,PCAR,0.40020730079103095,Software - Application,Farm & Heavy Construction Machinery,False
+CTAS,MU,0.400177709422827,Specialty Business Services,Semiconductors,False
+AAPL,PANW,0.4001146861622996,Consumer Electronics,Software - Infrastructure,False
+GOOGL,TTWO,0.40001851199455724,Internet Content & Information,Electronic Gaming & Multimedia,False

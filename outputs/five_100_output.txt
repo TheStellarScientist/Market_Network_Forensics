@@ -1,0 +1,356 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Market Network Investigation!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Full Population Inspection
+__________________________
+
+Close Price Shape:
+(1255, 101)
+
+Missing Values Per Ticker:
+Ticker
+ANSS    1255
+EA      1255
+ARM      678
+GEHC     492
+CEG      263
+        ... 
+VRTX       0
+WBD        0
+WDAY       0
+XEL        0
+ZS         0
+Length: 101, dtype: int64
+
+Tickers With Missing Data:
+Ticker
+ANSS    1255
+APP       70
+ARM      678
+CEG      263
+EA      1255
+GEHC     492
+GFS      207
+dtype: int64
+
+Usable Tickers:
+99
+
+Full Return Matrix Shape After Drop:
+(1255, 98)
+
+Full Correlation Matrix Shape:
+(98, 98)
+
+Now we'll remove redundant entries.
+
+Number of unique pairs:
+4753
+
+Strongest Relationships:
+  Stock_A Stock_B  Correlation
+0    AMAT    LRCX     0.916917
+1    KLAC    LRCX     0.911504
+2    AMAT    KLAC     0.909200
+3     ADI    MCHP     0.860648
+4    MCHP    NXPI     0.860510
+5     ADI     TXN     0.844132
+6     ADI    NXPI     0.835503
+7    AMAT    ASML     0.835333
+8    ASML    KLAC     0.834222
+9    CDNS    SNPS     0.828150
+
+Weakest Relationships:
+     Stock_A Stock_B  Correlation
+4743     KHC      ZS    -0.048652
+4744     APP     KHC    -0.054183
+4745     KHC    PLTR    -0.054494
+4746     KHC    NVDA    -0.058097
+4747     KHC     MDB    -0.062228
+4748     ARM     XEL    -0.072177
+4749     ARM    ORLY    -0.080078
+4750    CRWD     KHC    -0.082352
+4751     AEP     ARM    -0.118995
+4752     ARM     EXC    -0.137806
+
+Correlation Distribution:
+count    4753.000000
+mean        0.311469
+std         0.144966
+min        -0.137806
+25%         0.210728
+50%         0.313774
+75%         0.408133
+max         0.916917
+Name: Correlation, dtype: float64
+
+Correlation Quantiles:
+0.50    0.313774
+0.75    0.408133
+0.90    0.481385
+0.95    0.538874
+0.99    0.687126
+Name: Correlation, dtype: float64
+
+The Four Graphs:
+
+Broad Network
+Threshold: 0.4081
+Total Nodes: 98
+Active Nodes: 91
+Isolated Nodes: 7
+Edges: 1189
+Nontrivial Components: 3
+Largest Component: 87 nodes
+Largest Component Members:
+['AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT', 'AMD', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'BKNG', 'CCEP', 'CDNS', 'CDW', 'CEG', 'CHTR', 'CMCSA', 'COST', 'CPRT', 'CRWD', 'CSCO', 'CSGP', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG', 'DXCM', 'EXC', 'FAST', 'FTNT', 'GEHC', 'GFS', 'GOOGL', 'HON', 'IDXX', 'INTC', 'INTU', 'ISRG', 'KDP', 'KHC', 'KLAC', 'LIN', 'LRCX', 'LULU', 'MAR', 'MCHP', 'MDB', 'MDLZ', 'MELI', 'META', 'MNST', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NFLX', 'NVDA', 'NXPI', 'ODFL', 'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PEP', 'PLTR', 'PYPL', 'QCOM', 'ROP', 'ROST', 'SBUX', 'SNPS', 'TEAM', 'TMUS', 'TSLA', 'TTD', 'TXN', 'VRSK', 'WDAY', 'XEL', 'ZS']
+
+Strong Network
+Threshold: 0.4814
+Total Nodes: 98
+Active Nodes: 77
+Isolated Nodes: 21
+Edges: 476
+Nontrivial Components: 5
+Largest Component: 65 nodes
+Largest Component Members:
+['AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AMAT', 'AMD', 'AMZN', 'ARM', 'ASML', 'AVGO', 'BKNG', 'CDNS', 'CDW', 'COST', 'CPRT', 'CRWD', 'CSCO', 'CSGP', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG', 'FAST', 'FTNT', 'GFS', 'GOOGL', 'HON', 'IDXX', 'INTC', 'INTU', 'ISRG', 'KLAC', 'LIN', 'LRCX', 'MAR', 'MCHP', 'MDB', 'MELI', 'META', 'MRVL', 'MSFT', 'MU', 'NVDA', 'NXPI', 'ODFL', 'ON', 'PANW', 'PAYX', 'PCAR', 'PLTR', 'PYPL', 'QCOM', 'ROP', 'ROST', 'SNPS', 'TEAM', 'TSLA', 'TTD', 'TXN', 'VRSK', 'WDAY', 'ZS']
+
+Very Strong Network
+Threshold: 0.5389
+Total Nodes: 98
+Active Nodes: 61
+Isolated Nodes: 37
+Edges: 238
+Nontrivial Components: 7
+Largest Component: 43 nodes
+Largest Component Members:
+['AAPL', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AMAT', 'AMD', 'AMZN', 'ARM', 'ASML', 'AVGO', 'CDNS', 'CDW', 'CPRT', 'CRWD', 'CTAS', 'DDOG', 'FTNT', 'GFS', 'GOOGL', 'INTC', 'INTU', 'KLAC', 'LRCX', 'MCHP', 'MDB', 'META', 'MRVL', 'MSFT', 'MU', 'NVDA', 'NXPI', 'ON', 'PANW', 'PAYX', 'QCOM', 'ROP', 'SNPS', 'TEAM', 'TXN', 'VRSK', 'WDAY', 'ZS']
+
+Extreme Network
+Threshold: 0.6871
+Total Nodes: 98
+Active Nodes: 24
+Isolated Nodes: 74
+Edges: 48
+Nontrivial Components: 6
+Largest Component: 13 nodes
+Largest Component Members:
+['ADI', 'AMAT', 'AMD', 'ASML', 'KLAC', 'LRCX', 'MCHP', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TXN']
+
+Extreme Network Degree Ranking:
+[('KLAC', 11), ('LRCX', 10), ('AMAT', 9), ('NXPI', 9), ('ADI', 8), ('MCHP', 8), ('ON', 7), ('QCOM', 6), ('TXN', 6), ('ASML', 4), ('MU', 3), ('AEP', 2), ('NVDA', 2), ('ADP', 1), ('AMD', 1), ('CDNS', 1), ('CRWD', 1), ('DDOG', 1), ('EXC', 1), ('MDB', 1), ('PAYX', 1), ('SNPS', 1), ('XEL', 1), ('ZS', 1)]
+
+Extreme Network Components:
+___________________________
+Size 13: ['ADI', 'AMAT', 'AMD', 'ASML', 'KLAC', 'LRCX', 'MCHP', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TXN']
+Size 3: ['AEP', 'EXC', 'XEL']
+Size 2: ['ADP', 'PAYX']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CRWD', 'ZS']
+Size 2: ['DDOG', 'MDB']
+
+Extreme Network Edges:
+______________________
+Edge_ID Stock_A Stock_B  Correlation
+    E01    AMAT    LRCX     0.916917
+    E02    KLAC    LRCX     0.911504
+    E03    AMAT    KLAC     0.909200
+    E04     ADI    MCHP     0.860648
+    E05    MCHP    NXPI     0.860510
+    E06     ADI     TXN     0.844132
+    E07     ADI    NXPI     0.835503
+    E08    AMAT    ASML     0.835333
+    E09    ASML    KLAC     0.834222
+    E10    CDNS    SNPS     0.828150
+    E11    MCHP     TXN     0.825102
+    E12     ADP    PAYX     0.824602
+    E13    ASML    LRCX     0.821799
+    E14    NXPI      ON     0.819286
+    E15    MCHP      ON     0.810954
+    E16    NXPI     TXN     0.796338
+    E17     ADI      ON     0.766883
+    E18     ADI    KLAC     0.755057
+    E19    KLAC    NXPI     0.750738
+    E20    LRCX    NXPI     0.749348
+    E21    LRCX      MU     0.748941
+    E22    AMAT    NXPI     0.746636
+    E23    KLAC    MCHP     0.746292
+    E24     AEP     XEL     0.740052
+    E25     ADI    LRCX     0.739656
+    E26    NXPI    QCOM     0.736020
+    E27    LRCX    MCHP     0.734494
+    E28    CRWD      ZS     0.733632
+    E29     ADI    AMAT     0.733058
+    E30     AEP     EXC     0.731376
+    E31    AMAT    MCHP     0.730528
+    E32      ON     TXN     0.722677
+    E33     ADI    QCOM     0.721096
+    E34    KLAC    QCOM     0.719021
+    E35    LRCX    QCOM     0.717307
+    E36    AMAT    QCOM     0.711372
+    E37    MCHP    QCOM     0.711061
+    E38    KLAC     TXN     0.702992
+    E39     AMD    NVDA     0.700392
+    E40    ASML    NXPI     0.700240
+    E41    AMAT      ON     0.695124
+    E42    KLAC      ON     0.695010
+    E43    AMAT      MU     0.694669
+    E44    LRCX     TXN     0.694257
+    E45    LRCX      ON     0.693958
+    E46    KLAC      MU     0.692609
+    E47    KLAC    NVDA     0.689487
+    E48    DDOG     MDB     0.687883
+
+Total Extreme Edges: 48
+
+Same vs Cross Industry Pair Counts:
+Same_Industry
+False    4540
+True      213
+Name: count, dtype: int64
+
+Correlation by Industry Relationship:
+                count      mean       std  ...       50%       75%       max
+Same_Industry                              ...                              
+False          4540.0  0.301200  0.136669  ...  0.306517  0.397657  0.828150
+True            213.0  0.530351  0.144051  ...  0.525660  0.607687  0.916917
+
+[2 rows x 8 columns]
+
+Cross-industry edges saved.
+Total cross-industry pairs: 4540
+
+Cross-Industry Relationships Between 0.4 and 0.5:
+Number of pairs: 847
+
+Strongest Cross-Industry Relationships:
+Stock_A Stock_B  Correlation                          Industry_A                          Industry_B
+   CDNS    SNPS     0.828150              Software - Application           Software - Infrastructure
+    ADI    KLAC     0.755057                      Semiconductors Semiconductor Equipment & Materials
+   KLAC    NXPI     0.750738 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX    NXPI     0.749348 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX      MU     0.748941 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT    NXPI     0.746636 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC    MCHP     0.746292 Semiconductor Equipment & Materials                      Semiconductors
+    ADI    LRCX     0.739656                      Semiconductors Semiconductor Equipment & Materials
+   LRCX    MCHP     0.734494 Semiconductor Equipment & Materials                      Semiconductors
+    ADI    AMAT     0.733058                      Semiconductors Semiconductor Equipment & Materials
+   AMAT    MCHP     0.730528 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC    QCOM     0.719021 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX    QCOM     0.717307 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT    QCOM     0.711372 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC     TXN     0.702992 Semiconductor Equipment & Materials                      Semiconductors
+   ASML    NXPI     0.700240 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT      ON     0.695124 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC      ON     0.695010 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT      MU     0.694669 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX     TXN     0.694257 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX      ON     0.693958 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC      MU     0.692609 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC    NVDA     0.689487 Semiconductor Equipment & Materials                      Semiconductors
+   DDOG     MDB     0.687883              Software - Application           Software - Infrastructure
+    ADI    ASML     0.686427                      Semiconductors Semiconductor Equipment & Materials
+   AVGO    KLAC     0.685395                      Semiconductors Semiconductor Equipment & Materials
+   ASML    QCOM     0.683621 Semiconductor Equipment & Materials                      Semiconductors
+   AMAT     TXN     0.683346 Semiconductor Equipment & Materials                      Semiconductors
+   ASML    MCHP     0.682979 Semiconductor Equipment & Materials                      Semiconductors
+   LRCX    NVDA     0.680572 Semiconductor Equipment & Materials                      Semiconductors
+
+Top Industry-Adjusted Anomalies Between 0.4 and 0.5:
+Stock_A Stock_B  Correlation                          Industry_A                              Industry_B  count     mean      std  Industry_Z
+   NFLX    NVDA     0.437221                       Entertainment                          Semiconductors     28 0.300941 0.059727    2.281699
+   COST    MSFT     0.472576                     Discount Stores               Software - Infrastructure      8 0.342419 0.062439    2.084533
+    ADI    GEHC     0.421830                      Semiconductors                         Medical Devices     28 0.311207 0.055801    1.982448
+   LULU    NXPI     0.451732                      Apparel Retail                          Semiconductors     28 0.347302 0.052868    1.975303
+   CSCO    MSFT     0.446494             Communication Equipment               Software - Infrastructure      8 0.314647 0.068499    1.924807
+  CMCSA    PAYX     0.418068                    Telecom Services                  Software - Application     33 0.273501 0.076150    1.898447
+    MAR    MSFT     0.409028                             Lodging               Software - Infrastructure      8 0.346590 0.033084    1.887278
+    LIN    MSFT     0.430794                 Specialty Chemicals               Software - Infrastructure      8 0.303701 0.067937    1.870738
+   GEHC     TXN     0.414397                     Medical Devices                          Semiconductors     28 0.311207 0.055801    1.849242
+   BKNG    CCEP     0.432785                     Travel Services               Beverages - Non-Alcoholic      8 0.217872 0.117575    1.827870
+   FAST    MSFT     0.402590             Industrial Distribution               Software - Infrastructure      8 0.300409 0.057019    1.792060
+    ADP    TMUS     0.409344              Software - Application                        Telecom Services     33 0.273501 0.076150    1.783872
+   INTU    NFLX     0.462515              Software - Application                           Entertainment     22 0.294842 0.094815    1.768414
+    PEP     XEL     0.468224           Beverages - Non-Alcoholic          Utilities - Regulated Electric     12 0.335600 0.075856    1.748370
+    CDW    MSFT     0.446395     Information Technology Services               Software - Infrastructure     16 0.353972 0.052874    1.747980
+   ODFL    SNPS     0.411331                            Trucking               Software - Infrastructure      8 0.333676 0.044546    1.743247
+   AVGO     CEG     0.421852                      Semiconductors Utilities - Independent Power Producers     14 0.307288 0.067615    1.694372
+   GEHC    MCHP     0.405524                     Medical Devices                          Semiconductors     28 0.311207 0.055801    1.690227
+   LULU    MSFT     0.418401                      Apparel Retail               Software - Infrastructure     16 0.318250 0.060049    1.667810
+   CSGP    MSFT     0.442629                Real Estate Services               Software - Infrastructure      8 0.364400 0.047238    1.656070
+    AEP     PEP     0.459874      Utilities - Regulated Electric               Beverages - Non-Alcoholic     12 0.335600 0.075856    1.638303
+   ADSK     MAR     0.468284              Software - Application                                 Lodging     11 0.393574 0.046095    1.620804
+   PLTR    TSLA     0.468539           Software - Infrastructure                      Auto Manufacturers      8 0.395626 0.045039    1.618898
+   MSFT    NFLX     0.447818           Software - Infrastructure                           Entertainment     16 0.300725 0.091906    1.600469
+    ADP    ORLY     0.414234              Software - Application                              Auto Parts     11 0.237316 0.111795    1.582522
+   CTSH    MSFT     0.437543     Information Technology Services               Software - Infrastructure     16 0.353972 0.052874    1.580569
+  CMCSA    CTSH     0.420377                    Telecom Services         Information Technology Services      6 0.311049 0.070613    1.548261
+   INTU    LULU     0.433139              Software - Application                          Apparel Retail     22 0.358181 0.048665    1.540288
+    ADP    MNST     0.405148              Software - Application               Beverages - Non-Alcoholic     44 0.243666 0.105912    1.524684
+   ASML    NFLX     0.411520 Semiconductor Equipment & Materials                           Entertainment      8 0.299215 0.074035    1.516911
+
+Number of Mid-Correlation Anomaly Candidates:
+649
+
+Industry Z Distribution:
+count    649.000000
+mean       0.523114
+std        0.626617
+min       -2.448496
+25%        0.127545
+50%        0.491420
+75%        0.986751
+max        2.281699
+Name: Industry_Z, dtype: float64
+
+Industry Z Quantiles:
+0.50    0.491420
+0.75    0.986751
+0.90    1.282617
+0.95    1.484480
+0.99    1.879339
+Name: Industry_Z, dtype: float64
+
+Forensic Candidates:
+Anomaly Threshold: 1.4844800965479947
+Number of Candidates: 33
+Stock_A Stock_B  Correlation                          Industry_A                              Industry_B  Industry_Z
+   NFLX    NVDA     0.437221                       Entertainment                          Semiconductors    2.281699
+   COST    MSFT     0.472576                     Discount Stores               Software - Infrastructure    2.084533
+    ADI    GEHC     0.421830                      Semiconductors                         Medical Devices    1.982448
+   LULU    NXPI     0.451732                      Apparel Retail                          Semiconductors    1.975303
+   CSCO    MSFT     0.446494             Communication Equipment               Software - Infrastructure    1.924807
+  CMCSA    PAYX     0.418068                    Telecom Services                  Software - Application    1.898447
+    MAR    MSFT     0.409028                             Lodging               Software - Infrastructure    1.887278
+    LIN    MSFT     0.430794                 Specialty Chemicals               Software - Infrastructure    1.870738
+   GEHC     TXN     0.414397                     Medical Devices                          Semiconductors    1.849242
+   BKNG    CCEP     0.432785                     Travel Services               Beverages - Non-Alcoholic    1.827870
+   FAST    MSFT     0.402590             Industrial Distribution               Software - Infrastructure    1.792060
+    ADP    TMUS     0.409344              Software - Application                        Telecom Services    1.783872
+   INTU    NFLX     0.462515              Software - Application                           Entertainment    1.768414
+    PEP     XEL     0.468224           Beverages - Non-Alcoholic          Utilities - Regulated Electric    1.748370
+    CDW    MSFT     0.446395     Information Technology Services               Software - Infrastructure    1.747980
+   ODFL    SNPS     0.411331                            Trucking               Software - Infrastructure    1.743247
+   AVGO     CEG     0.421852                      Semiconductors Utilities - Independent Power Producers    1.694372
+   GEHC    MCHP     0.405524                     Medical Devices                          Semiconductors    1.690227
+   LULU    MSFT     0.418401                      Apparel Retail               Software - Infrastructure    1.667810
+   CSGP    MSFT     0.442629                Real Estate Services               Software - Infrastructure    1.656070
+    AEP     PEP     0.459874      Utilities - Regulated Electric               Beverages - Non-Alcoholic    1.638303
+   ADSK     MAR     0.468284              Software - Application                                 Lodging    1.620804
+   PLTR    TSLA     0.468539           Software - Infrastructure                      Auto Manufacturers    1.618898
+   MSFT    NFLX     0.447818           Software - Infrastructure                           Entertainment    1.600469
+    ADP    ORLY     0.414234              Software - Application                              Auto Parts    1.582522
+   CTSH    MSFT     0.437543     Information Technology Services               Software - Infrastructure    1.580569
+  CMCSA    CTSH     0.420377                    Telecom Services         Information Technology Services    1.548261
+   INTU    LULU     0.433139              Software - Application                          Apparel Retail    1.540288
+    ADP    MNST     0.405148              Software - Application               Beverages - Non-Alcoholic    1.524684
+   ASML    NFLX     0.411520 Semiconductor Equipment & Materials                           Entertainment    1.516911
+   LULU      ZS     0.409046                      Apparel Retail               Software - Infrastructure    1.512018
+    CSX     TXN     0.450988                           Railroads                          Semiconductors    1.495216
+   LULU    MCHP     0.425979                      Apparel Retail                          Semiconductors    1.488184
+
+~~~~~~~~~
+All Done!
+~~~~~~~~~
