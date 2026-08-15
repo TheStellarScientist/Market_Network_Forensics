@@ -75,20 +75,20 @@ Weakest Relationships:
 4743     CEG     KHC    -0.023237
 4744     ARM    MDLZ    -0.023699
 4745     PEP    PLTR    -0.030157
-4746     CEG     PEP    -0.038843
+4746     CEG     PEP    -0.038844
 4747     KHC    PLTR    -0.053327
 4748     APP     KHC    -0.054183
-4749     ARM     XEL    -0.072177
+4749     ARM     XEL    -0.072178
 4750     ARM    ORLY    -0.080078
-4751     AEP     ARM    -0.118994
-4752     ARM     EXC    -0.137805
+4751     AEP     ARM    -0.118993
+4752     ARM     EXC    -0.137806
 
 Correlation Distribution:
 count    4753.000000
 mean        0.339319
 std         0.131162
-min        -0.137805
-25%         0.250117
+min        -0.137806
+25%         0.250118
 50%         0.337936
 75%         0.425660
 max         0.902796
@@ -99,7 +99,7 @@ Correlation Quantiles:
 0.75    0.425660
 0.90    0.501164
 0.95    0.553659
-0.99    0.666031
+0.99    0.666032
 Name: Correlation, dtype: float64
 
 The Four Graphs:
@@ -176,13 +176,13 @@ Edge_ID Stock_A Stock_B  Correlation
     E10    AMAT    ASML     0.795544
     E11    MCHP      ON     0.791940
     E12    ASML    LRCX     0.790996
-    E13    ASML    KLAC     0.784198
+    E13    ASML    KLAC     0.784197
     E14    MCHP    NXPI     0.775695
     E15    NXPI      ON     0.772938
     E16     ADI      ON     0.769372
-    E17     ADI    NXPI     0.768734
+    E17     ADI    NXPI     0.768735
     E18    AMAT    MCHP     0.736637
-    E19     ADI    AMAT     0.736519
+    E19     ADI    AMAT     0.736518
     E20    LRCX    MCHP     0.735825
     E21     ADI    KLAC     0.735520
     E22     ADI    LRCX     0.733027
@@ -195,18 +195,18 @@ Edge_ID Stock_A Stock_B  Correlation
     E29    AMAT     TXN     0.713854
     E30    LRCX     TXN     0.708344
     E31      ON     TXN     0.705071
-    E32    AMAT      MU     0.704910
-    E33   GOOGL    MSFT     0.704822
+    E32    AMAT      MU     0.704911
+    E33   GOOGL    MSFT     0.704823
     E34    ADBE    MSFT     0.694595
     E35    LRCX      ON     0.692139
-    E36     ADI    ASML     0.690202
+    E36     ADI    ASML     0.690201
     E37    AMAT      ON     0.689905
     E38    ASML    MCHP     0.689733
     E39    LRCX    NXPI     0.688295
     E40    AMAT    NXPI     0.685135
     E41    MDLZ     PEP     0.684055
     E42    CRWD      ZS     0.683688
-    E43    AAPL    MSFT     0.677423
+    E43    AAPL    MSFT     0.677422
     E44     GFS    NXPI     0.674805
     E45    INTU    MSFT     0.674701
     E46    KLAC    NXPI     0.669381
@@ -239,7 +239,7 @@ Strongest Cross-Industry Relationships:
 Stock_A Stock_B  Correlation                          Industry_A                          Industry_B
    CDNS    SNPS     0.821069              Software - Application           Software - Infrastructure
    AMAT    MCHP     0.736637 Semiconductor Equipment & Materials                      Semiconductors
-    ADI    AMAT     0.736519                      Semiconductors Semiconductor Equipment & Materials
+    ADI    AMAT     0.736518                      Semiconductors Semiconductor Equipment & Materials
    LRCX    MCHP     0.735825 Semiconductor Equipment & Materials                      Semiconductors
     ADI    KLAC     0.735520                      Semiconductors Semiconductor Equipment & Materials
     ADI    LRCX     0.733027                      Semiconductors Semiconductor Equipment & Materials
@@ -248,120 +248,120 @@ Stock_A Stock_B  Correlation                          Industry_A                
    KLAC     TXN     0.714195 Semiconductor Equipment & Materials                      Semiconductors
    AMAT     TXN     0.713854 Semiconductor Equipment & Materials                      Semiconductors
    LRCX     TXN     0.708344 Semiconductor Equipment & Materials                      Semiconductors
-   AMAT      MU     0.704910 Semiconductor Equipment & Materials                      Semiconductors
-  GOOGL    MSFT     0.704822      Internet Content & Information           Software - Infrastructure
+   AMAT      MU     0.704911 Semiconductor Equipment & Materials                      Semiconductors
+  GOOGL    MSFT     0.704823      Internet Content & Information           Software - Infrastructure
    ADBE    MSFT     0.694595              Software - Application           Software - Infrastructure
    LRCX      ON     0.692139 Semiconductor Equipment & Materials                      Semiconductors
-    ADI    ASML     0.690202                      Semiconductors Semiconductor Equipment & Materials
+    ADI    ASML     0.690201                      Semiconductors Semiconductor Equipment & Materials
    AMAT      ON     0.689905 Semiconductor Equipment & Materials                      Semiconductors
    ASML    MCHP     0.689733 Semiconductor Equipment & Materials                      Semiconductors
    LRCX    NXPI     0.688295 Semiconductor Equipment & Materials                      Semiconductors
    AMAT    NXPI     0.685135 Semiconductor Equipment & Materials                      Semiconductors
    MDLZ     PEP     0.684055                       Confectioners           Beverages - Non-Alcoholic
-   AAPL    MSFT     0.677423                Consumer Electronics           Software - Infrastructure
+   AAPL    MSFT     0.677422                Consumer Electronics           Software - Infrastructure
    INTU    MSFT     0.674701              Software - Application           Software - Infrastructure
    KLAC    NXPI     0.669381 Semiconductor Equipment & Materials                      Semiconductors
    ASML    NXPI     0.667217 Semiconductor Equipment & Materials                      Semiconductors
    KLAC      MU     0.666400 Semiconductor Equipment & Materials                      Semiconductors
    AMZN    MSFT     0.665691                     Internet Retail           Software - Infrastructure
-   KLAC      ON     0.665444 Semiconductor Equipment & Materials                      Semiconductors
+   KLAC      ON     0.665443 Semiconductor Equipment & Materials                      Semiconductors
    AMAT    AVGO     0.663286 Semiconductor Equipment & Materials                      Semiconductors
    AVGO    LRCX     0.662133                      Semiconductors Semiconductor Equipment & Materials
 
 Top Industry-Adjusted Anomalies Between 0.4 and 0.5:
 Stock_A Stock_B  Correlation                          Industry_A                     Industry_B  count     mean      std  Industry_Z
-   MNST    MSFT     0.437375           Beverages - Non-Alcoholic      Software - Infrastructure     32 0.195081 0.100163    2.418998
-   AMGN     PEP     0.437952        Drug Manufacturers - General      Beverages - Non-Alcoholic     16 0.254681 0.076329    2.401065
-  CMCSA    MSFT     0.421593                    Telecom Services      Software - Infrastructure     24 0.247058 0.077636    2.248137
-   NFLX    NVDA     0.435766                       Entertainment                 Semiconductors     28 0.314379 0.054561    2.224808
-   MSFT    TMUS     0.414613           Software - Infrastructure               Telecom Services     24 0.247058 0.077636    2.158226
-   AMGN     ROP     0.419131        Drug Manufacturers - General         Software - Application     44 0.240164 0.083693    2.138376
-    ADI    GEHC     0.421830                      Semiconductors                Medical Devices     28 0.301514 0.057784    2.082188
-    ADP    AMGN     0.411775              Software - Application   Drug Manufacturers - General     44 0.240164 0.083693    2.050481
+   MNST    MSFT     0.437375           Beverages - Non-Alcoholic      Software - Infrastructure     32 0.195081 0.100163    2.418995
+   AMGN     PEP     0.437952        Drug Manufacturers - General      Beverages - Non-Alcoholic     16 0.254681 0.076329    2.401062
+  CMCSA    MSFT     0.421594                    Telecom Services      Software - Infrastructure     24 0.247058 0.077636    2.248137
+   NFLX    NVDA     0.435766                       Entertainment                 Semiconductors     28 0.314379 0.054561    2.224809
+   MSFT    TMUS     0.414613           Software - Infrastructure               Telecom Services     24 0.247058 0.077636    2.158222
+   AMGN     ROP     0.419131        Drug Manufacturers - General         Software - Application     44 0.240164 0.083693    2.138373
+    ADI    GEHC     0.421830                      Semiconductors                Medical Devices     28 0.301514 0.057784    2.082185
+    ADP    AMGN     0.411775              Software - Application   Drug Manufacturers - General     44 0.240164 0.083693    2.050480
    MSFT    TTWO     0.450225           Software - Infrastructure Electronic Gaming & Multimedia      8 0.348232 0.050582    2.016405
-   AMGN    PAYX     0.405872        Drug Manufacturers - General         Software - Application     44 0.240164 0.083693    1.979954
-   GEHC     TXN     0.414397                     Medical Devices                 Semiconductors     28 0.301514 0.057784    1.953550
+   AMGN    PAYX     0.405873        Drug Manufacturers - General         Software - Application     44 0.240164 0.083693    1.979953
+   GEHC     TXN     0.414397                     Medical Devices                 Semiconductors     28 0.301514 0.057784    1.953553
    FAST    MSFT     0.467583             Industrial Distribution      Software - Infrastructure      8 0.309612 0.081856    1.929875
-   ASML    LULU     0.401051 Semiconductor Equipment & Materials                 Apparel Retail      8 0.386668 0.007480    1.922894
+   ASML    LULU     0.401050 Semiconductor Equipment & Materials                 Apparel Retail      8 0.386668 0.007480    1.922893
    ADBE    NFLX     0.479829              Software - Application                  Entertainment     22 0.304416 0.091590    1.915210
-   MSFT    NFLX     0.482905           Software - Infrastructure                  Entertainment     16 0.298002 0.096584    1.914423
-   MSFT    SBUX     0.456293           Software - Infrastructure                    Restaurants      8 0.316852 0.073488    1.897451
-   PLTR    TSLA     0.455446           Software - Infrastructure             Auto Manufacturers      8 0.373975 0.043249    1.883770
-  CMCSA     TXN     0.430282                    Telecom Services                 Semiconductors     42 0.283072 0.078782    1.868581
-  CMCSA    PAYX     0.486324                    Telecom Services         Software - Application     33 0.325341 0.086240    1.866685
-   COST     TXN     0.439054                     Discount Stores                 Semiconductors     14 0.343029 0.051634    1.859724
-    CSX    MSFT     0.448656                           Railroads      Software - Infrastructure      8 0.291534 0.085945    1.828158
-   GEHC    MCHP     0.405524                     Medical Devices                 Semiconductors     28 0.301514 0.057784    1.799993
-   BKNG    CCEP     0.454995                     Travel Services      Beverages - Non-Alcoholic      8 0.239841 0.120011    1.792785
-   CCEP    ROST     0.408477           Beverages - Non-Alcoholic                 Apparel Retail      8 0.288062 0.067179    1.792464
-   MDLZ    MSFT     0.400345                       Confectioners      Software - Infrastructure      8 0.183206 0.121760    1.783343
+   MSFT    NFLX     0.482905           Software - Infrastructure                  Entertainment     16 0.298002 0.096584    1.914427
+   MSFT    SBUX     0.456292           Software - Infrastructure                    Restaurants      8 0.316852 0.073488    1.897449
+   PLTR    TSLA     0.455446           Software - Infrastructure             Auto Manufacturers      8 0.373975 0.043249    1.883771
+  CMCSA     TXN     0.430283                    Telecom Services                 Semiconductors     42 0.283072 0.078782    1.868588
+  CMCSA    PAYX     0.486324                    Telecom Services         Software - Application     33 0.325341 0.086241    1.866679
+   COST     TXN     0.439055                     Discount Stores                 Semiconductors     14 0.343029 0.051634    1.859721
+    CSX    MSFT     0.448656                           Railroads      Software - Infrastructure      8 0.291534 0.085945    1.828159
+   GEHC    MCHP     0.405524                     Medical Devices                 Semiconductors     28 0.301514 0.057784    1.799992
+   BKNG    CCEP     0.454995                     Travel Services      Beverages - Non-Alcoholic      8 0.239841 0.120011    1.792786
+   CCEP    ROST     0.408477           Beverages - Non-Alcoholic                 Apparel Retail      8 0.288062 0.067179    1.792466
+   MDLZ    MSFT     0.400345                       Confectioners      Software - Infrastructure      8 0.183206 0.121759    1.783346
     ADP     EXC     0.495818              Software - Application Utilities - Regulated Electric     33 0.245415 0.141027    1.775566
    AXON    PLTR     0.422532                 Aerospace & Defense      Software - Infrastructure      8 0.360739 0.035034    1.763819
-    HON    MSFT     0.488351                       Conglomerates      Software - Infrastructure      8 0.292082 0.111882    1.754245
-   CSGP    MSFT     0.494809                Real Estate Services      Software - Infrastructure      8 0.383547 0.064695    1.719789
-    ADP   CMCSA     0.473622              Software - Application               Telecom Services     33 0.325341 0.086240    1.719394
+    HON    MSFT     0.488351                       Conglomerates      Software - Infrastructure      8 0.292082 0.111882    1.754246
+   CSGP    MSFT     0.494809                Real Estate Services      Software - Infrastructure      8 0.383547 0.064695    1.719790
+    ADP   CMCSA     0.473622              Software - Application               Telecom Services     33 0.325341 0.086241    1.719397
 
 Number of Mid-Correlation Anomaly Candidates:
 684
 
 Industry Z Distribution:
 count    684.000000
-mean       0.517109
+mean       0.517108
 std        0.645827
-min       -2.118285
-25%        0.082302
-50%        0.488002
+min       -2.118288
+25%        0.082299
+50%        0.488000
 75%        0.943925
-max        2.418998
+max        2.418995
 Name: Industry_Z, dtype: float64
 
 Industry Z Quantiles:
-0.50    0.488002
+0.50    0.488000
 0.75    0.943925
-0.90    1.313619
-0.95    1.550004
-0.99    2.055872
+0.90    1.313620
+0.95    1.550002
+0.99    2.055870
 Name: Industry_Z, dtype: float64
 
 Forensic Candidates:
-Anomaly Threshold: 1.5500042908668128
+Anomaly Threshold: 1.550001798006556
 Number of Candidates: 35
 Stock_A Stock_B  Correlation                          Industry_A                              Industry_B  Industry_Z
-   MNST    MSFT     0.437375           Beverages - Non-Alcoholic               Software - Infrastructure    2.418998
-   AMGN     PEP     0.437952        Drug Manufacturers - General               Beverages - Non-Alcoholic    2.401065
-  CMCSA    MSFT     0.421593                    Telecom Services               Software - Infrastructure    2.248137
-   NFLX    NVDA     0.435766                       Entertainment                          Semiconductors    2.224808
-   MSFT    TMUS     0.414613           Software - Infrastructure                        Telecom Services    2.158226
-   AMGN     ROP     0.419131        Drug Manufacturers - General                  Software - Application    2.138376
-    ADI    GEHC     0.421830                      Semiconductors                         Medical Devices    2.082188
-    ADP    AMGN     0.411775              Software - Application            Drug Manufacturers - General    2.050481
+   MNST    MSFT     0.437375           Beverages - Non-Alcoholic               Software - Infrastructure    2.418995
+   AMGN     PEP     0.437952        Drug Manufacturers - General               Beverages - Non-Alcoholic    2.401062
+  CMCSA    MSFT     0.421594                    Telecom Services               Software - Infrastructure    2.248137
+   NFLX    NVDA     0.435766                       Entertainment                          Semiconductors    2.224809
+   MSFT    TMUS     0.414613           Software - Infrastructure                        Telecom Services    2.158222
+   AMGN     ROP     0.419131        Drug Manufacturers - General                  Software - Application    2.138373
+    ADI    GEHC     0.421830                      Semiconductors                         Medical Devices    2.082185
+    ADP    AMGN     0.411775              Software - Application            Drug Manufacturers - General    2.050480
    MSFT    TTWO     0.450225           Software - Infrastructure          Electronic Gaming & Multimedia    2.016405
-   AMGN    PAYX     0.405872        Drug Manufacturers - General                  Software - Application    1.979954
-   GEHC     TXN     0.414397                     Medical Devices                          Semiconductors    1.953550
+   AMGN    PAYX     0.405873        Drug Manufacturers - General                  Software - Application    1.979953
+   GEHC     TXN     0.414397                     Medical Devices                          Semiconductors    1.953553
    FAST    MSFT     0.467583             Industrial Distribution               Software - Infrastructure    1.929875
-   ASML    LULU     0.401051 Semiconductor Equipment & Materials                          Apparel Retail    1.922894
+   ASML    LULU     0.401050 Semiconductor Equipment & Materials                          Apparel Retail    1.922893
    ADBE    NFLX     0.479829              Software - Application                           Entertainment    1.915210
-   MSFT    NFLX     0.482905           Software - Infrastructure                           Entertainment    1.914423
-   MSFT    SBUX     0.456293           Software - Infrastructure                             Restaurants    1.897451
-   PLTR    TSLA     0.455446           Software - Infrastructure                      Auto Manufacturers    1.883770
-  CMCSA     TXN     0.430282                    Telecom Services                          Semiconductors    1.868581
-  CMCSA    PAYX     0.486324                    Telecom Services                  Software - Application    1.866685
-   COST     TXN     0.439054                     Discount Stores                          Semiconductors    1.859724
-    CSX    MSFT     0.448656                           Railroads               Software - Infrastructure    1.828158
-   GEHC    MCHP     0.405524                     Medical Devices                          Semiconductors    1.799993
-   BKNG    CCEP     0.454995                     Travel Services               Beverages - Non-Alcoholic    1.792785
-   CCEP    ROST     0.408477           Beverages - Non-Alcoholic                          Apparel Retail    1.792464
-   MDLZ    MSFT     0.400345                       Confectioners               Software - Infrastructure    1.783343
+   MSFT    NFLX     0.482905           Software - Infrastructure                           Entertainment    1.914427
+   MSFT    SBUX     0.456292           Software - Infrastructure                             Restaurants    1.897449
+   PLTR    TSLA     0.455446           Software - Infrastructure                      Auto Manufacturers    1.883771
+  CMCSA     TXN     0.430283                    Telecom Services                          Semiconductors    1.868588
+  CMCSA    PAYX     0.486324                    Telecom Services                  Software - Application    1.866679
+   COST     TXN     0.439055                     Discount Stores                          Semiconductors    1.859721
+    CSX    MSFT     0.448656                           Railroads               Software - Infrastructure    1.828159
+   GEHC    MCHP     0.405524                     Medical Devices                          Semiconductors    1.799992
+   BKNG    CCEP     0.454995                     Travel Services               Beverages - Non-Alcoholic    1.792786
+   CCEP    ROST     0.408477           Beverages - Non-Alcoholic                          Apparel Retail    1.792466
+   MDLZ    MSFT     0.400345                       Confectioners               Software - Infrastructure    1.783346
     ADP     EXC     0.495818              Software - Application          Utilities - Regulated Electric    1.775566
    AXON    PLTR     0.422532                 Aerospace & Defense               Software - Infrastructure    1.763819
-    HON    MSFT     0.488351                       Conglomerates               Software - Infrastructure    1.754245
-   CSGP    MSFT     0.494809                Real Estate Services               Software - Infrastructure    1.719789
-    ADP   CMCSA     0.473622              Software - Application                        Telecom Services    1.719394
-    ADI   CMCSA     0.416780                      Semiconductors                        Telecom Services    1.697196
-   AVGO     CEG     0.421853                      Semiconductors Utilities - Independent Power Producers    1.694373
-   INTU    NFLX     0.447808              Software - Application                           Entertainment    1.565586
+    HON    MSFT     0.488351                       Conglomerates               Software - Infrastructure    1.754246
+   CSGP    MSFT     0.494809                Real Estate Services               Software - Infrastructure    1.719790
+    ADP   CMCSA     0.473622              Software - Application                        Telecom Services    1.719397
+    ADI   CMCSA     0.416780                      Semiconductors                        Telecom Services    1.697197
+   AVGO     CEG     0.421853                      Semiconductors Utilities - Independent Power Producers    1.694372
+   INTU    NFLX     0.447808              Software - Application                           Entertainment    1.565587
    ASML     TTD     0.422282 Semiconductor Equipment & Materials                    Advertising Agencies    1.562790
-   PAYX     XEL     0.464043              Software - Application          Utilities - Regulated Electric    1.550255
+   PAYX     XEL     0.464043              Software - Application          Utilities - Regulated Electric    1.550253
 
 ~~~~~~~~~
 All Done!

@@ -124,6 +124,48 @@ full_daily_returns = full_daily_returns.drop(
 # print("GOOG" in full_daily_returns.columns)
 # print("GOOGL" in full_daily_returns.columns)
 
+# AMD / NVDA Rolling Correlation
+amd_nvda_rolling_corr = (
+    full_daily_returns["AMD"]
+    .rolling(window=252)
+    .corr(full_daily_returns["NVDA"])
+)
+
+fig, ax = plt.subplots(figsize=(12, 6))
+
+ax.plot(
+    amd_nvda_rolling_corr.index,
+    amd_nvda_rolling_corr
+)
+
+ax.axhline(
+    0,
+    linestyle="--",
+    linewidth=1,
+    alpha=0.7
+)
+
+ax.set_xlabel("Date", fontsize=12)
+ax.set_ylabel("252-Day Rolling Correlation", fontsize=12)
+ax.set_title(
+    "AMD vs NVDA Rolling Return Correlation",
+    fontsize=14,
+    fontweight="bold"
+)
+
+for spine in ["top", "right"]:
+    ax.spines[spine].set_visible(False)
+
+plt.tight_layout()
+
+plt.savefig(
+    "figures/amd_nvda_rolling_correlation.png",
+    dpi=200,
+    bbox_inches="tight"
+)
+
+plt.close()
+
 print("\nFull Return Matrix Shape After Drop:")
 print(full_daily_returns.shape)
 
@@ -193,6 +235,7 @@ quantiles = full_edge_table["Correlation"].quantile(
 )
 
 print(quantiles)
+
 
 # Making a Histogram
 
