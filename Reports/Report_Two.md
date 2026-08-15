@@ -200,7 +200,7 @@ So AMD's isolation in 2025 was not a permanent feature of the broader return net
 
 # Ten-Year Network: 2016–2025
 
-I then expanded the analysis so I ended up getting a ten-year return matrix with 2,514 trading days.
+I expanded the analysis so I ended up getting a ten-year return matrix with 2,514 trading days.
 
 The Extreme threshold became:
 
@@ -230,67 +230,57 @@ The strongest relationships included:
 * ADI–MCHP: 0.838
 * ADI–TXN: 0.832
 
-So the semiconductor structure was not just a 2025 phenomenon.
-
-It survived across a decade of returns.
-
-However, **both AMD and NVDA disappeared from the ten-year Extreme semiconductor component**.
-
-This gives the AMD–NVDA result a much more interesting interpretation.
+So the semiconductor group isn't new and has been around for some time. However, both AMD and NVDA disappeared from the ten-year Extreme semiconductor component. Which got me thinking.
 
 ---
 
-# AMD–NVDA Was Regime-Dependent
+# AMD and NVDA 
 
-Across the three observation windows, AMD and NVDA behave differently.
+In 2025, AMD and NVDA had a daily-return correlation of:
 
-| Window    | AMD–NVDA Relationship   | Extreme Network                               |
-| --------- | ----------------------- | --------------------------------------------- |
-| 2025      | r = 0.596               | AMD isolated; NVDA remains                    |
-| 2021–2025 | r = 0.700               | AMD and NVDA connected                        |
-| 2016–2025 | Below Extreme threshold | Neither belongs to Extreme semiconductor core |
+$$
+r_{\mathrm{AMD,NVDA}}=0.596
+$$
 
-The five-year window therefore captures a period when AMD and NVDA became unusually tightly connected in the return network.
+That was not high enough to qualify for the Extreme network, leaving AMD isolated while NVDA remained connected to the semiconductor ecosystem.
 
-The ten-year result suggests this was not always true.
+However, over 2021–2025, the AMD–NVDA correlation increased to:
 
-Then in 2025, their correlation weakened again.
+$$
+r_{\mathrm{AMD,NVDA}}=0.700
+$$
 
-So the original 2025 result probably was not telling me that AMD somehow occupies an entirely different economic ecosystem from Nvidia.
+This was strong enough for AMD and NVDA to form an Extreme edge and placed AMD back inside the semiconductor component.
 
-Instead, it revealed something about **time**.
+But when the analysis was expanded again to 2016–2025, the relationship fell below the Extreme threshold. Neither AMD nor NVDA appeared in the ten-year Extreme semiconductor group.
 
-Some relationships appear structurally persistent.
+This suggested that AMD–NVDA might not be a permanently strong structural relationship. Instead, their correlation could be dependent on the economic period being measured.
 
-Others strengthen and weaken depending on the economic regime being measured.
+To investigate this, I calculated their 252-trading-day rolling return correlation across the ten-year period.
 
-AMD–NVDA appears to belong to the second category.
+The figure below shows that the AMD–NVDA rolling correlation peaked in 2023. Which is particularly interesting because 2023 also marked the beginning of the generative-AI boom and the rapid rise of AI accelerators as a central part of the investment narratives surrounding both companies.
+
+<img src="figures/amd_nvda_rolling_correlation.png" alt="AMD vs NVDA 252-Day Rolling Return Correlation" />
 
 ---
 
-# The Persistent Semiconductor Core
+# The Semiconductor Core
 
 The comparison across one, five, and ten years also changes how I interpret the semiconductor component itself.
 
-The exact membership changes.
-
-But the underlying structure does not disappear.
+The exact membership changes but the underlying structure (aka all involved with semiconductors) does not.
 
 Companies such as AMAT, KLAC, LRCX, ADI, MCHP, NXPI, ON, and TXN repeatedly form extremely strong relationships across different observation windows.
 
 This suggests there is a persistent semiconductor core whose return relationships survive substantial changes in the measurement period.
 
-AMD and NVDA are more peripheral to that persistent structure.
-
-Their importance to AI does not necessarily mean their stocks occupy the most stable positions in the broader semiconductor return network.
+AMD and NVDA are more peripheral to that persistent structure. Their importance to AI does not necessarily mean their stocks occupy the most stable positions in the broader semiconductor return network. Which honestly makes sense. Whether AI is here to stick around or not, technology needs semiconductors 🤷.
 
 ---
 
-# A Ten-Year Technology Component
+# Technology Component
 
-The ten-year Extreme network also produced something that did not appear as clearly in the shorter windows.
-
-A separate five-company component emerged:
+The ten-year Extreme network also produced a separate five-company component:
 
 * AAPL
 * ADBE
@@ -307,85 +297,20 @@ Its Extreme relationships included:
 * AAPL–MSFT: 0.677
 * INTU–MSFT: 0.675
 
-This looks much closer to a persistent large-cap technology/software ecosystem.
+This looks much closer to a persistent large-cap technology/software ecosystem. Which means expanding the observation window produced something closer to the broad technology structure that originally motivated the project. I thought Google and Microsoft would be strongly linked together with Apple and was very confused when they weren't the strongest connections. Then I remembered semiconductors existed. 
 
-Ironically, expanding the observation window produced something closer to the broad technology structure that originally motivated the project.
-
-It still was not an "AI cluster."
-
-But it was another example of economically recognizable structure emerging from return data alone.
-
----
-
-# What Happened to the Anomalies?
-
-The anomaly results were much less stable than the Extreme network structure.
-
-The five-year analysis produced 33 forensic candidates.
-
-The ten-year analysis produced 35.
-
-But the specific companies appearing at the top changed substantially across observation windows.
-
-The original ADP pattern also weakened.
-
-Only some of the ADP relationships that appeared in the 2025 anomaly set remained unusually strong over longer windows.
-
-That makes me more comfortable treating the original six-company ADP pattern as an interesting coincidence rather than evidence that ADP's customer network was somehow driving stock-return relationships.
-
-This contrast may actually be one of the more useful results of the project:
-
-**The broad economic structures were relatively persistent. The unusual individual cross-industry anomalies were not.**
 
 ---
 
 # What Did I Actually Learn?
 
-The original project started with AI.
-
-I wanted to know whether an AI ecosystem would emerge from stock returns without explicitly telling the network what an AI company was.
-
-That isn't really what happened.
-
-Instead, the network repeatedly recovered more traditional economic structures.
-
-The strongest example was the semiconductor ecosystem.
-
-It appeared in the 2025 network.
-
-It remained in the five-year network.
-
-And it remained in the ten-year network.
-
-Several smaller relationships and components also persisted across time.
-
-At the same time, individual companies moved in and out of those structures.
-
-AMD and NVDA were the clearest example.
-
-Their relationship was not permanently weak or permanently strong. It changed depending on the period being measured.
-
-So my final interpretation is:
-
-**Stock-return networks can recover recognizable economic structure without being explicitly given information about company industries or relationships. Some of those structures remain remarkably persistent across different time horizons, while individual edges and peripheral companies can be highly regime-dependent.**
-
-The anomaly investigation also showed that unusual cross-industry correlations can occasionally correspond to real relationships that conventional industry classifications do not encode.
-
-But those anomalies were much less stable across time.
-
-That does not mean any of these relationships caused the observed correlations.
-
-It means there was structure in the noise.
-
-And some of that structure survived ten years.
-
-That's good enough for me.
+Stock-return networks can recover recognizable economic structure without being explicitly given information about company industries or relationships. Some of those structures remain remarkably persistent across different time horizons, while individual edges and peripheral companies can be highly regime-dependent.
 
 ---
 
 # Final Limitations
 
-This project remains exploratory.
+This project was for fun and therefore has a lot of limitations.
 
 In particular:
 
@@ -398,11 +323,8 @@ In particular:
 * anomalous correlation does not imply a direct economic relationship
 * direct economic relationships do not imply that those relationships caused the observed correlations
 * only 20 of the original 49 Extreme edges were manually validated
-* the ADP pattern may be coincidence rather than evidence of a meaningful market mechanism
 * network structure still depends on both the chosen threshold and the observation window
 
 A more rigorous project could use factor-adjusted returns, rolling networks, historical index membership, formal null models, and automated relationship validation.
 
-I'm not doing that.
-
-The project is done.
+But I'm only one person and have to work on my research. So for now, this project is done!
