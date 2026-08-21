@@ -1,36 +1,36 @@
 Stock_A,Stock_B,Correlation,Industry_A,Industry_B,Same_Industry,Industry_Pair,count,mean,std,Industry_Z
-MNST,MSFT,0.4373747594187038,Beverages - Non-Alcoholic,Software - Infrastructure,False,Beverages - Non-Alcoholic | Software - Infrastructure,32,0.1950807385142724,0.10016308905575967,2.418995092788612
-AMGN,PEP,0.4379521793995687,Drug Manufacturers - General,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Drug Manufacturers - General,16,0.2546810316638349,0.07632919452330038,2.4010622525276113
-CMCSA,MSFT,0.4215935357439159,Telecom Services,Software - Infrastructure,False,Software - Infrastructure | Telecom Services,24,0.2470579029292456,0.07763567004183584,2.2481371349099915
-NFLX,NVDA,0.43576622047684826,Entertainment,Semiconductors,False,Entertainment | Semiconductors,28,0.3143792530205532,0.05456063533875913,2.2248085401245947
-MSFT,TMUS,0.41461290610136936,Software - Infrastructure,Telecom Services,False,Software - Infrastructure | Telecom Services,24,0.2470579029292456,0.07763567004183584,2.1582218982824872
-AMGN,ROP,0.41913134898678883,Drug Manufacturers - General,Software - Application,False,Drug Manufacturers - General | Software - Application,44,0.24016419083175497,0.08369315802012167,2.1383726267325964
-ADI,GEHC,0.4218301765890664,Semiconductors,Medical Devices,False,Medical Devices | Semiconductors,28,0.30151373040980134,0.05778373945725557,2.082185184090879
-ADP,AMGN,0.41177535842048196,Software - Application,Drug Manufacturers - General,False,Drug Manufacturers - General | Software - Application,44,0.24016419083175497,0.08369315802012167,2.0504802500996306
-MSFT,TTWO,0.45022473196776347,Software - Infrastructure,Electronic Gaming & Multimedia,False,Electronic Gaming & Multimedia | Software - Infrastructure,8,0.3482316979476977,0.050581625161440436,2.016404844536657
-AMGN,PAYX,0.40587270881033166,Drug Manufacturers - General,Software - Application,False,Drug Manufacturers - General | Software - Application,44,0.24016419083175497,0.08369315802012167,1.9799529841942005
-GEHC,TXN,0.41439731805477403,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.30151373040980134,0.05778373945725557,1.9535528282740546
-FAST,MSFT,0.4675834212399149,Industrial Distribution,Software - Infrastructure,False,Industrial Distribution | Software - Infrastructure,8,0.309612386390422,0.08185556309569898,1.929875366745762
-ASML,LULU,0.40105044614767094,Semiconductor Equipment & Materials,Apparel Retail,False,Apparel Retail | Semiconductor Equipment & Materials,8,0.38666808933207364,0.007479540446827943,1.9228931132656448
-ADBE,NFLX,0.4798294973775416,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.3044162690333744,0.09158955904415038,1.9152098795410728
-MSFT,NFLX,0.4829053406602398,Software - Infrastructure,Entertainment,False,Entertainment | Software - Infrastructure,16,0.2980024161365848,0.09658397060917243,1.91442662128549
-MSFT,SBUX,0.45629243421381005,Software - Infrastructure,Restaurants,False,Restaurants | Software - Infrastructure,8,0.3168521960752558,0.07348827896769805,1.897448682936847
-PLTR,TSLA,0.45544591381095495,Software - Infrastructure,Auto Manufacturers,False,Auto Manufacturers | Software - Infrastructure,8,0.3739747493826354,0.043248984539494356,1.8837705739407875
-CMCSA,TXN,0.4302826802765948,Telecom Services,Semiconductors,False,Semiconductors | Telecom Services,42,0.2830723687518152,0.07878155844481836,1.8685884670318036
-CMCSA,PAYX,0.48632395190204986,Telecom Services,Software - Application,False,Software - Application | Telecom Services,33,0.32534052953991466,0.08624053225988977,1.8666793692437371
-COST,TXN,0.43905476933291504,Discount Stores,Semiconductors,False,Discount Stores | Semiconductors,14,0.3430293622110265,0.05163429788628004,1.8597213684085723
-CSX,MSFT,0.44865572620592853,Railroads,Software - Infrastructure,False,Railroads | Software - Infrastructure,8,0.29153434241986337,0.08594514841184371,1.828158851191337
-GEHC,MCHP,0.40552402563782775,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.30151373040980134,0.05778373945725557,1.7999924581718367
-BKNG,CCEP,0.45499525751418834,Travel Services,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Travel Services,8,0.23984100184985116,0.1200111359595354,1.7927857606220938
-CCEP,ROST,0.40847737199986944,Beverages - Non-Alcoholic,Apparel Retail,False,Apparel Retail | Beverages - Non-Alcoholic,8,0.28806199940687,0.06717862691704317,1.7924655224301727
-MDLZ,MSFT,0.40034515109083624,Confectioners,Software - Infrastructure,False,Confectioners | Software - Infrastructure,8,0.18320599756854825,0.12175941112066906,1.7833459567827026
-ADP,EXC,0.4958178764306909,Software - Application,Utilities - Regulated Electric,False,Software - Application | Utilities - Regulated Electric,33,0.245414863848983,0.1410271868478721,1.7755655358269395
-AXON,PLTR,0.42253222300273063,Aerospace & Defense,Software - Infrastructure,False,Aerospace & Defense | Software - Infrastructure,8,0.36073904501467224,0.03503374928870055,1.7638185818720968
-HON,MSFT,0.48835060938512165,Conglomerates,Software - Infrastructure,False,Conglomerates | Software - Infrastructure,8,0.29208208657183865,0.1118820130806937,1.7542455432199493
-CSGP,MSFT,0.4948091290380636,Real Estate Services,Software - Infrastructure,False,Real Estate Services | Software - Infrastructure,8,0.38354734879710967,0.06469497688457126,1.7197900918871514
-ADP,CMCSA,0.4736222067253854,Software - Application,Telecom Services,False,Software - Application | Telecom Services,33,0.32534052953991466,0.08624053225988977,1.7193965911367193
-ADI,CMCSA,0.4167802208807971,Semiconductors,Telecom Services,False,Semiconductors | Telecom Services,42,0.2830723687518152,0.07878155844481836,1.6971973488267058
-AVGO,CEG,0.4218525824939947,Semiconductors,Utilities - Independent Power Producers,False,Semiconductors | Utilities - Independent Power Producers,14,0.3072881779520881,0.06761465428561955,1.6943724071702075
-INTU,NFLX,0.4478076625570718,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.3044162690333744,0.09158955904415038,1.5655866784398007
-ASML,TTD,0.4222823093700294,Semiconductor Equipment & Materials,Advertising Agencies,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.4041995170881849,0.01157083870018222,1.5627901097229655
-PAYX,XEL,0.4640426557325862,Software - Application,Utilities - Regulated Electric,False,Software - Application | Utilities - Regulated Electric,33,0.245414863848983,0.1410271868478721,1.5502528042301509
+MNST,MSFT,0.4373751548931975,Beverages - Non-Alcoholic,Software - Infrastructure,False,Beverages - Non-Alcoholic | Software - Infrastructure,32,0.19508071341702785,0.1001632486447498,2.418995437493429
+AMGN,PEP,0.43795206818731136,Drug Manufacturers - General,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Drug Manufacturers - General,16,0.2546808921408847,0.0763292913961879,2.4010595761351423
+CMCSA,MSFT,0.4215932695391203,Telecom Services,Software - Infrastructure,False,Software - Infrastructure | Telecom Services,24,0.247057920710089,0.07763564249814904,2.2481342745787476
+NFLX,NVDA,0.4357663975253649,Entertainment,Semiconductors,False,Entertainment | Semiconductors,28,0.31437928423094724,0.0545606155524666,2.2248120199026955
+MSFT,TMUS,0.41461299965670306,Software - Infrastructure,Telecom Services,False,Software - Infrastructure | Telecom Services,24,0.247057920710089,0.07763564249814904,2.1582236400066996
+AMGN,ROP,0.4191316049290625,Drug Manufacturers - General,Software - Application,False,Drug Manufacturers - General | Software - Application,44,0.24016414610789083,0.08369315648978455,2.138376258314694
+ADI,GEHC,0.4218294729202543,Semiconductors,Medical Devices,False,Medical Devices | Semiconductors,28,0.3015135305744629,0.05778358011332174,2.0821822066032407
+ADP,AMGN,0.41177551471262563,Software - Application,Drug Manufacturers - General,False,Drug Manufacturers - General | Software - Application,44,0.24016414610789083,0.08369315648978455,2.0504826894141748
+MSFT,TTWO,0.4502250353855498,Software - Infrastructure,Electronic Gaming & Multimedia,False,Electronic Gaming & Multimedia | Software - Infrastructure,8,0.348231735874921,0.050581712563349264,2.016406609066289
+AMGN,PAYX,0.40587258258905895,Drug Manufacturers - General,Software - Application,False,Drug Manufacturers - General | Software - Application,44,0.24016414610789083,0.08369315648978455,1.9799520466335168
+GEHC,TXN,0.4143972591343589,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.3015135305744629,0.05778358011332174,1.9535606540563095
+FAST,MSFT,0.4675839650677282,Industrial Distribution,Software - Infrastructure,False,Industrial Distribution | Software - Infrastructure,8,0.3096125527413829,0.08185569978222008,1.9298767556399092
+ASML,LULU,0.40105052637560173,Semiconductor Equipment & Materials,Apparel Retail,False,Apparel Retail | Semiconductor Equipment & Materials,8,0.3866682548802252,0.007479560203781856,1.9228766269044104
+ADBE,NFLX,0.4798294973775416,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.3044163429668811,0.09158952968835339,1.9152096861675032
+MSFT,NFLX,0.48290514816777885,Software - Infrastructure,Entertainment,False,Entertainment | Software - Infrastructure,16,0.2980023873929363,0.09658395573064901,1.9144252207943824
+MSFT,SBUX,0.4562924795824705,Software - Infrastructure,Restaurants,False,Restaurants | Software - Infrastructure,8,0.316852109259103,0.07348836164836527,1.8974483468630887
+PLTR,TSLA,0.45544591381095495,Software - Infrastructure,Auto Manufacturers,False,Auto Manufacturers | Software - Infrastructure,8,0.3739747536856495,0.04324898919882252,1.883770271503214
+CMCSA,TXN,0.43028259053472273,Telecom Services,Semiconductors,False,Semiconductors | Telecom Services,42,0.28307233945061766,0.07878160786468905,1.868586527669571
+CMCSA,PAYX,0.4863240695246905,Telecom Services,Software - Application,False,Software - Application | Telecom Services,33,0.3253405406298575,0.08624047130467713,1.866681923920588
+COST,TXN,0.4390547905815443,Discount Stores,Semiconductors,False,Discount Stores | Semiconductors,14,0.34302943681468806,0.05163417802668331,1.8597246520944444
+CSX,MSFT,0.44865529592399717,Railroads,Software - Infrastructure,False,Railroads | Software - Infrastructure,8,0.29153415364986573,0.08594507382149093,1.8281576277480913
+GEHC,MCHP,0.40552326602683225,Medical Devices,Semiconductors,False,Medical Devices | Semiconductors,28,0.3015135305744629,0.05778358011332174,1.799987734376991
+BKNG,CCEP,0.4549954728329228,Travel Services,Beverages - Non-Alcoholic,False,Beverages - Non-Alcoholic | Travel Services,8,0.23984117664527846,0.120011106955387,1.7927865315634988
+CCEP,ROST,0.4084776641642145,Beverages - Non-Alcoholic,Apparel Retail,False,Apparel Retail | Beverages - Non-Alcoholic,8,0.28806218834149144,0.06717855219051856,1.7924690529385692
+MDLZ,MSFT,0.40034572888029585,Confectioners,Software - Infrastructure,False,Confectioners | Software - Infrastructure,8,0.1832063599903997,0.12175947850994155,1.7833467385634945
+ADP,EXC,0.49581774628885933,Software - Application,Utilities - Regulated Electric,False,Software - Application | Utilities - Regulated Electric,33,0.2454147023508825,0.1410271120431199,1.7755666999790407
+AXON,PLTR,0.42253222300273063,Aerospace & Defense,Software - Infrastructure,False,Aerospace & Defense | Software - Infrastructure,8,0.3607390274441334,0.03503375377348821,1.7638188576115197
+HON,MSFT,0.4883509283441857,Conglomerates,Software - Infrastructure,False,Conglomerates | Software - Infrastructure,8,0.2920821784149906,0.1118821444400055,1.7542455135407256
+CSGP,MSFT,0.49480916968136657,Real Estate Services,Software - Infrastructure,False,Real Estate Services | Software - Infrastructure,8,0.38354735387752253,0.06469498686999348,1.7197903761450328
+ADP,CMCSA,0.47362214425096955,Software - Application,Telecom Services,False,Software - Application | Telecom Services,33,0.3253405406298575,0.08624047130467713,1.7193969534008122
+ADI,CMCSA,0.4167800669113613,Semiconductors,Telecom Services,False,Semiconductors | Telecom Services,42,0.28307233945061766,0.07878160786468905,1.6971947017175975
+AVGO,CEG,0.4218525277311852,Semiconductors,Utilities - Independent Power Producers,False,Semiconductors | Utilities - Independent Power Producers,14,0.30728812898757735,0.06761468134430078,1.694371643345243
+INTU,NFLX,0.4478075533214459,Software - Application,Entertainment,False,Entertainment | Software - Application,22,0.3044163429668811,0.09158952968835339,1.5655851803418375
+ASML,TTD,0.4222824083160857,Semiconductor Equipment & Materials,Advertising Agencies,False,Advertising Agencies | Semiconductor Equipment & Materials,8,0.40419956931779916,0.011570850054542673,1.5627926135977623
+PAYX,XEL,0.4640418964187726,Software - Application,Utilities - Regulated Electric,False,Software - Application | Utilities - Regulated Electric,33,0.2454147023508825,0.1410271120431199,1.5502493875152423
