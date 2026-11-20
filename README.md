@@ -1,6 +1,6 @@
 # Market Network Forensics
 
-This is just a fun little project I did mostly out of curiosity.
+This is just a little project I did mostly out of curiosity and to entertain myself. As the original audience was friends, the reports on GitHub have emojis and are casual. The dashboard on [my website](https://demisdomain.com/nasdaq-network) is slightly more professional and is intended for recruiters. 
 
 The basic question was: "Can we recover real economic structure using only the relationships between stock returns, without telling the network what the companies actually do?"
 
@@ -34,9 +34,10 @@ It's like getting a completely filled out sudoku board and then trying to figure
 
 This is a fun scavenger hunt, not a trading strategy or an attempt to establish causal relationships between stock returns.
 
-The investigation is split into two reports:
+The investigation is split into three reports:
 
 * **Hidden Structure in the Nasdaq-100 #1** — building the network, exploring different correlation regimes, and forming the initial hypotheses.
 * **Hidden Structure in the Nasdaq-100 #2** — validating relationships, investigating anomalies, and comparing the network across one-, five-, and ten-year time horizons.
+* **Hidden Structure in the Nasdaq-100 #3** — removing the market from returns, rebuilding the networks, and testing which clusters, pairs, and anomalies survive.
 
 Mostly I wanted to see if it would work and it did. I'm going to apply it to different projects when I have time. I have so many ideas. ✨💃✨

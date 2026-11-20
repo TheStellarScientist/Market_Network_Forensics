@@ -1,0 +1,769 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Market Network Investigation: Part 3!
+Removing the market and seeing what survives
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Unusable tickers (all values missing):
+['ANSS', 'EA', 'WBD']
+
+Return Matrix Shape:
+(249, 97)
+
+Note: Part 1 had 99 companies. Yahoo no longer serves history for tickers delisted since then
+(EA went private Aug 2026; WBD was acquired by Skydance Oct 2026), so the Raw version below
+is recomputed on the companies available today to keep the comparison apples to apples.
+
+Variance Explained by the First 5 Principal Components:
+PC1: 0.321 (cumulative 0.321)
+PC2: 0.099 (cumulative 0.420)
+PC3: 0.042 (cumulative 0.462)
+PC4: 0.031 (cumulative 0.493)
+PC5: 0.020 (cumulative 0.513)
+
+|Correlation| between PC1 and QQQ returns: 0.938
+
+Market Betas (vs QQQ):
+count    97.000000
+mean      0.862031
+std       0.549802
+min      -0.073065
+25%       0.411498
+50%       0.807115
+75%       1.189088
+max       2.095320
+Name: Beta, dtype: float64
+
+Highest Betas:
+Ticker
+MRVL    2.095
+APP     1.960
+ARM     1.952
+MU      1.941
+TSLA    1.918
+PLTR    1.896
+MSTR    1.878
+AMD     1.813
+MCHP    1.761
+NVDA    1.702
+Name: Beta, dtype: float64
+
+==================================================
+Raw
+==================================================
+
+Correlation Distribution:
+count    4656.0000
+mean        0.2848
+std         0.1735
+min        -0.2315
+25%         0.1718
+50%         0.2952
+75%         0.4060
+max         0.9129
+Name: Correlation, dtype: float64
+
+Broad Network
+Threshold: 0.4060
+Active Nodes: 94
+Isolated Nodes: 3
+Edges: 1164
+Nontrivial Components: 1
+Largest Component: 94 nodes
+
+Strong Network
+Threshold: 0.4931
+Active Nodes: 82
+Isolated Nodes: 15
+Edges: 466
+Nontrivial Components: 5
+Largest Component: 69 nodes
+
+Very Strong Network
+Threshold: 0.5448
+Active Nodes: 69
+Isolated Nodes: 28
+Edges: 233
+Nontrivial Components: 7
+Largest Component: 49 nodes
+
+Extreme Network
+Threshold: 0.6763
+Active Nodes: 30
+Isolated Nodes: 67
+Edges: 47
+Nontrivial Components: 7
+Largest Component: 15 nodes
+
+Extreme Network Components:
+___________________________
+Size 15: ['ADI', 'AMAT', 'ARM', 'ASML', 'AVGO', 'GFS', 'KLAC', 'LRCX', 'MCHP', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TXN']
+Size 3: ['ADP', 'CTAS', 'PAYX']
+Size 3: ['AEP', 'EXC', 'XEL']
+Size 3: ['CRWD', 'PANW', 'ZS']
+Size 2: ['BKR', 'FANG']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CHTR', 'CMCSA']
+
+Extreme Network Edges (with 95% intervals):
+_____________________________________________
+Stock_A Stock_B  Correlation  CI_Low  CI_High  Near_Threshold
+   KLAC    LRCX        0.913   0.889    0.931           False
+   AMAT    KLAC        0.893   0.865    0.916           False
+   AMAT    LRCX        0.873   0.840    0.900           False
+    ADI    MCHP        0.859   0.823    0.889           False
+   MCHP    NXPI        0.859   0.822    0.888           False
+    ADP    PAYX        0.856   0.819    0.886           False
+    ADI    NXPI        0.848   0.809    0.880           False
+    ADI     TXN        0.836   0.794    0.870           False
+   ASML    KLAC        0.820   0.775    0.857           False
+   LRCX      MU        0.815   0.768    0.853           False
+   MCHP     TXN        0.813   0.766    0.851           False
+   NXPI      ON        0.807   0.759    0.847           False
+   ASML    LRCX        0.804   0.756    0.844           False
+   AMAT    ASML        0.801   0.751    0.841           False
+   MCHP      ON        0.801   0.751    0.841           False
+   NXPI     TXN        0.780   0.726    0.824           False
+   NXPI    QCOM        0.766   0.709    0.813           False
+    ADI    QCOM        0.756   0.697    0.805           False
+    ADI      ON        0.755   0.696    0.804           False
+   KLAC      MU        0.740   0.678    0.791           False
+    GFS    NXPI        0.739   0.677    0.791           False
+    ADP    CTAS        0.734   0.671    0.786            True
+    AEP     EXC        0.730   0.667    0.784            True
+   CRWD      ZS        0.729   0.665    0.783            True
+   AVGO    NVDA        0.729   0.665    0.782            True
+   CDNS    SNPS        0.725   0.660    0.779            True
+    ADI    KLAC        0.723   0.658    0.777            True
+   MCHP    QCOM        0.723   0.657    0.777            True
+    ADI    LRCX        0.715   0.649    0.771            True
+   KLAC    QCOM        0.715   0.648    0.771            True
+   CRWD    PANW        0.715   0.648    0.771            True
+     ON     TXN        0.709   0.642    0.766            True
+   AMAT      MU        0.706   0.638    0.764            True
+   LRCX    NXPI        0.704   0.635    0.761            True
+    GFS      ON        0.699   0.629    0.757            True
+   KLAC    NXPI        0.696   0.626    0.755            True
+   LRCX    QCOM        0.693   0.623    0.753            True
+   PANW      ZS        0.693   0.622    0.752            True
+    BKR    FANG        0.692   0.622    0.752            True
+    GFS    MCHP        0.691   0.621    0.751            True
+   ASML      MU        0.691   0.619    0.750            True
+   CTAS    PAYX        0.684   0.612    0.745            True
+    EXC     XEL        0.683   0.610    0.744            True
+   CHTR   CMCSA        0.681   0.608    0.743            True
+   AVGO    KLAC        0.680   0.607    0.742            True
+    ARM    LRCX        0.677   0.604    0.739            True
+    ARM    QCOM        0.676   0.603    0.739            True
+
+==================================================
+Market (QQQ)
+==================================================
+
+Correlation Distribution:
+count    4656.0000
+mean        0.0536
+std         0.1578
+min        -0.4086
+25%        -0.0541
+50%         0.0425
+75%         0.1469
+max         0.8365
+Name: Correlation, dtype: float64
+
+Broad Network
+Threshold: 0.1469
+Active Nodes: 96
+Isolated Nodes: 1
+Edges: 1164
+Nontrivial Components: 2
+Largest Component: 94 nodes
+
+Strong Network
+Threshold: 0.2545
+Active Nodes: 84
+Isolated Nodes: 13
+Edges: 466
+Nontrivial Components: 3
+Largest Component: 79 nodes
+
+Very Strong Network
+Threshold: 0.3291
+Active Nodes: 68
+Isolated Nodes: 29
+Edges: 233
+Nontrivial Components: 6
+Largest Component: 55 nodes
+
+Extreme Network
+Threshold: 0.4903
+Active Nodes: 38
+Isolated Nodes: 59
+Edges: 47
+Nontrivial Components: 10
+Largest Component: 7 nodes
+
+Extreme Network Components:
+___________________________
+Size 7: ['ADI', 'GFS', 'MCHP', 'NXPI', 'ON', 'QCOM', 'TXN']
+Size 7: ['ADP', 'CTAS', 'LIN', 'ORLY', 'PAYX', 'ROP', 'VRSK']
+Size 5: ['AMAT', 'ASML', 'KLAC', 'LRCX', 'MU']
+Size 4: ['AMGN', 'AZN', 'BIIB', 'REGN']
+Size 4: ['KDP', 'KHC', 'MDLZ', 'PEP']
+Size 3: ['AEP', 'EXC', 'XEL']
+Size 2: ['BKR', 'FANG']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CHTR', 'CMCSA']
+Size 2: ['CRWD', 'ZS']
+
+Extreme Network Edges (with 95% intervals):
+_____________________________________________
+Stock_A Stock_B  Correlation  CI_Low  CI_High  Near_Threshold
+    ADP    PAYX        0.836   0.795    0.870           False
+   KLAC    LRCX        0.763   0.705    0.810           False
+   AMAT    KLAC        0.756   0.697    0.805           False
+    AEP     EXC        0.731   0.667    0.784           False
+    ADI     TXN        0.713   0.645    0.769           False
+   MCHP    NXPI        0.711   0.644    0.768           False
+   AMAT    LRCX        0.708   0.639    0.765           False
+    ADI    MCHP        0.702   0.633    0.760           False
+    EXC     XEL        0.700   0.631    0.759           False
+    ADP    VRSK        0.693   0.622    0.753           False
+    ADP    CTAS        0.675   0.601    0.737           False
+   MCHP     TXN        0.673   0.599    0.736           False
+    ADI    NXPI        0.661   0.585    0.726           False
+   NXPI      ON        0.647   0.569    0.714           False
+   CHTR   CMCSA        0.641   0.562    0.709           False
+   MCHP      ON        0.641   0.561    0.709           False
+    KHC     PEP        0.636   0.556    0.705           False
+   CTAS    PAYX        0.634   0.553    0.703           False
+    AEP     XEL        0.633   0.551    0.702           False
+    KHC    MDLZ        0.631   0.549    0.700           False
+   MDLZ     PEP        0.621   0.538    0.692           False
+   NXPI     TXN        0.608   0.523    0.681           False
+   CDNS    SNPS        0.607   0.521    0.680           False
+   AMGN    BIIB        0.593   0.506    0.669           False
+   CTAS    VRSK        0.593   0.506    0.668           False
+   PAYX    VRSK        0.584   0.495    0.660           False
+   ASML    KLAC        0.578   0.488    0.655            True
+   AMAT    ASML        0.575   0.485    0.652            True
+    ADP     LIN        0.574   0.484    0.652            True
+    BKR    FANG        0.571   0.481    0.649            True
+   LRCX      MU        0.561   0.469    0.641            True
+    ADP     ROP        0.545   0.451    0.627            True
+    LIN    PAYX        0.540   0.445    0.623            True
+   ASML    LRCX        0.537   0.442    0.620            True
+    ADI      ON        0.536   0.441    0.619            True
+    KDP     PEP        0.534   0.438    0.617            True
+    ADP    ORLY        0.529   0.433    0.613            True
+   CRWD      ZS        0.520   0.423    0.606            True
+   CTAS     LIN        0.520   0.422    0.605            True
+   PAYX     ROP        0.519   0.421    0.604            True
+     ON     TXN        0.516   0.418    0.602            True
+    LIN    VRSK        0.513   0.415    0.600            True
+    AZN    BIIB        0.503   0.403    0.590            True
+    GFS    NXPI        0.501   0.401    0.589            True
+   NXPI    QCOM        0.499   0.399    0.587            True
+   BIIB    REGN        0.492   0.392    0.581            True
+    LIN     ROP        0.491   0.390    0.580            True
+
+==================================================
+PCA-1
+==================================================
+
+Correlation Distribution:
+count    4656.0000
+mean       -0.0062
+std         0.1571
+min        -0.4418
+25%        -0.1090
+50%        -0.0192
+75%         0.0748
+max         0.8002
+Name: Correlation, dtype: float64
+
+Broad Network
+Threshold: 0.0748
+Active Nodes: 97
+Isolated Nodes: 0
+Edges: 1164
+Nontrivial Components: 1
+Largest Component: 97 nodes
+
+Strong Network
+Threshold: 0.1896
+Active Nodes: 91
+Isolated Nodes: 6
+Edges: 466
+Nontrivial Components: 2
+Largest Component: 89 nodes
+
+Very Strong Network
+Threshold: 0.2807
+Active Nodes: 77
+Isolated Nodes: 20
+Edges: 233
+Nontrivial Components: 7
+Largest Component: 32 nodes
+
+Extreme Network
+Threshold: 0.4448
+Active Nodes: 38
+Isolated Nodes: 59
+Edges: 47
+Nontrivial Components: 9
+Largest Component: 13 nodes
+
+Extreme Network Components:
+___________________________
+Size 13: ['ADP', 'AEP', 'CTAS', 'EXC', 'KDP', 'KHC', 'LIN', 'MDLZ', 'ORLY', 'PAYX', 'PEP', 'VRSK', 'XEL']
+Size 5: ['ADI', 'MCHP', 'NXPI', 'ON', 'TXN']
+Size 5: ['AMAT', 'ASML', 'KLAC', 'LRCX', 'MU']
+Size 4: ['AMGN', 'AZN', 'BIIB', 'REGN']
+Size 3: ['CRWD', 'PANW', 'ZS']
+Size 2: ['AVGO', 'NVDA']
+Size 2: ['BKR', 'FANG']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CHTR', 'CMCSA']
+
+Extreme Network Edges (with 95% intervals):
+_____________________________________________
+Stock_A Stock_B  Correlation  CI_Low  CI_High  Near_Threshold
+    ADP    PAYX        0.800   0.750    0.841           False
+   KLAC    LRCX        0.787   0.735    0.830           False
+   AMAT    KLAC        0.769   0.713    0.816           False
+    AEP     EXC        0.731   0.667    0.784           False
+   AMAT    LRCX        0.724   0.659    0.779           False
+    EXC     XEL        0.698   0.628    0.756           False
+    ADP    VRSK        0.666   0.590    0.730           False
+    AEP     XEL        0.634   0.553    0.703           False
+    KHC     PEP        0.622   0.540    0.693           False
+   ASML    KLAC        0.621   0.538    0.692           False
+    ADI     TXN        0.621   0.538    0.692           False
+   LRCX      MU        0.621   0.538    0.692           False
+    KHC    MDLZ        0.619   0.535    0.690           False
+   MDLZ     PEP        0.613   0.529    0.685           False
+   CHTR   CMCSA        0.609   0.524    0.682           False
+   MCHP    NXPI        0.609   0.524    0.682           False
+   AMAT    ASML        0.605   0.519    0.678           False
+    ADI    MCHP        0.603   0.518    0.677           False
+    ADP    CTAS        0.599   0.512    0.673           False
+   CDNS    SNPS        0.594   0.507    0.669           False
+   ASML    LRCX        0.585   0.497    0.661           False
+   MCHP     TXN        0.579   0.490    0.656           False
+   NXPI      ON        0.575   0.485    0.653           False
+   MCHP      ON        0.570   0.480    0.649           False
+   AMGN    BIIB        0.562   0.471    0.642           False
+   CTAS    PAYX        0.555   0.462    0.636           False
+   AVGO    NVDA        0.550   0.457    0.631           False
+   CTAS    VRSK        0.546   0.452    0.628           False
+   PAYX    VRSK        0.545   0.451    0.627           False
+   CRWD      ZS        0.538   0.443    0.621            True
+    ADI    NXPI        0.533   0.438    0.617            True
+    BKR    FANG        0.532   0.437    0.616            True
+    ADP    ORLY        0.521   0.424    0.606            True
+    KDP     PEP        0.518   0.421    0.604            True
+   CRWD    PANW        0.488   0.386    0.577            True
+   NXPI     TXN        0.484   0.383    0.574            True
+   CTAS     EXC        0.480   0.378    0.570            True
+    AZN    BIIB        0.475   0.372    0.566            True
+   BIIB    REGN        0.469   0.366    0.561            True
+    ADP     LIN        0.467   0.364    0.559            True
+   PANW      ZS        0.465   0.362    0.558            True
+   MDLZ    VRSK        0.465   0.361    0.557            True
+   KLAC      MU        0.462   0.359    0.555            True
+    ADP     EXC        0.452   0.347    0.546            True
+    LIN    VRSK        0.452   0.347    0.546            True
+    EXC    MDLZ        0.450   0.344    0.544            True
+    EXC    PAYX        0.447   0.342    0.542            True
+
+==================================================
+PCA-2
+==================================================
+
+Correlation Distribution:
+count    4656.0000
+mean       -0.0092
+std         0.1128
+min        -0.4099
+25%        -0.0805
+50%        -0.0146
+75%         0.0560
+max         0.7319
+Name: Correlation, dtype: float64
+
+Broad Network
+Threshold: 0.0560
+Active Nodes: 97
+Isolated Nodes: 0
+Edges: 1164
+Nontrivial Components: 1
+Largest Component: 97 nodes
+
+Strong Network
+Threshold: 0.1201
+Active Nodes: 97
+Isolated Nodes: 0
+Edges: 466
+Nontrivial Components: 1
+Largest Component: 97 nodes
+
+Very Strong Network
+Threshold: 0.1685
+Active Nodes: 94
+Isolated Nodes: 3
+Edges: 233
+Nontrivial Components: 2
+Largest Component: 92 nodes
+
+Extreme Network
+Threshold: 0.3020
+Active Nodes: 44
+Isolated Nodes: 53
+Edges: 47
+Nontrivial Components: 14
+Largest Component: 7 nodes
+
+Extreme Network Components:
+___________________________
+Size 7: ['ADI', 'GFS', 'MCHP', 'NXPI', 'ON', 'QCOM', 'TXN']
+Size 5: ['AMAT', 'ASML', 'KLAC', 'LRCX', 'MU']
+Size 4: ['ADP', 'CTAS', 'PAYX', 'VRSK']
+Size 4: ['AMGN', 'AZN', 'BIIB', 'REGN']
+Size 4: ['CRWD', 'FTNT', 'PANW', 'ZS']
+Size 3: ['AEP', 'EXC', 'XEL']
+Size 3: ['MDB', 'TEAM', 'WDAY']
+Size 2: ['AXON', 'PLTR']
+Size 2: ['BKR', 'FANG']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CHTR', 'CMCSA']
+Size 2: ['CPRT', 'ROST']
+Size 2: ['META', 'MSFT']
+Size 2: ['ODFL', 'PCAR']
+
+Extreme Network Edges (with 95% intervals):
+_____________________________________________
+Stock_A Stock_B  Correlation  CI_Low  CI_High  Near_Threshold
+   KLAC    LRCX        0.732   0.668    0.785           False
+   AMAT    KLAC        0.723   0.658    0.778           False
+   AMAT    LRCX        0.669   0.594    0.733           False
+    ADP    PAYX        0.626   0.544    0.696           False
+    ADI     TXN        0.625   0.543    0.696           False
+    AEP     EXC        0.607   0.522    0.681           False
+    ADI    MCHP        0.603   0.517    0.677           False
+   MCHP    NXPI        0.601   0.515    0.675           False
+   CDNS    SNPS        0.596   0.509    0.671           False
+   MCHP     TXN        0.593   0.506    0.668           False
+   NXPI      ON        0.566   0.475    0.645           False
+   CHTR   CMCSA        0.565   0.473    0.644           False
+   MCHP      ON        0.560   0.468    0.640           False
+    BKR    FANG        0.532   0.436    0.616           False
+    ADI    NXPI        0.531   0.435    0.615           False
+   ASML    KLAC        0.529   0.433    0.614           False
+   AMAT    ASML        0.529   0.432    0.613           False
+   LRCX      MU        0.521   0.424    0.607           False
+    EXC     XEL        0.514   0.416    0.600           False
+   NXPI     TXN        0.496   0.396    0.585           False
+   ASML    LRCX        0.488   0.386    0.577           False
+   CRWD      ZS        0.477   0.374    0.568           False
+    AEP     XEL        0.475   0.372    0.566           False
+   CRWD    PANW        0.461   0.356    0.554           False
+    ADI      ON        0.440   0.334    0.536           False
+   PANW      ZS        0.438   0.331    0.533           False
+     ON     TXN        0.434   0.326    0.530           False
+   AMGN    BIIB        0.430   0.323    0.527           False
+   BIIB    REGN        0.404   0.294    0.503            True
+    ADP    VRSK        0.398   0.288    0.498            True
+    GFS      ON        0.373   0.261    0.476            True
+   FTNT    PANW        0.368   0.255    0.471            True
+    AZN    BIIB        0.367   0.254    0.470            True
+   META    MSFT        0.345   0.230    0.450            True
+    GFS    NXPI        0.342   0.226    0.447            True
+   AXON    PLTR        0.340   0.225    0.446            True
+   CRWD    FTNT        0.340   0.225    0.446            True
+   FTNT      ZS        0.335   0.219    0.441            True
+   CPRT    ROST        0.331   0.215    0.438            True
+   NXPI    QCOM        0.330   0.214    0.437            True
+   ODFL    PCAR        0.323   0.207    0.431            True
+   KLAC      MU        0.317   0.200    0.425            True
+    MDB    TEAM        0.311   0.194    0.420            True
+   TEAM    WDAY        0.311   0.193    0.419            True
+   AMAT      MU        0.308   0.190    0.417            True
+   AMGN     AZN        0.303   0.185    0.412            True
+    ADP    CTAS        0.302   0.184    0.411            True
+
+==================================================
+PCA-3
+==================================================
+
+Correlation Distribution:
+count    4656.0000
+mean       -0.0091
+std         0.0983
+min        -0.3443
+25%        -0.0702
+50%        -0.0135
+75%         0.0442
+max         0.6617
+Name: Correlation, dtype: float64
+
+Broad Network
+Threshold: 0.0442
+Active Nodes: 97
+Isolated Nodes: 0
+Edges: 1164
+Nontrivial Components: 1
+Largest Component: 97 nodes
+
+Strong Network
+Threshold: 0.1036
+Active Nodes: 97
+Isolated Nodes: 0
+Edges: 466
+Nontrivial Components: 1
+Largest Component: 97 nodes
+
+Very Strong Network
+Threshold: 0.1505
+Active Nodes: 93
+Isolated Nodes: 4
+Edges: 233
+Nontrivial Components: 2
+Largest Component: 90 nodes
+
+Extreme Network
+Threshold: 0.2637
+Active Nodes: 43
+Isolated Nodes: 54
+Edges: 47
+Nontrivial Components: 12
+Largest Component: 14 nodes
+
+Extreme Network Components:
+___________________________
+Size 14: ['AEP', 'AMAT', 'ASML', 'AVGO', 'CEG', 'CTAS', 'EXC', 'KLAC', 'LRCX', 'META', 'MSFT', 'MU', 'NVDA', 'XEL']
+Size 5: ['ADI', 'MCHP', 'NXPI', 'ON', 'TXN']
+Size 3: ['ADP', 'PAYX', 'VRSK']
+Size 3: ['AMGN', 'AZN', 'BIIB']
+Size 3: ['CRWD', 'PANW', 'ZS']
+Size 3: ['FAST', 'MAR', 'PCAR']
+Size 2: ['BKR', 'FANG']
+Size 2: ['CDNS', 'SNPS']
+Size 2: ['CDW', 'TEAM']
+Size 2: ['CHTR', 'CMCSA']
+Size 2: ['CPRT', 'ROST']
+Size 2: ['KDP', 'PEP']
+
+Extreme Network Edges (with 95% intervals):
+_____________________________________________
+Stock_A Stock_B  Correlation  CI_Low  CI_High  Near_Threshold
+   KLAC    LRCX        0.662   0.585    0.727           False
+   AMAT    KLAC        0.650   0.571    0.717           False
+    ADP    PAYX        0.606   0.520    0.679           False
+    AEP     EXC        0.598   0.511    0.673           False
+   CDNS    SNPS        0.593   0.505    0.668           False
+   AMAT    LRCX        0.573   0.482    0.651           False
+   CHTR   CMCSA        0.565   0.474    0.645           False
+    ADI     TXN        0.547   0.453    0.629           False
+    BKR    FANG        0.525   0.428    0.610           False
+   MCHP     TXN        0.504   0.405    0.592           False
+    ADI    MCHP        0.501   0.401    0.589           False
+    EXC     XEL        0.487   0.385    0.577           False
+   MCHP    NXPI        0.473   0.370    0.565           False
+    AEP     XEL        0.461   0.357    0.554           False
+   ASML    KLAC        0.451   0.345    0.545           False
+   LRCX      MU        0.450   0.344    0.544           False
+   AMAT    ASML        0.445   0.338    0.540           False
+   MCHP      ON        0.422   0.313    0.520           False
+   NXPI      ON        0.397   0.286    0.498           False
+   ASML    LRCX        0.396   0.285    0.497           False
+    ADI    NXPI        0.389   0.277    0.490           False
+   NXPI     TXN        0.368   0.254    0.471            True
+   CRWD      ZS        0.354   0.239    0.458            True
+   CPRT    ROST        0.350   0.236    0.455            True
+    EXC    LRCX        0.336   0.220    0.442            True
+   CRWD    PANW        0.334   0.218    0.441            True
+    AZN    BIIB        0.333   0.217    0.440            True
+   PANW      ZS        0.323   0.207    0.431            True
+    MAR    PCAR        0.312   0.195    0.421            True
+   AVGO    NVDA        0.308   0.190    0.417            True
+   META    MSFT        0.305   0.187    0.414            True
+    EXC    KLAC        0.304   0.186    0.414            True
+   CTAS    KLAC        0.304   0.186    0.413            True
+   AMGN    BIIB        0.304   0.186    0.413            True
+     ON     TXN        0.290   0.171    0.400            True
+    EXC      MU        0.288   0.168    0.398            True
+   FAST    PCAR        0.286   0.167    0.397            True
+   AVGO     EXC        0.280   0.160    0.391            True
+   MSFT    NVDA        0.279   0.159    0.390            True
+    ADP    VRSK        0.277   0.157    0.388            True
+    AEP     CEG        0.276   0.157    0.388            True
+    ADI      ON        0.272   0.153    0.384            True
+    KDP     PEP        0.269   0.149    0.382            True
+    AEP    LRCX        0.269   0.149    0.382            True
+   AMAT     EXC        0.269   0.149    0.382            True
+    CDW    TEAM        0.266   0.146    0.378            True
+   AMGN     AZN        0.264   0.144    0.377            True
+
+==================================================
+Do the Part 1 Extreme Edges Survive?
+==================================================
+
+Market (QQQ)
+Raw Extreme edges still in this version's top 1%: 28 of 47 (60%)
+Lost: ['ADI-KLAC', 'ADI-LRCX', 'ADI-QCOM', 'AMAT-MU', 'ARM-LRCX', 'ARM-QCOM', 'ASML-MU', 'AVGO-KLAC', 'AVGO-NVDA', 'CRWD-PANW', 'GFS-MCHP', 'GFS-ON', 'KLAC-MU', 'KLAC-NXPI', 'KLAC-QCOM', 'LRCX-NXPI', 'LRCX-QCOM', 'MCHP-QCOM', 'PANW-ZS']
+New Extreme edges (not in Raw top 1%): ['ADP-LIN', 'ADP-ORLY', 'ADP-ROP', 'ADP-VRSK', 'AEP-XEL', 'AMGN-BIIB', 'AZN-BIIB', 'BIIB-REGN', 'CTAS-LIN', 'CTAS-VRSK', 'KDP-PEP', 'KHC-MDLZ', 'KHC-PEP', 'LIN-PAYX', 'LIN-ROP', 'LIN-VRSK', 'MDLZ-PEP', 'PAYX-ROP', 'PAYX-VRSK']
+
+PCA-1
+Raw Extreme edges still in this version's top 1%: 28 of 47 (60%)
+Lost: ['ADI-KLAC', 'ADI-LRCX', 'ADI-ON', 'ADI-QCOM', 'AMAT-MU', 'ARM-LRCX', 'ARM-QCOM', 'ASML-MU', 'AVGO-KLAC', 'GFS-MCHP', 'GFS-NXPI', 'GFS-ON', 'KLAC-NXPI', 'KLAC-QCOM', 'LRCX-NXPI', 'LRCX-QCOM', 'MCHP-QCOM', 'NXPI-QCOM', 'ON-TXN']
+New Extreme edges (not in Raw top 1%): ['ADP-EXC', 'ADP-LIN', 'ADP-ORLY', 'ADP-VRSK', 'AEP-XEL', 'AMGN-BIIB', 'AZN-BIIB', 'BIIB-REGN', 'CTAS-EXC', 'CTAS-VRSK', 'EXC-MDLZ', 'EXC-PAYX', 'KDP-PEP', 'KHC-MDLZ', 'KHC-PEP', 'LIN-VRSK', 'MDLZ-PEP', 'MDLZ-VRSK', 'PAYX-VRSK']
+
+PCA-2
+Raw Extreme edges still in this version's top 1%: 32 of 47 (68%)
+Lost: ['ADI-KLAC', 'ADI-LRCX', 'ADI-QCOM', 'ARM-LRCX', 'ARM-QCOM', 'ASML-MU', 'AVGO-KLAC', 'AVGO-NVDA', 'CTAS-PAYX', 'GFS-MCHP', 'KLAC-NXPI', 'KLAC-QCOM', 'LRCX-NXPI', 'LRCX-QCOM', 'MCHP-QCOM']
+New Extreme edges (not in Raw top 1%): ['ADP-VRSK', 'AEP-XEL', 'AMGN-AZN', 'AMGN-BIIB', 'AXON-PLTR', 'AZN-BIIB', 'BIIB-REGN', 'CPRT-ROST', 'CRWD-FTNT', 'FTNT-PANW', 'FTNT-ZS', 'MDB-TEAM', 'META-MSFT', 'ODFL-PCAR', 'TEAM-WDAY']
+
+PCA-3
+Raw Extreme edges still in this version's top 1%: 27 of 47 (57%)
+Lost: ['ADI-KLAC', 'ADI-LRCX', 'ADI-QCOM', 'ADP-CTAS', 'AMAT-MU', 'ARM-LRCX', 'ARM-QCOM', 'ASML-MU', 'AVGO-KLAC', 'CTAS-PAYX', 'GFS-MCHP', 'GFS-NXPI', 'GFS-ON', 'KLAC-MU', 'KLAC-NXPI', 'KLAC-QCOM', 'LRCX-NXPI', 'LRCX-QCOM', 'MCHP-QCOM', 'NXPI-QCOM']
+New Extreme edges (not in Raw top 1%): ['ADP-VRSK', 'AEP-CEG', 'AEP-LRCX', 'AEP-XEL', 'AMAT-EXC', 'AMGN-AZN', 'AMGN-BIIB', 'AVGO-EXC', 'AZN-BIIB', 'CDW-TEAM', 'CPRT-ROST', 'CTAS-KLAC', 'EXC-KLAC', 'EXC-LRCX', 'EXC-MU', 'FAST-PCAR', 'KDP-PEP', 'MAR-PCAR', 'META-MSFT', 'MSFT-NVDA']
+
+==================================================
+Semiconductor Core and AI Names (Extreme Networks)
+==================================================
+
+Raw
+Semiconductor core companies in one component: 8 of 8
+That component (15 nodes): ['ADI', 'AMAT', 'ARM', 'ASML', 'AVGO', 'GFS', 'KLAC', 'LRCX', 'MCHP', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TXN']
+  NVDA: degree 1, neighbors ['AVGO']
+  AVGO: degree 2, neighbors ['KLAC', 'NVDA']
+  AMD: degree 0, neighbors []
+  MSFT: degree 0, neighbors []
+  GOOGL: degree 0, neighbors []
+  META: degree 0, neighbors []
+  AMZN: degree 0, neighbors []
+  PLTR: degree 0, neighbors []
+
+Market (QQQ)
+Semiconductor core companies in one component: 5 of 8
+That component (7 nodes): ['ADI', 'GFS', 'MCHP', 'NXPI', 'ON', 'QCOM', 'TXN']
+  NVDA: degree 0, neighbors []
+  AVGO: degree 0, neighbors []
+  AMD: degree 0, neighbors []
+  MSFT: degree 0, neighbors []
+  GOOGL: degree 0, neighbors []
+  META: degree 0, neighbors []
+  AMZN: degree 0, neighbors []
+  PLTR: degree 0, neighbors []
+
+PCA-1
+Semiconductor core companies in one component: 5 of 8
+That component (5 nodes): ['ADI', 'MCHP', 'NXPI', 'ON', 'TXN']
+  NVDA: degree 1, neighbors ['AVGO']
+  AVGO: degree 1, neighbors ['NVDA']
+  AMD: degree 0, neighbors []
+  MSFT: degree 0, neighbors []
+  GOOGL: degree 0, neighbors []
+  META: degree 0, neighbors []
+  AMZN: degree 0, neighbors []
+  PLTR: degree 0, neighbors []
+
+PCA-2
+Semiconductor core companies in one component: 5 of 8
+That component (7 nodes): ['ADI', 'GFS', 'MCHP', 'NXPI', 'ON', 'QCOM', 'TXN']
+  NVDA: degree 0, neighbors []
+  AVGO: degree 0, neighbors []
+  AMD: degree 0, neighbors []
+  MSFT: degree 1, neighbors ['META']
+  GOOGL: degree 0, neighbors []
+  META: degree 1, neighbors ['MSFT']
+  AMZN: degree 0, neighbors []
+  PLTR: degree 1, neighbors ['AXON']
+
+PCA-3
+Semiconductor core companies in one component: 5 of 8
+That component (5 nodes): ['ADI', 'MCHP', 'NXPI', 'ON', 'TXN']
+  NVDA: degree 2, neighbors ['AVGO', 'MSFT']
+  AVGO: degree 2, neighbors ['EXC', 'NVDA']
+  AMD: degree 0, neighbors []
+  MSFT: degree 2, neighbors ['META', 'NVDA']
+  GOOGL: degree 0, neighbors []
+  META: degree 1, neighbors ['MSFT']
+  AMZN: degree 0, neighbors []
+  PLTR: degree 0, neighbors []
+
+==================================================
+Tracked Pairs From Parts 1 and 2
+==================================================
+Percentile = share of all 4,656 pairs with a lower correlation in that version.
+Percentiles are easier to compare across versions because the whole distribution shifts.
+
+Correlation:
+Version       Raw  Market (QQQ)  PCA-1  PCA-2  PCA-3
+Pair                                                
+ADP-PAYX    0.856         0.836  0.800  0.626  0.606
+ADP-XEL     0.456         0.452  0.427  0.033 -0.077
+AMD-NVDA    0.596         0.058  0.308  0.112  0.125
+AMZN-GEHC   0.468        -0.006 -0.072  0.034  0.062
+AVGO-NVDA   0.729         0.329  0.550  0.302  0.308
+CDNS-SNPS   0.725         0.607  0.594  0.596  0.593
+CDW-FTNT    0.436         0.108 -0.019 -0.021  0.088
+GOOGL-MSFT  0.424        -0.132  0.111  0.018  0.046
+KLAC-LRCX   0.913         0.763  0.787  0.732  0.662
+META-MSFT   0.656         0.253  0.406  0.345  0.305
+
+Percentile:
+Version       Raw  Market (QQQ)  PCA-1  PCA-2  PCA-3
+Pair                                                
+ADP-PAYX    0.999         1.000  1.000  0.999  0.999
+ADP-XEL     0.847         0.987  0.987  0.675  0.230
+AMD-NVDA    0.974         0.546  0.959  0.888  0.927
+AMZN-GEHC   0.869         0.370  0.343  0.682  0.809
+AVGO-NVDA   0.995         0.950  0.994  0.990  0.994
+CDNS-SNPS   0.994         0.995  0.996  0.998  0.999
+CDW-FTNT    0.810         0.670  0.500  0.473  0.867
+GOOGL-MSFT  0.785         0.101  0.814  0.618  0.754
+KLAC-LRCX   1.000         1.000  1.000  1.000  1.000
+META-MSFT   0.987         0.899  0.982  0.993  0.993
+
+==================================================
+Do the Part 2 Industry Anomalies Survive?
+==================================================
+
+Loaded 26 Part 2 forensic candidates.
+
+Raw: 25 of 25 Part 2 candidates are in the top 5% of industry-adjusted scores
+  AMZN-GEHC: r = 0.468, industry z = 2.02, percentile = 0.992
+  CDW-FTNT: r = 0.436, industry z = 1.63, percentile = 0.969
+
+Market (QQQ): 18 of 25 Part 2 candidates are in the top 5% of industry-adjusted scores
+  CDW-FTNT: r = 0.108, industry z = 1.24, percentile = 0.901
+  AMZN-GEHC: r = -0.006, industry z = -0.02, percentile = 0.478
+
+PCA-1: 16 of 25 Part 2 candidates are in the top 5% of industry-adjusted scores
+  CDW-FTNT: r = -0.019, industry z = 1.35, percentile = 0.910
+  AMZN-GEHC: r = -0.072, industry z = -0.19, percentile = 0.448
+
+PCA-2: 9 of 25 Part 2 candidates are in the top 5% of industry-adjusted scores
+  AMZN-GEHC: r = 0.034, industry z = 0.54, percentile = 0.712
+  CDW-FTNT: r = -0.021, industry z = 0.73, percentile = 0.766
+
+PCA-3: 4 of 25 Part 2 candidates are in the top 5% of industry-adjusted scores
+  CDW-FTNT: r = 0.088, industry z = 1.68, percentile = 0.964
+  AMZN-GEHC: r = 0.062, industry z = 0.70, percentile = 0.761
+
+==================================================
+Headline Numbers
+==================================================
+     Version   Mean  Share_Negative  Extreme_Threshold  Extreme_Largest  Extreme_Near_Threshold  Survived  Survival_Rate  Semi_Core_Together  Part2_Anomalies_Top5pct
+         Raw  0.285           0.067              0.676               15                      26       NaN            NaN                 8.0                     25.0
+Market (QQQ)  0.054           0.389              0.490                7                      21      28.0          0.596                 5.0                     18.0
+       PCA-1 -0.006           0.550              0.445               13                      18      28.0          0.596                 5.0                     16.0
+       PCA-2 -0.009           0.554              0.302                7                      19      32.0          0.681                 5.0                      9.0
+       PCA-3 -0.009           0.559              0.264               14                      26      27.0          0.574                 5.0                      4.0
+
+PC1 explains 32.1% of daily return variance.
+
+~~~~~~~~~
+All Done!
+~~~~~~~~~

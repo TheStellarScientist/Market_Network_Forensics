@@ -134,8 +134,16 @@ if market_returns.isna().any():
 
 n_days, n_companies = full_daily_returns.shape
 
-print("\nReturn Matrix Shape (should be 249 x 99 to match Part 1):")
+print("\nReturn Matrix Shape:")
 print(full_daily_returns.shape)
+
+print(
+    "\nNote: Part 1 had 99 companies. Yahoo no longer serves history "
+    "for tickers delisted since then\n(EA went private Aug 2026; WBD "
+    "was acquired by Skydance Oct 2026), so the Raw version below\n"
+    "is recomputed on the companies available today to keep the "
+    "comparison apples to apples."
+)
 
 
 # ------------------------------------------------------------------
@@ -565,8 +573,8 @@ print("\n==================================================")
 print("Tracked Pairs From Parts 1 and 2")
 print("==================================================")
 print(
-    "Percentile = share of all 4,851 pairs with a lower correlation "
-    "in that version.\nPercentiles are easier to compare across "
+    f"Percentile = share of all {n_companies * (n_companies - 1) // 2:,} "
+    "pairs with a lower correlation in that version.\nPercentiles are easier to compare across "
     "versions because the whole distribution shifts."
 )
 
@@ -816,7 +824,34 @@ def draw_extreme_network(G, title, path):
             colors[node] = palette[i % len(palette)]
 
     fig, ax = plt.subplots(figsize=(12, 10))
-    pos = nx.spring_layout(H, seed=42, k=0.6)
+
+    # Lay out each component on its own tile of a grid so that
+    # edges from one component never pass through another.
+    n_tiles = len(components)
+    n_cols = int(np.ceil(np.sqrt(n_tiles)))
+
+    pos = {}
+
+    for i, component in enumerate(components):
+        sub = H.subgraph(component)
+
+        sub_pos = nx.spring_layout(sub, seed=42)
+
+        coords = np.array(list(sub_pos.values()))
+        coords = coords - coords.mean(axis=0)
+
+        scale = np.abs(coords).max()
+        if scale > 0:
+            coords = coords / scale
+
+        # Bigger components get a bit more room inside their tile.
+        coords = coords * (0.25 + 0.15 * min(len(component), 15) / 15)
+
+        row, col = divmod(i, n_cols)
+        center = np.array([col, -row])
+
+        for node, xy in zip(sub_pos, coords):
+            pos[node] = center + xy
 
     nx.draw_networkx_edges(H, pos, alpha=0.4, ax=ax)
     nx.draw_networkx_nodes(
