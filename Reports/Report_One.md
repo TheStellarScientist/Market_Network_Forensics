@@ -425,7 +425,7 @@ However, product-market competition clearly does not necessarily imply that two 
 
 My current suspicion is that NVDA may be more structurally integrated with the semiconductor ecosystem represented by this return network, while AMD occupies a different position despite competing with NVDA in some product markets.
 
-Essentially, maybe AMD is a fake competitor. But that's not testable so don't quote me on that. 
+Essentially, maybe they're not really competitors. But that's not testable so don't quote me on that. 
 
 What I *can* test is if NVDA is more structurally integrated with the broader semiconductor ecosystem than AMD, based on the persistence and strength of its return-network relationships with semiconductor companies. External evidence and additional network metrics will be needed to evaluate this.
 
