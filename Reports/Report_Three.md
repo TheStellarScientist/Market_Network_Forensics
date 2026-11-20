@@ -62,7 +62,7 @@ That's why the market model is the main version, and PCA is there to check how r
 
 Removing the market cut the average pairwise correlation from **0.285 to 0.054**, a drop of about 81%.
 
-![Pairwise correlations before and after removing the market](figures/factor_adjusted_distribution.png)
+![Pairwise correlations before and after removing the market](../figures/factor_adjusted_distribution.png)
 
 The raw distribution (blue) sits well to the right of zero. The market-adjusted distribution (orange) is centered close to zero. The right-hand tail is the part that matters for the networks.
 
@@ -90,8 +90,8 @@ The lost edges were mostly **links between different kinds of semiconductor comp
 
 <table>
 <tr>
-<td><img src="figures/extreme_network_raw.png" alt="Raw Extreme network"></td>
-<td><img src="figures/extreme_network_market_adjusted.png" alt="Market-adjusted Extreme network"></td>
+<td><img src="../figures/extreme_network_raw.png" alt="Raw Extreme network"></td>
+<td><img src="../figures/extreme_network_market_adjusted.png" alt="Market-adjusted Extreme network"></td>
 </tr>
 </table>
 
